@@ -1,0 +1,2120 @@
+{
+  "atualizado_em": "2026-08-09T22:25:27-03:00",
+  "regioes": [
+    {
+      "nome": "Nacional",
+      "estados": [
+        {
+          "nome": "Presidência da República",
+          "candidatos": [
+            {
+              "id": "c1",
+              "nome": "Augusto Cury",
+              "cargo": "presidente",
+              "partido": "AVANTE (70)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c2",
+              "nome": "Clariana Barão",
+              "cargo": "presidente",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c3",
+              "nome": "Edmilson Costa",
+              "cargo": "presidente",
+              "partido": "PCB (21)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c4",
+              "nome": "Flávio Bolsonaro",
+              "cargo": "presidente",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c5",
+              "nome": "Hertz Dias",
+              "cargo": "presidente",
+              "partido": "PSTU (16)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998007",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c6",
+              "nome": "Leonardo Avalanche",
+              "cargo": "presidente",
+              "partido": "PRTB (28)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c7",
+              "nome": "Luiz Inácio Lula da Silva",
+              "cargo": "presidente",
+              "partido": "PT (13)",
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 42,
+                  "trecho": "[...] Sancionamos o Marco Legal dos Games, que reconhece e equipara os games a criações culturais. Com isto, esta importante indústria passa a acessar os mecanismos de fomento da Lei Rouanet e da Lei do Audiovisual. Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. Seguiremos apoiando este setor estratégico, um braço da economia criativa, que gera emprego, em especial para jovens, e projeção internacional, que pode mobilizar investimentos bilionários no país. [...]"
+                }
+              ]
+            },
+            {
+              "id": "c8",
+              "nome": "Renan Santos",
+              "cargo": "presidente",
+              "partido": "MISSÃO (14)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c9",
+              "nome": "Ronaldo Caiado",
+              "cargo": "presidente",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c10",
+              "nome": "Rui Costa Pimenta",
+              "cargo": "presidente",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c11",
+              "nome": "Samara Martins",
+              "cargo": "presidente",
+              "partido": "UP (80)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998025",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c12",
+              "nome": "Wilson Grassi",
+              "cargo": "presidente",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c13",
+              "nome": "Romeu Zema",
+              "cargo": "presidente",
+              "partido": "NOVO (30)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016919931",
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Norte",
+      "estados": [
+        {
+          "nome": "Acre",
+          "candidatos": [
+            {
+              "id": "c14",
+              "nome": "Alan Rick",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016835237",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c15",
+              "nome": "Luisinho Silva",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016844008",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c16",
+              "nome": "Mailza Assis",
+              "cargo": "governador",
+              "partido": "PP (11)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c17",
+              "nome": "Eudo Raffael",
+              "cargo": "governador",
+              "partido": "PCB (21)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c18",
+              "nome": "Thor Dantas",
+              "cargo": "governador",
+              "partido": "PSB (40)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c19",
+              "nome": "Tião Bocalom",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Amazonas",
+          "candidatos": [
+            {
+              "id": "c20",
+              "nome": "Gilberto Vasconcelos",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016865838",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c21",
+              "nome": "Isael Munduruku",
+              "cargo": "governador",
+              "partido": "REDE (18)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c22",
+              "nome": "Maria do Carmo",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017005304",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c23",
+              "nome": "Cabo Daciolo",
+              "cargo": "governador",
+              "partido": "MOBILIZA (33)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c24",
+              "nome": "Roberto Cidade",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017006462",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c25",
+              "nome": "Omar Aziz",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016839999",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c26",
+              "nome": "David Almeida",
+              "cargo": "governador",
+              "partido": "AVANTE (70)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Amapá",
+          "candidatos": [
+            {
+              "id": "c27",
+              "nome": "Carlos Cley",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016872195",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c28",
+              "nome": "Marcos Reátegui",
+              "cargo": "governador",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c29",
+              "nome": "Jairo Palheta",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c30",
+              "nome": "Clécio Luís",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016872175",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c31",
+              "nome": "Antônio Furlan",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016816220",
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Pará",
+          "candidatos": [
+            {
+              "id": "c32",
+              "nome": "Hana Ghassan",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c33",
+              "nome": "Cleber Rabelo",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c34",
+              "nome": "Daniel Barbosa",
+              "cargo": "governador",
+              "partido": "PODE (20)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c35",
+              "nome": "Roberto Martins",
+              "cargo": "governador",
+              "partido": "PRTB (28)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c36",
+              "nome": "José Moita",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c37",
+              "nome": "Araceli",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c38",
+              "nome": "Gal Leite",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Rondônia",
+          "candidatos": [
+            {
+              "id": "c39",
+              "nome": "Expedito Netto",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c40",
+              "nome": "Pedro Abib",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c41",
+              "nome": "Marcos Rogério",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c42",
+              "nome": "Samuel Costa",
+              "cargo": "governador",
+              "partido": "PSB (40)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c43",
+              "nome": "Hildon Chaves",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c44",
+              "nome": "Adaílton Fúria",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Rorraima",
+          "candidatos": [
+            {
+              "id": "c45",
+              "nome": "Francisco Sampaio",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c46",
+              "nome": "Arthur Henrique",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c47",
+              "nome": "Rudson Leite",
+              "cargo": "governador",
+              "partido": "PV (43)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c48",
+              "nome": "Rosi Aires",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c49",
+              "nome": "Farah Mesquita",
+              "cargo": "governador",
+              "partido": "SD (77)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c50",
+              "nome": "Edilson Damião",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": "Essa é a única candidatura, onde em minhas buscas na Wikipedia sobre o assunto \"Eleições 2026\"\", está como \"\"indefinida\"\". Qualquer atualização, somente quando o nome dele estiver no DivulgaCandContas do TSE.\"",
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Tocantins",
+          "candidatos": [
+            {
+              "id": "c51",
+              "nome": "Ataídes Oliveira",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c52",
+              "nome": "Dorinha Rezende",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c53",
+              "nome": "Vicentinho Júnior",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c54",
+              "nome": "Witer Fonseca",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c55",
+              "nome": "Laurez Moreira",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Nordeste",
+      "estados": [
+        {
+          "nome": "Alagoas",
+          "candidatos": [
+            {
+              "id": "c56",
+              "nome": "Renan Filho",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c57",
+              "nome": "João Henrique Caldas",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c58",
+              "nome": "Lenilda Luna",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Bahia",
+          "candidatos": [
+            {
+              "id": "c59",
+              "nome": "Jerônimo Rodrigues",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c60",
+              "nome": "José Estevão",
+              "cargo": "governador",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c61",
+              "nome": "ACM Neto",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c62",
+              "nome": "Ronaldo Mansur",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c63",
+              "nome": "Aroldo Félix",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Ceará",
+          "candidatos": [
+            {
+              "id": "c64",
+              "nome": "Elmano de Freitas",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c65",
+              "nome": "Delegado Huggo",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c66",
+              "nome": "Zé Batista",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c67",
+              "nome": "Ieri Braga",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c68",
+              "nome": "Pedro Brito",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c69",
+              "nome": "Danilo Soares",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c70",
+              "nome": "Ciro Gomes",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c71",
+              "nome": "Serley Leal",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Maranhão",
+          "candidatos": [
+            {
+              "id": "c72",
+              "nome": "Felipe Camarão",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c73",
+              "nome": "André Luís",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c74",
+              "nome": "André Luís",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c75",
+              "nome": "Orleans Brandão",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c76",
+              "nome": "Reginaldo Lima",
+              "cargo": "governador",
+              "partido": "PCB (21)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c77",
+              "nome": "Roberto Rocha",
+              "cargo": "governador",
+              "partido": "PRTB (28)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c78",
+              "nome": "Eduardo Braide",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Paraíba",
+          "candidatos": [
+            {
+              "id": "c79",
+              "nome": "Lucas Ribeiro",
+              "cargo": "governador",
+              "partido": "PP (11)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c80",
+              "nome": "Cícero Lucena",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c81",
+              "nome": "Efraim Filho",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c82",
+              "nome": "Pedro Coutinho",
+              "cargo": "governador",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c83",
+              "nome": "Camilo Duarte",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c84",
+              "nome": "Yuri Ezquivel",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Pernambuco",
+          "candidatos": [
+            {
+              "id": "c85",
+              "nome": "Renan Hallais",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c86",
+              "nome": "Guilherme Fonseca",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c87",
+              "nome": "Victor Assis",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c88",
+              "nome": "Jeremias Cosmo",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c89",
+              "nome": "João Campos",
+              "cargo": "governador",
+              "partido": "PSB (40)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c90",
+              "nome": "Ivan Moraes",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c91",
+              "nome": "Raquel Lyra",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c92",
+              "nome": "Maria Camila",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Piauí",
+          "candidatos": [
+            {
+              "id": "c93",
+              "nome": "Joel Rodrigues",
+              "cargo": "governador",
+              "partido": "PP (11)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c94",
+              "nome": "Rafael Fonteles",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c95",
+              "nome": "Geraldo Carvalho",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c96",
+              "nome": "Francisco Jurity",
+              "cargo": "governador",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c97",
+              "nome": "Elizeu Aguiar",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c98",
+              "nome": "Ravenna Castro",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c99",
+              "nome": "Lúcia Santos",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c100",
+              "nome": "Gisvaldo Oliveira",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c101",
+              "nome": "Santiago Belizário",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Rio Grande do Norte",
+          "candidatos": [
+            {
+              "id": "c102",
+              "nome": "Cadu Xavier",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c103",
+              "nome": "Dário Barbosa",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c104",
+              "nome": "Álvaro Dias",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c105",
+              "nome": "Karlo Rodrigo",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c106",
+              "nome": "Allyson Bezerra",
+              "cargo": "governador",
+              "partido": "UNIÃO (44)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c107",
+              "nome": "Robério Paulino",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c108",
+              "nome": "Francisco Dias",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Sergipe",
+          "candidatos": [
+            {
+              "id": "c109",
+              "nome": "Valmir Dos Santos",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c110",
+              "nome": "Ricardo Marques",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c111",
+              "nome": "Fábio Mitidieri",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Centro-Oeste",
+      "estados": [
+        {
+          "nome": "Distrito Federal",
+          "candidatos": [
+            {
+              "id": "c112",
+              "nome": "Celina Leão",
+              "cargo": "governador",
+              "partido": "PP (11)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c113",
+              "nome": "Leandro Grass",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c114",
+              "nome": "Robson Raymundo",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c115",
+              "nome": "Expedito Mendonça",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c116",
+              "nome": "Kiko Caputo",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c117",
+              "nome": "Elisson Ferreira",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c118",
+              "nome": "Ricardo Cappelli",
+              "cargo": "governador",
+              "partido": "PSB (40)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c119",
+              "nome": "Paula Belmonte",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c120",
+              "nome": "José Roberto Arruda",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c121",
+              "nome": "Samara Mineiro",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Goiás",
+          "candidatos": [
+            {
+              "id": "c122",
+              "nome": "Luis Cesar Bueno",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c123",
+              "nome": "Daniel Vilela",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c124",
+              "nome": "Wilder Morais",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c125",
+              "nome": "Marconi Perillo",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c126",
+              "nome": "Luciana Amorim",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Mato Grossso do Sul",
+          "candidatos": [
+            {
+              "id": "c127",
+              "nome": "Eduardo Riedel",
+              "cargo": "governador",
+              "partido": "PP (11)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c128",
+              "nome": "Fábio Trad",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c129",
+              "nome": "Delcídio do Amaral",
+              "cargo": "governador",
+              "partido": "PRD (25)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c130",
+              "nome": "Renato Gomes",
+              "cargo": "governador",
+              "partido": "DC (27)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c131",
+              "nome": "João Henrique Catan",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c132",
+              "nome": "Jeferson Bezerra",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c133",
+              "nome": "Lucien Rezende",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Mato Grossso",
+          "candidatos": [
+            {
+              "id": "c134",
+              "nome": "Otaviano Pivetta",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c135",
+              "nome": "Rafaell Milas",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c136",
+              "nome": "Wellington Fagundes",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c137",
+              "nome": "Maurício Coelho",
+              "cargo": "governador",
+              "partido": "MOBILIZA (33)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c138",
+              "nome": "Alex Pucineli",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c139",
+              "nome": "Laudicério Aguiar",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c140",
+              "nome": "Natasha Slhessarenko",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Sudeste",
+      "estados": [
+        {
+          "nome": "Espírito Santo",
+          "candidatos": [
+            {
+              "id": "c141",
+              "nome": "Lorenzo Pazolini",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c142",
+              "nome": "Helder Salomão",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c143",
+              "nome": "Breno Barcelos",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c144",
+              "nome": "Ricardo Ferraço",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Rio de Janeiro",
+          "candidatos": [
+            {
+              "id": "c145",
+              "nome": "Anthony Garotinho",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c146",
+              "nome": "João Busnello",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c147",
+              "nome": "Cyro Garcia",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c148",
+              "nome": "Douglas Ruas",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c149",
+              "nome": "Luan Monteiro",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c150",
+              "nome": "André Marinho",
+              "cargo": "governador",
+              "partido": "NOVO (30)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c151",
+              "nome": "William Siri",
+              "cargo": "governador",
+              "partido": "PSOL (50)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c152",
+              "nome": "Eduardo Paes",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c153",
+              "nome": "Juliete Pantoja",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Minas Gerais",
+          "candidatos": [
+            {
+              "id": "c154",
+              "nome": "Cleitinho",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c155",
+              "nome": "Alexandre Kalil",
+              "cargo": "governador",
+              "partido": "PDT (12)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c156",
+              "nome": "Patrus Ananias",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c157",
+              "nome": "Ben Mendes",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c158",
+              "nome": "Gabriel Azevedo",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c159",
+              "nome": "Rafael Duda",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c160",
+              "nome": "Túlio Lopes",
+              "cargo": "governador",
+              "partido": "PCB (21)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c161",
+              "nome": "Flávio Roscoe",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c162",
+              "nome": "Henrique Áreas",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c163",
+              "nome": "Mateus Simões",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c164",
+              "nome": "Indira Xavier",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "São Paulo",
+          "candidatos": [
+            {
+              "id": "c165",
+              "nome": "Tarcísio de Freitas",
+              "cargo": "governador",
+              "partido": "REP (10)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c166",
+              "nome": "Fernando Haddad",
+              "cargo": "governador",
+              "partido": "PT (13)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c167",
+              "nome": "Vera Lúcia",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c168",
+              "nome": "Carlos Machado",
+              "cargo": "governador",
+              "partido": "PCB (21)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c169",
+              "nome": "Izadora Dias",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c170",
+              "nome": "Edjane Lima",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c171",
+              "nome": "Vivian Mendes",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Sul",
+      "estados": [
+        {
+          "nome": "Rio Grande do Sul",
+          "candidatos": [
+            {
+              "id": "c172",
+              "nome": "Juliana Brizola",
+              "cargo": "governador",
+              "partido": "PDT (12)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c173",
+              "nome": "Gabriel Souza",
+              "cargo": "governador",
+              "partido": "MDB (15)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c174",
+              "nome": "Rejane de Oliveira",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c175",
+              "nome": "Luciano Zucco",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c176",
+              "nome": "César Pontes",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c177",
+              "nome": "Marcelo Soares",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c178",
+              "nome": "Priscila Voigt",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Paraná",
+          "candidatos": [
+            {
+              "id": "c179",
+              "nome": "Requião Filho",
+              "cargo": "governador",
+              "partido": "PDT (12)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c180",
+              "nome": "Luiz França",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c181",
+              "nome": "Samuel de Mattos",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c182",
+              "nome": "Sergio Moro",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c183",
+              "nome": "Adriano Teixeira",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c184",
+              "nome": "Alexandre Salomão",
+              "cargo": "governador",
+              "partido": "MOBILIZA (33)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c185",
+              "nome": "Sandro Alex",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c186",
+              "nome": "Tayná Miessa",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        },
+        {
+          "nome": "Santa Catarina",
+          "candidatos": [
+            {
+              "id": "c187",
+              "nome": "Marcelo Marcel",
+              "cargo": "governador",
+              "partido": "MISSÃO (14)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c188",
+              "nome": "Marcus Sodré",
+              "cargo": "governador",
+              "partido": "PSTU (16)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c189",
+              "nome": "Jorginho Mello",
+              "cargo": "governador",
+              "partido": "PL (22)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c190",
+              "nome": "Ralf Zimmer",
+              "cargo": "governador",
+              "partido": "PRD (25)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c191",
+              "nome": "Hélio Vaz",
+              "cargo": "governador",
+              "partido": "AGIR (36)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c192",
+              "nome": "Gelson Merisio",
+              "cargo": "governador",
+              "partido": "PSB (40)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c193",
+              "nome": "João Rodrigues",
+              "cargo": "governador",
+              "partido": "PSD (55)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "c194",
+              "nome": "Laís Chaud",
+              "cargo": "governador",
+              "partido": "UP (80)",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

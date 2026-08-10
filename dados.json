@@ -83,6 +83,8 @@
                 {
                   "pagina": "42",
                   "trecho": "[...] Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. [...]"
+                }
+              ]
             },
             {
               "id": "c8",
@@ -679,12 +681,14 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": "114",
+                  "pagina": 114,
                   "trecho": "[...] Serão criados polos de economia criativa nas regiões prioritárias, ligando música, gastronomia, artesanato, moda, games e audiovisual às cadeias produtivas locais [...] "
                      },
                 {
                   "pagina": "114",
                   "trecho": "[...] A referência é o Polo Gamer da Paraíba, que transformou um nicho cultural em polo de exportação de software. [...]"
+                }
+              ]
             },
             {
               "id": "c62",
@@ -721,11 +725,11 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": "31",
+                  "pagina": 31,
                   "trecho": "[...] Valorizando o artesanato, o design, a gastronomia, o audiovisual, os games, a produção cultural, os saberes tradicionais e demais setores criativos, ampliando o acesso a mercados, à transformação digital e à geração de emprego e renda. [...]"
                 },
                 {
-                  "pagina": "51",
+                  "pagina": 51,
                   "trecho": "[...] Desenvolver a cadeia estadual de games, em consonância com o Marco Legal dos Games – Fortalecendo formação profissional, pesquisa, desenvolvimento de estúdios, startups e aplicações educacionais, terapêuticas e corporativas, em parceria entre Secitece, Secult, MinC e MCTI. [...]"
                 }
               ]
@@ -770,7 +774,7 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": "10",
+                  "pagina": 10,
                   "trecho": "[...] Tratar cinema, música, teatro, games e eventos como indústrias da economia criativa, promovendo integração com turismo, tecnologia e desenvolvimento urbano (rotas culturais, festivais, polos criativos) [...]"
                 }
               ]
@@ -1180,7 +1184,7 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": "40",
+                  "pagina": 40,
                   "trecho": "[...] Apoiar música, audiovisual, design, moda, literatura, games, artesanato, gastronomia e produção digital com formação, crédito, incubação, espaços de trabalho e acesso a mercados. [...]"
                 }
               ]
@@ -1220,7 +1224,7 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": "51",
+                  "pagina": 51,
                   "trecho": "[...] Estimular jovens empreendedores nos segmentos de: audiovisual, música, games, design, produção digital, startups culturais e empreendedorismo criativo. [...]"
                 }
               ]

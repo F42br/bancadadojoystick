@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-09T22:25:27-03:00",
+  "atualizado_em": "2026-08-09T23:04:42-03:00",
   "regioes": [
     {
       "nome": "Nacional",
@@ -652,8 +652,8 @@
               "nome": "Jerônimo Rodrigues",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "previa",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016872223",
               "observacoes": null,
               "mencoes": []
             },
@@ -662,8 +662,8 @@
               "nome": "José Estevão",
               "cargo": "governador",
               "partido": "DC (27)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016868808",
               "observacoes": null,
               "mencoes": []
             },
@@ -672,18 +672,23 @@
               "nome": "ACM Neto",
               "cargo": "governador",
               "partido": "UNIÃO (44)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016847977",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 114,
+                  "trecho": "ativa nas regiões prioritárias, ligando música, gastronomia, artesanato, moda, games e audiovisual às cadeias produtivas locais. O axé e o samba-reggae como produt"
+                }
+              ]
             },
             {
               "id": "c62",
               "nome": "Ronaldo Mansur",
               "cargo": "governador",
               "partido": "PSOL (50)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016839948",
               "observacoes": null,
               "mencoes": []
             },

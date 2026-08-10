@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-09T23:04:42-03:00",
+  "atualizado_em": "2026-08-10T13:30:23-03:00",
   "regioes": [
     {
       "nome": "Nacional",
@@ -77,10 +77,12 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": 42,
-                  "trecho": "[...] Sancionamos o Marco Legal dos Games, que reconhece e equipara os games a criações culturais. Com isto, esta importante indústria passa a acessar os mecanismos de fomento da Lei Rouanet e da Lei do Audiovisual. Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. Seguiremos apoiando este setor estratégico, um braço da economia criativa, que gera emprego, em especial para jovens, e projeção internacional, que pode mobilizar investimentos bilionários no país. [...]"
-                }
-              ]
+                  "pagina": "42",
+                  "trecho": "[...] Sancionamos o Marco Legal dos Games, que reconhece e equipara os games a criações culturais. Com isto, esta importante indústria passa a acessar os mecanismos de fomento da Lei Rouanet e da Lei do Audiovisual. [...]"
+                },
+                {
+                  "pagina": "42",
+                  "trecho": "[...] Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. [...]"
             },
             {
               "id": "c8",
@@ -177,8 +179,8 @@
               "nome": "Mailza Assis",
               "cargo": "governador",
               "partido": "PP (11)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017029377",
               "observacoes": null,
               "mencoes": []
             },
@@ -207,8 +209,8 @@
               "nome": "Tião Bocalom",
               "cargo": "governador",
               "partido": "PSDB (45)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017035102",
               "observacoes": null,
               "mencoes": []
             }
@@ -282,8 +284,8 @@
               "nome": "David Almeida",
               "cargo": "governador",
               "partido": "AVANTE (70)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016870408",
               "observacoes": null,
               "mencoes": []
             }
@@ -362,8 +364,8 @@
               "nome": "Cleber Rabelo",
               "cargo": "governador",
               "partido": "PSTU (16)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140016898081",
               "observacoes": null,
               "mencoes": []
             },
@@ -402,8 +404,8 @@
               "nome": "Araceli",
               "cargo": "governador",
               "partido": "PSOL (50)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017014339",
               "observacoes": null,
               "mencoes": []
             },
@@ -447,8 +449,8 @@
               "nome": "Marcos Rogério",
               "cargo": "governador",
               "partido": "PL (22)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140016898081",
               "observacoes": null,
               "mencoes": []
             },
@@ -485,7 +487,7 @@
           ]
         },
         {
-          "nome": "Rorraima",
+          "nome": "Roraima",
           "candidatos": [
             {
               "id": "c45",
@@ -544,7 +546,7 @@
               "partido": "UNIÃO (44)",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "Essa é a única candidatura, onde em minhas buscas na Wikipedia sobre o assunto \"Eleições 2026\"\", está como \"\"indefinida\"\". Qualquer atualização, somente quando o nome dele estiver no DivulgaCandContas do TSE.\"",
+              "observacoes": "Essa é a única candidatura, onde se há uma indefinição em relação as buscas de nomes à pré candidatos/candidatos registrados no TSE. Qualquer confirmação sobre, somente quando o nome dele estiver no DivulgaCandContas do TSE como candidato, caso contrário, o nome dele será retirado do site.",
               "mencoes": []
             }
           ]
@@ -584,11 +586,11 @@
             },
             {
               "id": "c54",
-              "nome": "Witer Fonseca",
+              "nome": "Witer Naves",
               "cargo": "governador",
               "partido": "PSOL (50)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270016900853",
               "observacoes": null,
               "mencoes": []
             },
@@ -637,8 +639,8 @@
               "nome": "Lenilda Luna",
               "cargo": "governador",
               "partido": "UP (80)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20016934251",
               "observacoes": null,
               "mencoes": []
             }
@@ -678,9 +680,11 @@
               "mencoes": [
                 {
                   "pagina": 114,
-                  "trecho": "ativa nas regiões prioritárias, ligando música, gastronomia, artesanato, moda, games e audiovisual às cadeias produtivas locais. O axé e o samba-reggae como produt"
-                }
-              ]
+                  "trecho": "[...] Serão criados polos de economia criativa nas regiões prioritárias, ligando música, gastronomia, artesanato, moda, games e audiovisual às cadeias produtivas locais [...] "
+                     },
+                {
+                  "pagina": "114",
+                  "trecho": "[...] A referência é o Polo Gamer da Paraíba, que transformou um nicho cultural em polo de exportação de software. [...]"
             },
             {
               "id": "c62",
@@ -712,18 +716,27 @@
               "nome": "Elmano de Freitas",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017034681",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 31,
+                  "trecho": "[...] Valorizando o artesanato, o design, a gastronomia, o audiovisual, os games, a produção cultural, os saberes tradicionais e demais setores criativos, ampliando o acesso a mercados, à transformação digital e à geração de emprego e renda. [...]"
+                },
+                {
+                  "pagina": 51,
+                  "trecho": "[...] Desenvolver a cadeia estadual de games, em consonância com o Marco Legal dos Games – Fortalecendo formação profissional, pesquisa, desenvolvimento de estúdios, startups e aplicações educacionais, terapêuticas e corporativas, em parceria entre Secitece, Secult, MinC e MCTI. [...]"
+                }
+              ]
             },
             {
               "id": "c65",
               "nome": "Delegado Huggo",
               "cargo": "governador",
               "partido": "MISSÃO (14)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016983478",
               "observacoes": null,
               "mencoes": []
             },
@@ -752,10 +765,15 @@
               "nome": "Pedro Brito",
               "cargo": "governador",
               "partido": "NOVO (30)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016981526",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 10,
+                  "trecho": "[...] Tratar cinema, música, teatro, games e eventos como indústrias da economia criativa, promovendo integração com turismo, tecnologia e desenvolvimento urbano (rotas culturais, festivais, polos criativos) [...]"
+                }
+              ]
             },
             {
               "id": "c69",
@@ -772,8 +790,8 @@
               "nome": "Ciro Gomes",
               "cargo": "governador",
               "partido": "PSDB (45)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016833100",
               "observacoes": null,
               "mencoes": []
             },
@@ -782,8 +800,8 @@
               "nome": "Serley Leal",
               "cargo": "governador",
               "partido": "UP (80)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016845833",
               "observacoes": null,
               "mencoes": []
             }
@@ -797,8 +815,8 @@
               "nome": "Felipe Camarão",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017016099",
               "observacoes": null,
               "mencoes": []
             },
@@ -807,8 +825,8 @@
               "nome": "André Luís",
               "cargo": "governador",
               "partido": "MISSÃO (14)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017027319",
               "observacoes": null,
               "mencoes": []
             },
@@ -817,8 +835,8 @@
               "nome": "André Luís",
               "cargo": "governador",
               "partido": "MDB (15)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017028852",
               "observacoes": null,
               "mencoes": []
             },
@@ -827,8 +845,8 @@
               "nome": "Orleans Brandão",
               "cargo": "governador",
               "partido": "PSTU (16)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100016860223",
               "observacoes": null,
               "mencoes": []
             },
@@ -837,8 +855,8 @@
               "nome": "Reginaldo Lima",
               "cargo": "governador",
               "partido": "PCB (21)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017027284",
               "observacoes": null,
               "mencoes": []
             },
@@ -882,8 +900,8 @@
               "nome": "Cícero Lucena",
               "cargo": "governador",
               "partido": "MDB (15)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150017027530",
               "observacoes": null,
               "mencoes": []
             },
@@ -892,8 +910,8 @@
               "nome": "Efraim Filho",
               "cargo": "governador",
               "partido": "PL (22)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150016890636",
               "observacoes": null,
               "mencoes": []
             },
@@ -922,8 +940,8 @@
               "nome": "Yuri Ezquivel",
               "cargo": "governador",
               "partido": "UP (80)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150016978935",
               "observacoes": null,
               "mencoes": []
             }
@@ -937,8 +955,8 @@
               "nome": "Renan Hallais",
               "cargo": "governador",
               "partido": "MISSÃO (14)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016981541",
               "observacoes": null,
               "mencoes": []
             },
@@ -947,8 +965,8 @@
               "nome": "Guilherme Fonseca",
               "cargo": "governador",
               "partido": "PSTU (16)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016868771",
               "observacoes": null,
               "mencoes": []
             },
@@ -967,8 +985,8 @@
               "nome": "Jeremias Cosmo",
               "cargo": "governador",
               "partido": "DEM (35)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017002129",
               "observacoes": null,
               "mencoes": []
             },
@@ -977,8 +995,8 @@
               "nome": "João Campos",
               "cargo": "governador",
               "partido": "PSB (40)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016883406",
               "observacoes": null,
               "mencoes": []
             },
@@ -987,8 +1005,8 @@
               "nome": "Ivan Moraes",
               "cargo": "governador",
               "partido": "PSOL (50)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016885922",
               "observacoes": null,
               "mencoes": []
             },
@@ -1007,8 +1025,8 @@
               "nome": "Maria Camila",
               "cargo": "governador",
               "partido": "UP (80)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016884450",
               "observacoes": null,
               "mencoes": []
             }
@@ -1022,8 +1040,8 @@
               "nome": "Joel Rodrigues",
               "cargo": "governador",
               "partido": "PP (11)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016885807",
               "observacoes": null,
               "mencoes": []
             },
@@ -1032,8 +1050,8 @@
               "nome": "Rafael Fonteles",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016838798",
               "observacoes": null,
               "mencoes": []
             },
@@ -1042,8 +1060,8 @@
               "nome": "Geraldo Carvalho",
               "cargo": "governador",
               "partido": "PSTU (16)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016885807",
               "observacoes": null,
               "mencoes": []
             },
@@ -1062,8 +1080,8 @@
               "nome": "Elizeu Aguiar",
               "cargo": "governador",
               "partido": "NOVO (30)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016848295",
               "observacoes": null,
               "mencoes": []
             },
@@ -1082,8 +1100,8 @@
               "nome": "Lúcia Santos",
               "cargo": "governador",
               "partido": "PSDB (45)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017036523",
               "observacoes": null,
               "mencoes": []
             },
@@ -1117,8 +1135,8 @@
               "nome": "Cadu Xavier",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016850707",
               "observacoes": null,
               "mencoes": []
             },
@@ -1127,8 +1145,8 @@
               "nome": "Dário Barbosa",
               "cargo": "governador",
               "partido": "PSTU (16)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017015264",
               "observacoes": null,
               "mencoes": []
             },
@@ -1137,8 +1155,8 @@
               "nome": "Álvaro Dias",
               "cargo": "governador",
               "partido": "PL (22)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016848548",
               "observacoes": null,
               "mencoes": []
             },
@@ -1157,10 +1175,15 @@
               "nome": "Allyson Bezerra",
               "cargo": "governador",
               "partido": "UNIÃO (44)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016865721",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 40,
+                  "trecho": "[...] Apoiar música, audiovisual, design, moda, literatura, games, artesanato, gastronomia e produção digital com formação, crédito, incubação, espaços de trabalho e acesso a mercados. [...]"
+                }
+              ]
             },
             {
               "id": "c107",
@@ -1189,13 +1212,18 @@
           "candidatos": [
             {
               "id": "c109",
-              "nome": "Valmir Dos Santos",
+              "nome": "Valmir dos Santos",
               "cargo": "governador",
               "partido": "REP (10)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260016832789",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 51,
+                  "trecho": "[...] Estimular jovens empreendedores nos segmentos de: audiovisual, música, games, design, produção digital, startups culturais e empreendedorismo criativo. [...]"
+                }
+              ]
             },
             {
               "id": "c110",
@@ -1212,8 +1240,8 @@
               "nome": "Fábio Mitidieri",
               "cargo": "governador",
               "partido": "PSD (55)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016838798",
               "observacoes": null,
               "mencoes": []
             }

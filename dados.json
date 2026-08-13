@@ -83,6 +83,8 @@
                 {
                   "pagina": "42",
                   "trecho": "[...] Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. [...]"
+                }
+              ]
             },
             {
               "id": "c8",
@@ -705,9 +707,11 @@
                 {
                   "pagina": "114",
                   "trecho": "[...] A referência é o Polo Gamer da Paraíba, que transformou um nicho cultural em polo de exportação de software. [...]"
+                }
+              ]
             },
             {
-              "id": "c62",
+              "id": "c63b",
               "nome": "Ronaldo Mansur",
               "cargo": "governador",
               "partido": "PSOL (50)",
@@ -747,6 +751,8 @@
                 {
                   "pagina": 51,
                   "trecho": "[...] Desenvolver a cadeia estadual de games, em consonância com o Marco Legal dos Games – Fortalecendo formação profissional, pesquisa, desenvolvimento de estúdios, startups e aplicações educacionais, terapêuticas e corporativas, em parceria entre Secitece, Secult, MinC e MCTI. [...]"
+                }
+              ]
             },
             {
               "id": "c67",
@@ -790,6 +796,8 @@
                 {
                   "pagina": 10,
                   "trecho": "[...] Tratar cinema, música, teatro, games e eventos como indústrias da economia criativa, promovendo integração com turismo, tecnologia e desenvolvimento urbano (rotas culturais, festivais, polos criativos) [...]"
+                }
+              ]
             },
             {
               "id": "c71",
@@ -1188,6 +1196,8 @@
                 {
                   "pagina": 40,
                   "trecho": "[...] Apoiar música, audiovisual, design, moda, literatura, games, artesanato, gastronomia e produção digital com formação, crédito, incubação, espaços de trabalho e acesso a mercados. [...]"
+                }
+              ]
             },
             {
               "id": "c109",
@@ -1236,6 +1246,8 @@
                 {
                   "pagina": 51,
                   "trecho": "[...] Estimular jovens empreendedores nos segmentos de: audiovisual, música, games, design, produção digital, startups culturais e empreendedorismo criativo. [...]"
+                }
+              ]
             },
             {
               "id": "c113",
@@ -1394,7 +1406,9 @@
                 {
                   "pagina": 45,
                   "trecho": "[...] Criar o Programa Estadual de Economia Criativa, com apoio a atividades e produções de audiovisual, design, música, artesanato, games, produção digital, cultura urbana e empreendedorismo cultural. [...]"
-             },
+                }
+              ]
+            },
             {
               "id": "c127",
               "nome": "Delcídio do Amaral",
@@ -1672,6 +1686,8 @@
                 {
                   "pagina": 35,
                   "trecho": "[...] Apoio a estúdios, startups e empresas de games, com acesso a crédito, hubs de inovação, conexão com investidores, qualificação técnica e integração com universidades e o setor privado. [...]"
+                }
+              ]
             },
             {
               "id": "c152",
@@ -1915,7 +1931,7 @@
               "partido": "UP (80)",
               "status": "nao_menciona",
               "fonte": null,
-              "observacoes": "O Programa de Governo dela está disponível, mas está totalmente quebrado, inviabilizando  qualquer apuração automática. Apesar disso, não há qualquer resultado às palavras-chave",
+              "observacoes": "O Programa de Governo dela está disponível, mas está totalmente quebrado, inviabilizando qualquer apuração automática. Apesar disso, não há qualquer resultado às palavras-chave nas buscas que foram realizadas",
               "mencoes": []
             }
           ]
@@ -1988,8 +2004,10 @@
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": 9 e 80,
-                  "trecho": ""[...] Diferenciar jogos de azar eletrônicos de videogames e atividades digitais recreativas, evitando políticas genéricas que prejudiquem a indústria de tecnologia, o desenvolvimento de software e os esportes eletrônicos sem enfrentar o problema central das apostas. [...]""
+                  "pagina": "9 e 80",
+                  "trecho": "[...] Diferenciar jogos de azar eletrônicos de videogames e atividades digitais recreativas, evitando políticas genéricas que prejudiquem a indústria de tecnologia, o desenvolvimento de software e os esportes eletrônicos sem enfrentar o problema central das apostas. [...]"
+                }
+              ]
             },
             {
               "id": "c181",
@@ -2082,6 +2100,8 @@
                 {
                   "pagina": 141,
                   "trecho": "[...] Com fomento descentralizado, calendário permanente de editais e apoio às cadeias criativas, do audiovisual aos games, o programa conecta artistas, produtores e empreendedores à formação, ao inanciamento e aos mercados, convertendo talento em emprego, renda e inovação. [...]"
+                }
+              ]
             },
             {
               "id": "c189",

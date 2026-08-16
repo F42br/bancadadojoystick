@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-14T11:55:19-03:00",
+  "atualizado_em": "2026-08-15T22:12:13-03:00",
   "regioes": [
     {
       "nome": "Nacional",
@@ -27,9 +27,9 @@
               "nome": "Clariana Barão",
               "cargo": "presidente",
               "partido": "DC (27)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017113380",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -37,9 +37,9 @@
               "nome": "Edmilson Costa",
               "cargo": "presidente",
               "partido": "PCB (21)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017107286",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -63,13 +63,13 @@
               "mencoes": []
             },
             {
-              "id": "presidencia-da-republica-leonardo-avalanche",
-              "nome": "Leonardo Avalanche",
+              "id": "presidencia-da-republica-pablo-marcal",
+              "nome": "Pablo Marçal",
               "cargo": "presidente",
               "partido": "PRTB (28)",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "observacoes": "O Programa de Governo dele ainda não está disponível, mesmo que já esteja no DivulgaCandContas,",
               "mencoes": []
             },
             {
@@ -106,19 +106,24 @@
               "nome": "Ronaldo Caiado",
               "cargo": "presidente",
               "partido": "PSD (55)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017106566",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 41,
+                  "trecho": "[...] Apoiar equipamentos, vestuário, tecnologia, mídia, games, serviços, turismo esportivo e empreendedorismo. [...]"
+                }
+              ]
             },
             {
               "id": "presidencia-da-republica-rui-costa-pimenta",
               "nome": "Rui Costa Pimenta",
               "cargo": "presidente",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017113417",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -127,7 +132,7 @@
               "cargo": "presidente",
               "partido": "UP (80)",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998025",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017119534",
               "observacoes": null,
               "mencoes": []
             },
@@ -261,9 +266,9 @@
               "nome": "Cabo Daciolo",
               "cargo": "governador",
               "partido": "MOBILIZA (33)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017115862",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -316,9 +321,9 @@
               "nome": "Marcos Reátegui",
               "cargo": "governador",
               "partido": "DC (27)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30017107841",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -326,9 +331,9 @@
               "nome": "Jairo Palheta",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30017103910",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -361,9 +366,9 @@
               "nome": "Hana Ghassan",
               "cargo": "governador",
               "partido": "MDB (15)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017108621",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -401,9 +406,9 @@
               "nome": "José Moita",
               "cargo": "governador",
               "partido": "DEM (35)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017103471",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -421,9 +426,9 @@
               "nome": "Gal Leite",
               "cargo": "governador",
               "partido": "UP (80)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017106691",
+              "observacoes": null,
               "mencoes": []
             }
           ]
@@ -501,10 +506,15 @@
               "nome": "Francisco Sampaio",
               "cargo": "governador",
               "partido": "REP (10)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017107422",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 59,
+                  "trecho": "[...] Abre-se uma janela de oportunidades para nossa juventude entrar de cabeça na indústria da tecnologia e inovação, na indústria de games, na cultura digital, inteligência artificial e centenas de outras áreas. [...]"
+                }
+              ]
             },
             {
               "id": "roraima-arthur-henrique",
@@ -517,23 +527,13 @@
               "mencoes": []
             },
             {
-              "id": "roraima-rudson-leite",
-              "nome": "Rudson Leite",
-              "cargo": "governador",
-              "partido": "PV (43)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
               "id": "roraima-rosi-aires",
               "nome": "Rosi Aires",
               "cargo": "governador",
               "partido": "PSOL (50)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017108199",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -544,16 +544,6 @@
               "status": "nao_menciona",
               "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017079180",
               "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "roraima-edilson-damiao",
-              "nome": "Edilson Damião",
-              "cargo": "governador",
-              "partido": "UNIÃO (44)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "Essa candidatura tem uma indefinição em relação ao seu registro no TSE. Qualquer confirmação sobre, somente quando o nome dele estiver no DivulgaCandContas do TSE como candidato, caso contrário, o nome dele será retirado do site.",
               "mencoes": []
             }
           ]
@@ -646,9 +636,19 @@
               "nome": "Renan Filho",
               "cargo": "governador",
               "partido": "MDB (15)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "previa",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017123882",
+              "observacoes": "O Programa de Governo dele está disponível, mas vai precisar de uma verificação diária de status. Se a assesoria de imprensa do candidato puder enviar uma versão definitiva em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
+              "mencoes": []
+            },
+            {
+              "id": "alagoas-marcio-jambo",
+              "nome": "Márcio Jambo",
+              "cargo": "governador",
+              "partido": "DEM (35)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017113582",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -656,9 +656,9 @@
               "nome": "João Henrique Caldas",
               "cargo": "governador",
               "partido": "PSDB (45)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017121679",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -682,7 +682,7 @@
               "cargo": "governador",
               "partido": "PT (13)",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016872223",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017113080",
               "observacoes": null,
               "mencoes": []
             },
@@ -714,6 +714,16 @@
                   "trecho": "[...] A referência é o Polo Gamer da Paraíba, que transformou um nicho cultural em polo de exportação de software. [...]"
                 }
               ]
+            },
+            {
+              "id": "bahia-maria-bona",
+              "nome": "Maria Bona",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017113438",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "bahia-ronaldo-mansur",
@@ -784,9 +794,9 @@
               "nome": "Ieri Braga",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017111569",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -809,9 +819,9 @@
               "nome": "Danilo Soares",
               "cargo": "governador",
               "partido": "DEM (35)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017113522",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -884,9 +894,9 @@
               "nome": "Roberto Rocha",
               "cargo": "governador",
               "partido": "PRTB (28)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017104045",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -895,7 +905,7 @@
               "cargo": "governador",
               "partido": "PSD (55)",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017045619",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017102842",
               "observacoes": null,
               "mencoes": []
             }
@@ -941,7 +951,7 @@
               "partido": "DC (27)",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
               "mencoes": []
             },
             {
@@ -994,8 +1004,8 @@
               "nome": "Victor Assis",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017115758",
               "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
               "mencoes": []
             },
@@ -1034,9 +1044,9 @@
               "nome": "Raquel Lyra",
               "cargo": "governador",
               "partido": "PSD (55)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017115776",
+              "observacoes": "O Programa de Governo dela está disponível, mas vai precisar de uma verificação que vai além da varredura diária. Se a assesoria de imprensa da candidata puder enviar uma versão legível em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
               "mencoes": []
             },
             {
@@ -1233,6 +1243,16 @@
               "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017068848",
               "observacoes": null,
               "mencoes": []
+            },
+            {
+              "id": "rio-grande-do-norte-emanuel-cacho",
+              "nome": "Emanuel Cacho",
+              "cargo": "governador",
+              "partido": "PSDB (45)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260017109870",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -1309,19 +1329,24 @@
               "nome": "Celina Leão",
               "cargo": "governador",
               "partido": "PP (11)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017118691",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 9,
+                  "trecho": "[...] Implantar o Trampo Novo, programa de formação técnica e profissionalizante da juventude, oferecendo cursos técnicos e profissionalizantes gratuitos voltados às novas demandas da economia digital, criativa e tecnológica, em áreas como inteligência artificial, desenvolvimento de aplicativos, UX/UI audiovisual, design gráfico, produção de conteúdo, marketing digital, games, robótica, articulando a formação com estágios,  mpreendedorismo, incubação de negócios e oportunidades de inserção no mercado de trabalho [...]"
+                }
+              ]
             },
             {
               "id": "distrito-federal-leandro-grass",
               "nome": "Leandro Grass",
               "cargo": "governador",
               "partido": "PT (13)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017113505",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1339,9 +1364,9 @@
               "nome": "Expedito Mendonça",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017111770",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1379,9 +1404,9 @@
               "nome": "Paula Belmonte",
               "cargo": "governador",
               "partido": "PSDB (45)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017118167",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1389,9 +1414,9 @@
               "nome": "José Roberto Arruda",
               "cargo": "governador",
               "partido": "PSD (55)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017114369",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1439,9 +1464,9 @@
               "nome": "Delcídio do Amaral",
               "cargo": "governador",
               "partido": "PRD (25)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017109676",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1459,9 +1484,9 @@
               "nome": "João Henrique Catan",
               "cargo": "governador",
               "partido": "NOVO (30)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017115315",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1574,9 +1599,9 @@
               "nome": "Wellington Fagundes",
               "cargo": "governador",
               "partido": "PL (22)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017115601",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1584,9 +1609,9 @@
               "nome": "Maurício Coelho",
               "cargo": "governador",
               "partido": "MOBILIZA (33)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017118730",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1674,9 +1699,9 @@
               "nome": "Ricardo Ferraço",
               "cargo": "governador",
               "partido": "MDB (15)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017109765",
+              "observacoes": null,
               "mencoes": []
             }
           ]
@@ -1734,9 +1759,9 @@
               "nome": "Luan Monteiro",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017113692",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1794,9 +1819,9 @@
               "nome": "Cleitinho",
               "cargo": "governador",
               "partido": "REP (10)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017111301",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1874,9 +1899,9 @@
               "nome": "Henrique Áreas",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017111443",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -1949,9 +1974,9 @@
               "nome": "Izadora Dias",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017118778",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -2034,9 +2059,9 @@
               "nome": "César Pontes",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017114435",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -2074,19 +2099,24 @@
               "nome": "Requião Filho",
               "cargo": "governador",
               "partido": "PDT (12)",
-              "status": "nao_menciona",
-              "fonte": null,
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017104577",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 14,
+                  "trecho": "históricos, e estimulará a economia criativa, especialmente o audiovisual, os games e a animação. O Estado apoiará os Sistemas Municipais de Cultura e promoverá"
+                }
+              ]
             },
             {
               "id": "parana-luiz-franca",
               "nome": "Luiz França",
               "cargo": "governador",
               "partido": "MISSÃO (14)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017103411",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -2114,9 +2144,9 @@
               "nome": "Adriano Teixeira",
               "cargo": "governador",
               "partido": "PCO (29)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017114109",
+              "observacoes": null,
               "mencoes": []
             },
             {
@@ -2164,6 +2194,16 @@
           "nome": "Santa Catarina",
           "candidatos": [
             {
+              "id": "santa-catarina-brunno-andrade",
+              "nome": "Brunno Andrade",
+              "cargo": "governador",
+              "partido": "PCO (29)",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017123645",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
               "id": "santa-catarina-marcelo-marcel",
               "nome": "Marcelo Marcel",
               "cargo": "governador",
@@ -2198,9 +2238,9 @@
               "nome": "Ralf Zimmer",
               "cargo": "governador",
               "partido": "PRD (25)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
+              "status": "nao_menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017109691",
+              "observacoes": null,
               "mencoes": []
             },
             {

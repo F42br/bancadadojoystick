@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+  Bancada do Joystick — versão de lançamento
+  Esta é a versão de referência do site: sem dados fictícios, com
+  tratamento defensivo contra falhas de carregamento/formato de dados.
+  Convém usar esta versão como base para qualquer atualização futura.
+-->
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -139,19 +145,22 @@
     text-transform:uppercase;
     margin-bottom:6px;
   }
-  .placar-value{
-    font-family:var(--font-display);
-    font-weight:600;
-    font-size:2.6rem;
-    color:var(--accent);
+  .gauge-wrap{position:relative; width:140px; height:140px; margin:18px auto 6px;}
+  .gauge-svg{width:100%; height:100%; display:block;}
+  .gauge-track{fill:none; stroke:var(--line); stroke-width:9;}
+  .gauge-fill{
+    fill:none; stroke:var(--accent); stroke-width:9; stroke-linecap:round;
+    stroke-dasharray:326.7; stroke-dashoffset:326.7;
+    transition:stroke-dashoffset .7s cubic-bezier(.4,0,.2,1);
   }
-  .placar-sub{font-size:0.85rem; color:var(--ink-dim); margin-top:4px; max-width:38ch;}
-  .segbar{display:flex; gap:3px; margin-top:20px; height:12px;}
-  .segbar span{flex:1; background:var(--neg); opacity:0.35;}
-  .segbar span.on{background:var(--accent); opacity:1;}
+  .gauge-value{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:600; font-size:1.9rem; color:var(--accent);
+  }
+  .placar-sub{font-size:0.85rem; color:var(--ink-dim); margin-top:8px; max-width:38ch; text-align:center; margin-left:auto; margin-right:auto;}
   .placar-legend{
-    display:flex; justify-content:space-between;
-    font-family:var(--font-mono); font-size:0.66rem; color:var(--ink-dim); margin-top:8px;
+    display:flex; justify-content:center;
+    font-family:var(--font-mono); font-size:0.66rem; color:var(--ink-dim); margin-top:10px; letter-spacing:0.5px; text-transform:uppercase;
   }
 
   section{padding:52px 0; border-bottom:1px solid var(--line);}
@@ -199,6 +208,20 @@
   .prose strong{color:var(--ink);}
   .prose h3{font-family:var(--font-display); font-weight:600; font-size:1.15rem; color:var(--ink); margin:34px 0 14px;}
   .footnote{font-size:0.78rem; color:var(--ink-dim); border-top:1px solid var(--line); margin-top:28px; padding-top:14px;}
+
+  .subnav{
+    position:sticky; top:57px; z-index:90;
+    background:rgba(16,19,26,0.96); backdrop-filter:blur(6px);
+    display:flex; gap:8px; overflow-x:auto; scrollbar-width:none;
+    padding:12px 0 16px; margin-bottom:24px; border-bottom:1px solid var(--line);
+  }
+  .subnav::-webkit-scrollbar{display:none;}
+  .subnav a{
+    font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim);
+    text-decoration:none; padding:7px 13px; border:1px solid var(--line);
+    white-space:nowrap; flex-shrink:0; transition:.15s;
+  }
+  .subnav a:hover{color:var(--ink); border-color:var(--accent);}
   .footnote a{color:var(--accent);}
 
   .faq-item{border-bottom:1px solid var(--line); padding:16px 0;}
@@ -219,7 +242,12 @@
   .disclaimer p:last-child{margin-bottom:0;}
 
   /* MENÇÕES */
-  .filters{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:20px;}
+  .filters{
+    display:flex; gap:10px; flex-wrap:wrap;
+    position:sticky; top:57px; z-index:90;
+    background:rgba(16,19,26,0.96); backdrop-filter:blur(6px);
+    padding:12px 0; margin-bottom:8px; border-bottom:1px solid var(--line);
+  }
   .filters select, .filters input{
     font-family:var(--font-mono);
     background:var(--bg-panel);
@@ -342,11 +370,16 @@
       </div>
 
       <div class="placar">
-        <div class="placar-label">Painel da Bancada · Panorama Nacional</div>
-        <div class="placar-value" id="placar-nacional">—</div>
+        <div class="placar-label">Placar da Bancada · Panorama Nacional</div>
+        <div class="gauge-wrap">
+          <svg class="gauge-svg" viewBox="0 0 120 120" width="140" height="140" role="img" aria-label="Percentual de candidatos que mencionam o tema">
+            <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
+            <circle class="gauge-fill" id="gauge-fill" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"></circle>
+          </svg>
+          <div class="gauge-value" id="placar-nacional">—</div>
+        </div>
         <div class="placar-sub">dos programas de governo mapeados até agora mencionam games ou e-sports</div>
-        <div class="segbar" id="seg-bar"></div>
-        <div class="placar-legend"><span>0%</span><span id="placar-tag">dados de exemplo</span><span>100%</span></div>
+        <div class="placar-legend"><span id="placar-tag">carregando...</span></div>
       </div>
     </div>
 
@@ -404,28 +437,54 @@
 
   <!-- ===================== SOBRE ===================== -->
   <div class="view" id="sobre">
-    <h1 style="margin-bottom:28px;">Sobre a Bancada do Joystick</h1>
+    <h1 style="margin-bottom:14px;">Sobre a Bancada do Joystick</h1>
+    <nav class="subnav" aria-label="Seções desta página">
+      <a href="#sec-cenario">Cenário no Brasil</a>
+      <a href="#sec-motivacao">Motivação</a>
+      <a href="#sec-nome">O nome</a>
+      <a href="#sec-politica">Games e política</a>
+      <a href="#sec-metodologia">Metodologia</a>
+      <a href="#sec-atualizacao">Atualizações</a>
+      <a href="#sec-faq">Perguntas frequentes</a>
+    </nav>
     <div class="prose">
-      <p>O Brasil é um país continental, marcado pela pluralidade de identidades, visões de mundo e trajetórias de vida. E é também, segundo a Pesquisa Game Brasil 2026, um país de jogadores: mais de três em cada quatro brasileiros afirmam jogar games, a maioria considera os jogos eletrônicos uma de suas principais formas de entretenimento, e para boa parte da população eles já são a principal.<sup>¹</sup></p>
+      <p>O Brasil é um país continental, marcado pela pluralidade de identidades, visões de mundo e trajetórias de vida. E é também, segundo a Pesquisa Game Brasil 2026, um país de jogadores: mais de três em cada quatro brasileiros afirmam jogar games, a maioria considera os jogos eletrônicos uma de suas principais formas de entretenimento, e para boa parte da população eles já são a principal.<sup>1</sup></p>
 
-      <p>Em ano eleitoral, é natural que esse contingente se pergunte o que seu candidato pensa sobre jogos e e-sports. A pergunta ganha peso adicional num cenário em que praticamente tudo relacionado a games ficou mais caro no país — consoles, jogos, periféricos, peças — e num histórico recente em que nomes conhecidos da comunidade gamer já se posicionaram publicamente a favor de candidaturas, em pleitos anteriores, aproximando, ainda que informalmente, o universo dos games do debate político.</p>
+      <h3 id="sec-cenario">O cenário gamer no Brasil, em números</h3>
+      <p>Games deixaram de ser nicho há tempos. Segundo estimativas da Newzoo e da Statista, cruzadas com o censo da Abragames (associação brasileira das desenvolvedoras de jogos digitais), o setor movimentou cerca de <strong>R$ 12,7 bilhões no Brasil em 2025</strong> — alta de 8% sobre 2024 —, consolidando o país como o maior mercado consumidor de games da América Latina desde 2021 e um dos cinco maiores do mundo em número de jogadores.<sup>2</sup></p>
+      <div class="stat-grid" style="margin:20px 0 10px;">
+        <div class="stat-card"><div class="stat-num">R$ 12,7 bi</div><div class="stat-lbl">movimentados pelo setor em 2025</div></div>
+        <div class="stat-card"><div class="stat-num">100+ mi</div><div class="stat-lbl">jogadores no Brasil</div></div>
+        <div class="stat-card"><div class="stat-num">1.000+</div><div class="stat-lbl">estúdios de jogos ativos no país</div></div>
+        <div class="stat-card"><div class="stat-num">70%+</div><div class="stat-lbl">de carga tributária sobre importados</div></div>
+      </div>
+      <p>Do lado da produção, o crescimento também é real: o Brasil tinha pouco mais de 130 estúdios de desenvolvimento de jogos registrados em 2014 e ultrapassou a marca de 1.000 estúdios ativos dez anos depois, empregando cerca de 13 mil profissionais — a maior parte organizada como microempresa ou MEI, com acesso ainda limitado a crédito e investimento de risco.<sup>2</sup></p>
+      <p>Do outro lado da balança está o preço. Consoles, jogos físicos e periféricos importados carregam uma das cargas tributárias mais altas do mundo para o setor: somando Imposto de Importação, IPI, ICMS e demais tributos, o acréscimo sobre o valor de um produto importado pode ultrapassar 70% do preço original — um dos motivos por trás de propostas legislativas recorrentes, em anos diferentes e de autores diferentes, para reduzir essa carga especificamente para games.<sup>3</sup></p>
+      <p>E o público se manifesta também como audiência: a Copa CBLOL 2026, principal campeonato brasileiro de League of Legends, reuniu mais de 447 mil espectadores simultâneos em sua final — o segundo maior pico de audiência da história do torneio —, número que rivaliza com transmissões de grandes eventos esportivos tradicionais.<sup>4</sup></p>
+
+      <h3 id="sec-motivacao">Por que esse projeto existe</h3>
+      <p>A ideia nasceu de uma pergunta simples, feita por quem acompanha games e e-sports no dia a dia: quase tudo relacionado a jogar no Brasil ficou mais caro nos últimos anos — consoles, jogos, periféricos, peças de PC — e, ao mesmo tempo, o incentivo ao desenvolvimento nacional de jogos segue tímido perto do tamanho do público que consome esse entretenimento. Olhando os programas de governo de uma eleição, surgiu a curiosidade: será que os candidatos falam sobre isso? Quem já se posicionou, e quem nunca tocou no assunto?</p>
+      <p>Dessa curiosidade, virou projeto: reunir, de forma organizada e verificável, o que cada candidatura registrou oficialmente sobre o tema — sem precisar vasculhar dezenas de PDFs individualmente, e sem depender de declarações soltas em redes sociais ou entrevistas, que podem mudar de tom conforme a plateia.</p>
+
+      <p>Esse tipo de posicionamento não é inédito: já em pleitos anteriores, nomes conhecidos da comunidade gamer se manifestaram publicamente a favor de candidaturas, aproximando, ainda que informalmente, o universo dos games do debate político — mesmo sem que os próprios candidatos tratassem o tema como pauta.</p>
 
       <p>A <strong>Bancada do Joystick</strong> nasce dessa lacuna. O projeto não recomenda voto, não avalia o mérito das propostas e não compara candidatos entre si em termos de "melhor" ou "pior" — ele apenas organiza, de forma acessível, o que já é público: os programas de governo oficialmente registrados na Justiça Eleitoral, filtrados por um recorte temático específico.</p>
 
-      <h3>De onde vem o nome</h3>
+      <h3 id="sec-nome">De onde vem o nome</h3>
       <p>O nome é uma homenagem à <strong>Bancada do Feijão</strong>, de Salvador (BA). Entre o fim do século passado e as décadas seguintes, o Restaurante Alaíde do Feijão — fundado por Maria das Neves e conduzido, depois, por sua filha Alaíde da Conceição, referência do movimento negro na Bahia até seu falecimento em 2022 — se tornou muito mais do que um point de comida afro-baiana no Pelourinho. Em torno das mesas do restaurante, a partir do fim da tarde, reuniam-se informalmente ativistas, artistas, lideranças de blocos afro e políticos, num espaço sem atas ou formalidades, mas que ao longo dos anos ajudou a articular candidaturas e movimentos importantes para a cidade — a "Bancada", apelido dado pelos próprios frequentadores em referência bem-humorada às bancadas parlamentares.</p>
+      <p>O que torna essa história inspiradora não é só o resultado político — é o formato: uma mesa de comida simples virando espaço de articulação séria, sem hierarquia forçada, movida por identidade e afeto compartilhados. A Bancada do Joystick tenta replicar essa lógica em outro contexto: assim como o feijão reunia pessoas em torno de uma mesa, o joystick é o símbolo que une uma comunidade — a gamer — que raramente se vê representada como um público político com pauta própria, mas que, olhando os números, é grande demais pra ser ignorada.</p>
       <p>A ideia por trás da Bancada do Joystick segue essa mesma lógica, adaptada a outro contexto: reunir uma comunidade — nesse caso, a gamer — em torno de um espaço de organização e informação, dando visibilidade a uma pauta que raramente entra no radar do debate eleitoral tradicional, mas que diz respeito a uma parcela expressiva da população brasileira.</p>
 
-      <h3>Games já são pauta política no Brasil</h3>
-      <p>O exemplo mais claro disso é o <strong>Marco Legal dos Games</strong> (Lei 14.852/2024), que regulamenta a fabricação, importação, comercialização e desenvolvimento de jogos eletrônicos no país. O projeto foi aprovado na Câmara dos Deputados e no Senado Federal com apoio que atravessou campos ideológicos distintos, e recebeu sanção — com alguns vetos — da Presidência da República.<sup>²</sup> É um caso raro de pauta ligada a games que percorreu o espectro político de ponta a ponta antes de virar lei.</p>
+      <h3 id="sec-politica">Games já são pauta política no Brasil</h3>
+      <p>O exemplo mais claro disso é o <strong>Marco Legal dos Games</strong> (Lei 14.852/2024), que regulamenta a fabricação, importação, comercialização e desenvolvimento de jogos eletrônicos no país. O projeto foi aprovado na Câmara dos Deputados e no Senado Federal com apoio que atravessou campos ideológicos distintos, e recebeu sanção — com alguns vetos — da Presidência da República.<sup>5</sup> É um caso raro de pauta ligada a games que percorreu o espectro político de ponta a ponta antes de virar lei.</p>
 
-      <p>Mais recentemente, dois episódios reforçaram que o tema segue vivo no Congresso. Em julho de 2026, após um dos principais fabricantes de consoles anunciar o fim da produção de jogos em mídia física a partir de 2028, uma representação foi protocolada na Secretaria Nacional do Consumidor (Senacon) por uma parlamentar federal, pedindo investigação sobre os impactos da medida para o consumidor brasileiro — episódio que também reacendeu o debate público sobre a carga tributária incidente sobre games no país.<sup>³</sup></p>
+      <p>Mais recentemente, dois episódios reforçaram que o tema segue vivo no Congresso. Em julho de 2026, após um dos principais fabricantes de consoles anunciar o fim da produção de jogos em mídia física a partir de 2028, uma representação foi protocolada na Secretaria Nacional do Consumidor (Senacon) por uma parlamentar federal, pedindo investigação sobre os impactos da medida para o consumidor brasileiro — episódio que também reacendeu o debate público sobre a carga tributária incidente sobre games no país.<sup>6</sup></p>
 
-      <p>Na sequência, ganhou força na Câmara um projeto de lei inspirado no movimento internacional Stop Killing Games — que busca impedir que jogos digitais percam suporte e se tornem inacessíveis quando uma empresa encerra seus servidores. A proposta passou a reunir apoio de parlamentares de campos políticos opostos, ainda que com ressalvas pontuais de parte deles sobre trechos específicos do texto durante a tramitação.<sup>⁴</sup></p>
+      <p>Na sequência, ganhou força na Câmara um projeto de lei inspirado no movimento internacional Stop Killing Games — que busca impedir que jogos digitais percam suporte e se tornem inacessíveis quando uma empresa encerra seus servidores. A proposta passou a reunir apoio de parlamentares de campos políticos opostos, ainda que com ressalvas pontuais de parte deles sobre trechos específicos do texto durante a tramitação.<sup>7</sup></p>
 
       <p>Esses episódios mostram por que faz sentido perguntar o que cada candidato pensa sobre o tema: games já mobilizam o Congresso de forma transversal, às vezes aproximando posições opostas — e é exatamente esse tipo de posicionamento, quando existe, que a Bancada do Joystick tenta localizar nos programas de governo.</p>
 
-      <h3>Metodologia</h3>
+      <h3 id="sec-metodologia">Metodologia</h3>
       <p><strong>Fonte dos dados.</strong> Todas as informações têm como origem o documento oficial de "Proposta de Governo", anexado ao registro de candidatura no sistema DivulgaCandContas, do Tribunal Superior Eleitoral (TSE). Não utilizamos declarações em redes sociais, entrevistas ou material de campanha — apenas o documento formalmente registrado.</p>
       <p><strong>Termos de busca.</strong> Cada documento é rastreado por um glossário de termos e variações, entre eles: <em>games, jogos eletrônicos, videogames, e-sports, esportes eletrônicos, indústria de jogos, desenvolvedores de jogos, estúdios de jogos</em>. Menções ambíguas ou genéricas (como referências amplas a "cultura digital", sem menção direta ao tema) não são contabilizadas como menção.</p>
       <p><strong>Classificação por status.</strong> Cada candidato é classificado em um dos quatro status abaixo:</p>
@@ -436,10 +495,10 @@
       <p><strong>Citação e verificação.</strong> Cada menção identificada é reproduzida em um trecho curto, seguida da indicação da página do documento em que ela aparece e de um link direto para o PDF oficial na fonte do TSE, para que qualquer pessoa possa conferir o contexto completo.</p>
       <p><strong>Triagem semiautomática.</strong> A primeira leitura de cada documento é feita por uma ferramenta própria, que baixa o PDF oficial e localiza automaticamente os termos do glossário. Todo resultado passa por conferência humana antes de ser publicado — a ferramenta acelera a triagem, mas não substitui a leitura.</p>
 
-      <h3>Como os dados são atualizados</h3>
+      <h3 id="sec-atualizacao">Como os dados são atualizados</h3>
       <p>Os dados do site são um arquivo estático, guardado junto com o código-fonte do projeto. Atualizações acontecem em lotes — não em tempo real — sempre que novos documentos são registrados, retificados ou reclassificados pela Justiça Eleitoral. A data e hora da última atualização ficam visíveis no rodapé de todas as páginas e na aba "Dados". Não existe formulário público de edição neste site: isso é intencional, para reduzir o risco de alguém inserir uma informação incorreta ou fora de contexto em nome do projeto.</p>
 
-      <h3>Perguntas frequentes</h3>
+      <h3 id="sec-faq">Perguntas frequentes</h3>
       <details class="faq-item">
         <summary>Por que nem todo estado aparece com o mesmo nível de detalhe?</summary>
         <p>O mapeamento depende da disponibilidade dos documentos oficiais. Estados onde o registro de candidaturas está mais adiantado tendem a ter informação mais completa; à medida que mais documentos são registrados, o mapa fica mais completo.</p>
@@ -460,21 +519,35 @@
         <summary>Posso reutilizar os dados deste site?</summary>
         <p>Os dados em si vêm de documentos públicos oficiais. Ao citar este mapeamento, indique a Bancada do Joystick como fonte da compilação e, sempre que possível, o link direto para o documento original.</p>
       </details>
+      <details class="faq-item">
+        <summary>A Bancada do Joystick vai ter perfis em redes sociais?</summary>
+        <p>Até o momento, não. Se isso mudar, os links oficiais serão sempre publicados aqui neste site, no rodapé ou nesta seção — desconfie de qualquer perfil que se apresente como "Bancada do Joystick" em alguma rede social sem estar linkado a partir daqui.</p>
+      </details>
+      <details class="faq-item">
+        <summary>O que acontece com o site depois da eleição?</summary>
+        <p>A intenção é manter o site no ar como registro consultável mesmo depois do fim do pleito, funcionando como um retrato do que foi registrado nessa eleição. As atualizações de dados, porém, são pensadas para o período eleitoral — não há compromisso de acompanhamento de mandatos após a posse. Se o projeto continuar ativo em ciclos eleitorais futuros, isso também será comunicado aqui.</p>
+      </details>
+      <details class="faq-item">
+        <summary>A Bancada do Joystick é ligada ao TSE ou a algum órgão oficial?</summary>
+        <p>Não. O projeto usa como fonte os documentos públicos disponibilizados pelo TSE, mas é uma iniciativa independente, sem qualquer vínculo institucional com a Justiça Eleitoral, partidos ou candidaturas.</p>
+      </details>
 
       <div class="footnote">
-        ¹ Dados de intenção e comportamento de consumo de games no Brasil: Pesquisa Game Brasil (PGB) 2026. Disponível em: <a href="https://www.adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb/" target="_blank" rel="noopener">adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb</a>. Consultado em 08/08/2026.<br>
-        ² Sanção do Marco Legal dos Games (Lei 14.852/2024): Portal da Câmara dos Deputados, <a href="https://www.camara.leg.br/noticias/1058707-entra-em-vigor-marco-legal-da-industria-de-jogos-eletronicos/" target="_blank" rel="noopener">camara.leg.br</a>.<br>
-        ³ Representação sobre o fim da mídia física e debate tributário: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504870-erika-hilton-diz-que-gamer-tambem-e-gente-e-critica-os-impostos-nos-jogos-no-brasil.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.<br>
-        ⁴ Projeto de lei inspirado no Stop Killing Games: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504819-projeto-de-lei-inspirado-no-stop-killing-games-e-apresentado-no-brasil-para-evitar-que-jogos-morram.htm" target="_blank" rel="noopener">tecmundo.com.br</a> e <a href="https://www.tecmundo.com.br/voxel/504923-kim-kataguiri-e-erika-hilton-unidos-em-apoio-ao-pl-inspirado-no-stop-killing-games-mas-com-ressalvas.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.
+        1. Dados de intenção e comportamento de consumo de games no Brasil: Pesquisa Game Brasil (PGB) 2026. Disponível em: <a href="https://www.adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb/" target="_blank" rel="noopener">adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb</a>. Consultado em 08/08/2026.<br>
+        2. Faturamento do setor, número de estúdios e de profissionais: estimativas Newzoo/Statista e censo Abragames, citadas em <a href="https://caputoduarte.com.br/a-industria-de-games-em-2026-perspectivas-e-governanca-juridica/" target="_blank" rel="noopener">caputoduarte.com.br</a> e <a href="https://istoedinheiro.com.br/games-brasil" target="_blank" rel="noopener">istoedinheiro.com.br</a>.<br>
+        3. Carga tributária sobre consoles, jogos e periféricos importados: <a href="https://www.tradexa.com.br/blog/setor-games-eletronicos-importacao" target="_blank" rel="noopener">tradexa.com.br</a> e <a href="https://bmsadvassociados.com.br/noticia/como-funciona-a-tributa-o-de-jogos-eletr-nicos-e-consoles-no-brasil" target="_blank" rel="noopener">bmsadvassociados.com.br</a>.<br>
+        4. Audiência da final da Copa CBLOL 2026: <a href="https://maisesports.com.br/cblol-2026-torneio-supera-todas-as-edicoes-da-lta-sul-em-audiencia" target="_blank" rel="noopener">maisesports.com.br</a>.<br>
+        5. Sanção do Marco Legal dos Games (Lei 14.852/2024): Portal da Câmara dos Deputados, <a href="https://www.camara.leg.br/noticias/1058707-entra-em-vigor-marco-legal-da-industria-de-jogos-eletronicos/" target="_blank" rel="noopener">camara.leg.br</a>.<br>
+        6. Representação sobre o fim da mídia física e debate tributário: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504870-erika-hilton-diz-que-gamer-tambem-e-gente-e-critica-os-impostos-nos-jogos-no-brasil.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.<br>
+        7. Projeto de lei inspirado no Stop Killing Games: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504819-projeto-de-lei-inspirado-no-stop-killing-games-e-apresentado-no-brasil-para-evitar-que-jogos-morram.htm" target="_blank" rel="noopener">tecmundo.com.br</a> e <a href="https://www.tecmundo.com.br/voxel/504923-kim-kataguiri-e-erika-hilton-unidos-em-apoio-ao-pl-inspirado-no-stop-killing-games-mas-com-ressalvas.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.
       </div>
     </div>
 
     <div class="disclaimer">
       <strong>Disclaimer</strong>
       <p>A Bancada do Joystick é um projeto independente, apartidário e sem fins lucrativos. Não recebemos recursos de campanha, de partidos ou de candidatos, e nenhuma das pessoas ou organizações envolvidas na sua manutenção atua profissionalmente para qualquer candidatura nesta eleição.</p>
-      <p>Os dados apresentados são extraídos de documentos públicos oficiais e reproduzidos sem interpretação de mérito: não classificamos propostas como boas ou ruins, nem indicamos preferência por qualquer candidato (todos os candidatos são apresentados em uma ordem alfabética). Cabe a cada eleitor e eleitora avaliar o conteúdo das propostas.</p>
-      <p>Por lidar com leitura de documentos longos (com apoio de uma ferramenta automática, sempre revisada por uma pessoa), o projeto está sujeito a erros de leitura, atrasos entre a divulgação de um documento e seu mapeamento aqui, ou desatualizações pontuais.<p>
-	  <p>Se você encontrou uma informação incorreta, um link quebrado ou uma citação fora de contexto, use o canal de correções indicado no rodapé do site para nos avisar: toda correção reportada é conferida contra o documento oficial antes de ser publicada, e correções não implicam concordância ou discordância com o conteúdo do programa de governo em questão, apenas precisão na leitura que fizemos dele.</p>
+      <p>Os dados apresentados são extraídos de documentos públicos oficiais e reproduzidos sem interpretação de mérito: não classificamos propostas como boas ou ruins, nem indicamos preferência por qualquer candidato. Cabe a cada eleitor e eleitora avaliar o conteúdo das propostas.</p>
+      <p>Por lidar com leitura de documentos longos (com apoio de uma ferramenta automática, sempre revisada por uma pessoa), o projeto está sujeito a erros de leitura, atrasos entre a divulgação de um documento e seu mapeamento aqui, ou desatualizações pontuais. Encontrou uma informação incorreta, um link quebrado ou uma citação fora de contexto? Use o canal de correções indicado no rodapé do site para nos avisar: toda correção reportada é conferida contra o documento oficial antes de ser publicada, e correções não implicam concordância ou discordância com o conteúdo do programa de governo em questão — apenas precisão na leitura que fizemos dele.</p>
     </div>
   </div>
 
@@ -483,7 +556,7 @@
     <h1 style="margin-bottom:8px;">Menções por região e estado</h1>
     <p style="color:var(--ink-dim); margin-bottom:24px;">Regiões, estados e candidatos listados em ordem alfabética. Use os filtros ou os atalhos abaixo pra ir direto a uma região ou estado.</p>
 
-    <div class="sample-flag" id="sample-flag">Dados de exemplo (fictícios), para demonstração do layout</div>
+    <div class="sample-flag" id="sample-flag" style="display:none;">carregando dados...</div>
 
     <div class="filters">
       <select id="filter-regiao"><option value="">Todas as regiões</option></select>
@@ -511,7 +584,7 @@
   <!-- ===================== DADOS (informativo) ===================== -->
   <div class="view" id="dados">
     <h1 style="margin-bottom:8px;">Dados</h1>
-    <p style="color:var(--ink-dim); margin-bottom:28px; max-width:70ch;">Pra evitar o risco de qualquer pessoa possa vir alterar informações sobre candidatos sem alguma revisão ou verificação, este site não tem formulário público de edição. Os dados vêm de um arquivo estático criado especialmente para auxiliar na construção do site, atualizado pela equipe do projeto e publicado junto com o código-fonte.</p>
+    <p style="color:var(--ink-dim); margin-bottom:28px; max-width:70ch;">Este site não tem formulário público de edição — os dados vêm de um arquivo estático (<code>dados.json</code>), atualizado pela equipe do projeto e publicado junto com o código-fonte. Isso existe para reduzir o risco de qualquer pessoa alterar informações sobre candidatos reais sem revisão.</p>
 
     <div class="panel" style="margin-bottom:24px;">
       <h3>Estado atual dos dados</h3>
@@ -549,78 +622,6 @@ document.querySelectorAll('nav button').forEach(b=>{
   b.addEventListener('click', ()=> setView(b.dataset.view));
 });
 
-/* ---------- DADOS DE EXEMPLO (fictícios) — usados só se dados.json não for encontrado ----------
-   status: 'menciona' | 'nao_menciona' | 'previa' | 'nao_divulgado'
-   cada candidato pode ter "mencoes": [{pagina, trecho}, ...]
------------------------------------------------------- */
-const DADOS_EXEMPLO = {
-  atualizado_em: null,
-  regioes: [
-    {
-      nome: "Nordeste",
-      estados: [
-        {
-          nome: "Bahia",
-          candidatos: [
-            {id:"c1", nome:"Candidata A. Almeida", cargo:"governador", partido:"Partido Exemplo 1", status:"menciona",
-             mencoes:[
-               {pagina:"38", trecho:"vamos criar linha de fomento para estúdios de jogos e formação em e-sports nas escolas técnicas estaduais."},
-               {pagina:"41", trecho:"a indústria de jogos eletrônicos e os estúdios de jogos locais terão linha de crédito específica."}
-             ], fonte:"#"},
-            {id:"c2", nome:"Candidato B. Barros", cargo:"governador", partido:"Partido Exemplo 2", status:"nao_menciona", mencoes:[], fonte:"#"},
-            {id:"c3", nome:"Candidata C. Cunha", cargo:"governador", partido:"Partido Exemplo 3", status:"nao_divulgado", mencoes:[], fonte:null},
-          ]
-        },
-        {
-          nome: "Pernambuco",
-          candidatos: [
-            {id:"c4", nome:"Candidato D. Diniz", cargo:"governador", partido:"Partido Exemplo 4", status:"nao_menciona", mencoes:[], fonte:"#"},
-            {id:"c5", nome:"Candidata E. Esteves", cargo:"governador", partido:"Partido Exemplo 5", status:"previa",
-             mencoes:[{pagina:"12 (prévia)", trecho:"prévia de plano indica apoio a arenas de e-sports como equipamento de juventude."}], fonte:"#"},
-          ]
-        }
-      ]
-    },
-    {
-      nome: "Sudeste",
-      estados: [
-        {
-          nome: "Minas Gerais",
-          candidatos: [
-            {id:"c6", nome:"Candidato F. Ferraz", cargo:"governador", partido:"Partido Exemplo 6", status:"nao_menciona", mencoes:[], fonte:"#"},
-            {id:"c7", nome:"Candidata G. Gomes", cargo:"governador", partido:"Partido Exemplo 7", status:"nao_divulgado", mencoes:[], fonte:null},
-          ]
-        },
-        {
-          nome: "São Paulo",
-          candidatos: [
-            {id:"c8", nome:"Candidato H. Hirata", cargo:"governador", partido:"Partido Exemplo 8", status:"menciona",
-             mencoes:[{pagina:"55", trecho:"criação de polo estadual de desenvolvimento de jogos digitais com incentivo fiscal para estúdios."}], fonte:"#"},
-            {id:"c9", nome:"Candidata I. Ibrahim", cargo:"governador", partido:"Partido Exemplo 9", status:"nao_menciona", mencoes:[], fonte:"#"},
-          ]
-        }
-      ]
-    },
-    {
-      nome: "Nacional",
-      estados: [
-        {
-          nome: "Presidência da República",
-          candidatos: [
-            {id:"c10", nome:"Candidato J. Jardim", cargo:"presidente", partido:"Partido Exemplo 10", status:"menciona",
-             mencoes:[
-               {pagina:"104", trecho:"programa nacional de fomento à indústria brasileira de jogos eletrônicos, com linha de crédito no BNDES."},
-               {pagina:"105", trecho:"apoio a desenvolvedores de jogos independentes via editais federais anuais."},
-               {pagina:"188", trecho:"e-sports serão incluídos entre as modalidades apoiadas pelo programa nacional de esporte."}
-             ], fonte:"#"},
-            {id:"c11", nome:"Candidata K. Klein", cargo:"presidente", partido:"Partido Exemplo 11", status:"nao_menciona", mencoes:[], fonte:"#"},
-          ]
-        }
-      ]
-    }
-  ]
-};
-
 let DATA = null;
 let usandoDadosReais = false;
 
@@ -632,37 +633,74 @@ const GLOSSARIO = [
 ];
 
 /* garante que todo candidato tenha um array "mencoes", mesmo vindo
-   de um formato antigo com trecho/pagina no singular */
+   de um formato antigo com trecho/pagina no singular. Cada candidato é
+   tratado individualmente e protegido por try/catch — um registro com
+   formato inesperado é ignorado (com aviso no console), em vez de
+   quebrar o carregamento do site inteiro. */
 function normalizarDados(dados){
-  dados.regioes.forEach(r=>{
-    r.estados.forEach(e=>{
-      e.candidatos.forEach(c=>{
-        if(!Array.isArray(c.mencoes)){
-          c.mencoes = c.trecho ? [{pagina:c.pagina, trecho:c.trecho}] : [];
+  const regioesValidas = [];
+  (dados.regioes || []).forEach(r=>{
+    try{
+      const estadosValidos = [];
+      (r.estados || []).forEach(e=>{
+        try{
+          const candidatosValidos = [];
+          (e.candidatos || []).forEach(c=>{
+            try{
+              if(!c || !c.nome) return; // registro sem nome não é utilizável
+              if(!Array.isArray(c.mencoes)){
+                c.mencoes = c.trecho ? [{pagina:c.pagina, trecho:c.trecho}] : [];
+              }
+              if(!['menciona','nao_menciona','previa','nao_divulgado'].includes(c.status)){
+                console.warn('Bancada do Joystick: status inválido, tratando como "nao_divulgado":', c);
+                c.status = 'nao_divulgado';
+              }
+              candidatosValidos.push(c);
+            }catch(erroCandidato){
+              console.warn('Bancada do Joystick: candidato ignorado por erro de formato:', c, erroCandidato);
+            }
+          });
+          estadosValidos.push({nome: e.nome || 'Estado sem nome', candidatos: candidatosValidos});
+        }catch(erroEstado){
+          console.warn('Bancada do Joystick: estado ignorado por erro de formato:', e, erroEstado);
         }
       });
-    });
+      regioesValidas.push({nome: r.nome || 'Região sem nome', estados: estadosValidos});
+    }catch(erroRegiao){
+      console.warn('Bancada do Joystick: região ignorada por erro de formato:', r, erroRegiao);
+    }
   });
-  return dados;
+  return {atualizado_em: dados.atualizado_em || null, regioes: regioesValidas};
 }
 
 async function loadData(){
+  let erroCarregamento = null;
   try{
     const resposta = await fetch('dados.json', {cache:'no-store'});
-    if(!resposta.ok) throw new Error('dados.json não encontrado');
-    DATA = normalizarDados(await resposta.json());
-    usandoDadosReais = true;
+    if(!resposta.ok) throw new Error('dados.json retornou status ' + resposta.status);
+    const bruto = await resposta.json();
+    DATA = normalizarDados(bruto);
+    usandoDadosReais = DATA.regioes.length > 0;
+    if(!usandoDadosReais) erroCarregamento = 'dados.json foi encontrado, mas está vazio.';
   }catch(e){
-    DATA = normalizarDados(JSON.parse(JSON.stringify(DADOS_EXEMPLO)));
+    console.warn('Bancada do Joystick: não consegui carregar dados.json —', e);
+    DATA = {atualizado_em: null, regioes: []};
     usandoDadosReais = false;
+    erroCarregamento = 'Não foi possível carregar os dados agora.';
   }
 
-  document.getElementById('sample-flag').style.display = usandoDadosReais ? 'none' : 'inline-block';
-  document.getElementById('placar-tag').textContent = usandoDadosReais ? 'dados atuais' : 'dados de exemplo';
+  const avisoDados = document.getElementById('sample-flag');
+  if(usandoDadosReais){
+    avisoDados.style.display = 'none';
+  } else {
+    avisoDados.style.display = 'inline-block';
+    avisoDados.textContent = '⚠ ' + erroCarregamento + ' Tente recarregar a página em alguns minutos.';
+  }
+  document.getElementById('placar-tag').textContent = usandoDadosReais ? 'dados atuais' : 'indisponível no momento';
 
   const textoAtualizacao = DATA.atualizado_em
     ? 'última atualização dos dados: ' + new Date(DATA.atualizado_em).toLocaleDateString('pt-BR') + ' às ' + new Date(DATA.atualizado_em).toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'})
-    : (usandoDadosReais ? 'data de atualização não informada em dados.json' : 'exibindo dados de exemplo — sem dados.json publicado ainda');
+    : (usandoDadosReais ? 'data de atualização não informada em dados.json' : 'dados indisponíveis no momento — tente novamente em breve');
   document.getElementById('rodape-atualizacao').textContent = textoAtualizacao;
   document.getElementById('dados-atualizacao').textContent = textoAtualizacao;
 
@@ -671,9 +709,9 @@ async function loadData(){
 }
 
 function renderAll(){
-  renderHome();
-  renderMencoes();
-  renderDadosStats();
+  try{ renderHome(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar a Home:', e); }
+  try{ renderMencoes(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar Menções:', e); }
+  try{ renderDadosStats(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar a aba Dados:', e); }
 }
 
 /* ---------- HOME: estatísticas e gráficos ---------- */
@@ -695,14 +733,10 @@ function renderHome(){
   const naoDivulgado = all.filter(c=>c.status==='nao_divulgado').length;
   const pctNacional = total ? Math.round((menciona/total)*100) : 0;
 
-  document.getElementById('placar-nacional').textContent = pctNacional + '%';
-  const seg = document.getElementById('seg-bar');
-  seg.innerHTML = '';
-  for(let i=0;i<20;i++){
-    const s = document.createElement('span');
-    if(i < pctNacional/5) s.classList.add('on');
-    seg.appendChild(s);
-  }
+  document.getElementById('placar-nacional').textContent = total ? (pctNacional + '%') : '—';
+  const CIRCUNFERENCIA = 2 * Math.PI * 52; // r=52, igual ao raio do círculo no SVG
+  const gaugeFill = document.getElementById('gauge-fill');
+  gaugeFill.style.strokeDashoffset = total ? String(CIRCUNFERENCIA * (1 - pctNacional/100)) : String(CIRCUNFERENCIA);
 
   document.getElementById('stat-grid').innerHTML = `
     <div class="stat-card"><div class="stat-num">${total}</div><div class="stat-lbl">candidatos mapeados</div></div>
@@ -828,7 +862,7 @@ function popularFiltrosDeLocalidade(){
   regiaoSel.innerHTML = '<option value="">Todas as regiões</option>' +
     regioes.map(r=>`<option value="${r.nome}">${r.nome}</option>`).join('');
 
-  const estados = regioes.flatMap(r=>r.estados.map(e=>e.nome)).sort((a,b)=>a.localeCompare(b,'pt-BR'));
+  const estados = [...new Set(regioes.flatMap(r=>r.estados.map(e=>e.nome)))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
   estadoSel.innerHTML = '<option value="">Todos os estados</option>' +
     estados.map(nome=>`<option value="${nome}">${nome}</option>`).join('');
 
@@ -856,10 +890,13 @@ const STATUS_LABEL = {menciona:'MENCIONA', nao_menciona:'NÃO MENCIONA', previa:
 function corpoDoCard(c){
   if(c.status==='menciona' || c.status==='previa'){
     if(c.mencoes && c.mencoes.length){
-      return c.mencoes.map(m=>`
+      return c.mencoes.map(m=>{
+        const fonteDoTrecho = m.fonte || c.fonte;
+        return `
         <div class="cand-quote">"${m.trecho}"</div>
-        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${c.fonte?`· <a href="${c.fonte}" target="_blank" rel="noopener">ver fonte oficial →</a>`:''}</div>
-      `).join('<div style="height:8px"></div>');
+        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${fonteDoTrecho?`· <a href="${fonteDoTrecho}" target="_blank" rel="noopener">ver fonte oficial →</a>`:''}</div>
+      `;
+      }).join('<div style="height:8px"></div>');
     }
     return `<div class="cand-quote" style="font-style:normal;">${c.status==='previa' ? 'Prévia divulgada, sem documento oficial completo registrado até o momento.' : 'Menção registrada, mas sem trecho salvo.'}</div>`;
   }
@@ -872,6 +909,12 @@ function corpoDoCard(c){
 function renderMencoes(){
   const list = document.getElementById('mencoes-list');
   list.innerHTML = '';
+
+  if(DATA.regioes.length === 0){
+    list.innerHTML = '<p style="color:var(--ink-dim); font-family:var(--font-mono); font-size:0.85rem;">Nenhum dado carregado no momento. Tente recarregar a página em alguns minutos.</p>';
+    return;
+  }
+
   const regiaoF = document.getElementById('filter-regiao').value;
   const estadoF = document.getElementById('filter-estado').value;
   const cargoF = document.getElementById('filter-cargo').value;

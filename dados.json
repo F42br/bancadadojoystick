@@ -1,165 +1,6 @@
 {
-  "atualizado_em": "2026-08-15T22:12:13-03:00",
+  "atualizado_em": "2026-08-29T16:27:11-03:00",
   "regioes": [
-    {
-      "nome": "Nacional",
-      "estados": [
-        {
-          "nome": "Presidência da República",
-          "candidatos": [
-            {
-              "id": "presidencia-da-republica-augusto-cury",
-              "nome": "Augusto Cury",
-              "cargo": "presidente",
-              "partido": "AVANTE (70)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104778",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": 73,
-                  "trecho": "[...] Vivemos a era da hiperinformação. Os alunos têm acesso, por meio dos celulares, a um volume de dados e estímulos infinitamente superior ao que encontram na escola. Games, redes sociais e plataformas digitais oferecem experiências mais envolventes, rápidas e emocionalmente estimulantes. [...]"
-                }
-              ]
-            },
-            {
-              "id": "presidencia-da-republica-clariana-barao",
-              "nome": "Clariana Barão",
-              "cargo": "presidente",
-              "partido": "DC (27)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017113380",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-edmilson-costa",
-              "nome": "Edmilson Costa",
-              "cargo": "presidente",
-              "partido": "PCB (21)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017107286",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-flavio-bolsonaro",
-              "nome": "Flávio Bolsonaro",
-              "cargo": "presidente",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-hertz-dias",
-              "nome": "Hertz Dias",
-              "cargo": "presidente",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998007",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-pablo-marcal",
-              "nome": "Pablo Marçal",
-              "cargo": "presidente",
-              "partido": "PRTB (28)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O Programa de Governo dele ainda não está disponível, mesmo que já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "c7",
-              "nome": "Luiz Inácio Lula da Silva",
-              "cargo": "presidente",
-              "partido": "PT (13)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": "42",
-                  "trecho": "[...] Sancionamos o Marco Legal dos Games, que reconhece e equipara os games a criações culturais. Com isto, esta importante indústria passa a acessar os mecanismos de fomento da Lei Rouanet e da Lei do Audiovisual. [...]"
-                },
-                {
-                  "pagina": "42",
-                  "trecho": "[...] Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. [...]"
-                }
-              ]
-            },
-            {
-              "id": "presidencia-da-republica-renan-santos",
-              "nome": "Renan Santos",
-              "cargo": "presidente",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-ronaldo-caiado",
-              "nome": "Ronaldo Caiado",
-              "cargo": "presidente",
-              "partido": "PSD (55)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017106566",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": 41,
-                  "trecho": "[...] Apoiar equipamentos, vestuário, tecnologia, mídia, games, serviços, turismo esportivo e empreendedorismo. [...]"
-                }
-              ]
-            },
-            {
-              "id": "presidencia-da-republica-rui-costa-pimenta",
-              "nome": "Rui Costa Pimenta",
-              "cargo": "presidente",
-              "partido": "PCO (29)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017113417",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-samara-martins",
-              "nome": "Samara Martins",
-              "cargo": "presidente",
-              "partido": "UP (80)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017119534",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-wilson-grassi",
-              "nome": "Wilson Grassi",
-              "cargo": "presidente",
-              "partido": "DEM (35)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017075366",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "presidencia-da-republica-romeu-zema",
-              "nome": "Romeu Zema",
-              "cargo": "presidente",
-              "partido": "NOVO (30)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016919931",
-              "observacoes": null,
-              "mencoes": []
-            }
-          ]
-        }
-      ]
-    },
     {
       "nome": "Norte",
       "estados": [
@@ -167,64 +8,70 @@
           "nome": "Acre",
           "candidatos": [
             {
-              "id": "acre-alan-rick",
+              "id": "ac-alan-rick",
               "nome": "Alan Rick",
               "cargo": "governador",
-              "partido": "REP (10)",
+              "partido": "REPUBLICANOS",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016835237",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "10002532492"
             },
             {
-              "id": "acre-luisinho-silva",
-              "nome": "Luisinho Silva",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016844008",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "acre-mailza-assis",
-              "nome": "Mailza Assis",
-              "cargo": "governador",
-              "partido": "PP (11)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017029377",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "acre-eudo-raffael",
+              "id": "ac-eudo-raffael",
               "nome": "Eudo Raffael",
               "cargo": "governador",
-              "partido": "PCB (21)",
+              "partido": "PCB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017084184",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "10002549500"
             },
             {
-              "id": "acre-thor-dantas",
-              "nome": "Thor Dantas",
+              "id": "ac-dr-luisinho",
+              "nome": "Dr.luisinho",
               "cargo": "governador",
-              "partido": "PSB (40)",
+              "partido": "AGIR",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017091966",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "10002533539"
             },
             {
-              "id": "acre-tiao-bocalom",
+              "id": "ac-mailza-assis",
+              "nome": "Mailza Assis",
+              "cargo": "governador",
+              "partido": "PP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "10002544107"
+            },
+            {
+              "id": "ac-tiao-bocalom",
               "nome": "Tião Bocalom",
               "cargo": "governador",
-              "partido": "PSDB (45)",
+              "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017035102",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "10002544015"
+            },
+            {
+              "id": "ac-thor-dantas",
+              "nome": "Thor Dantas",
+              "cargo": "governador",
+              "partido": "PSB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "10002550719"
             }
           ]
         },
@@ -232,74 +79,106 @@
           "nome": "Amazonas",
           "candidatos": [
             {
-              "id": "amazonas-gilberto-vasconcelos",
-              "nome": "Gilberto Vasconcelos",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016865838",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amazonas-isael-munduruku",
-              "nome": "Isael Munduruku",
-              "cargo": "governador",
-              "partido": "REDE (18)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017097265",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amazonas-maria-do-carmo",
-              "nome": "Maria do Carmo",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017005304",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amazonas-cabo-daciolo",
+              "id": "am-cabo-daciolo",
               "nome": "Cabo Daciolo",
               "cargo": "governador",
-              "partido": "MOBILIZA (33)",
+              "partido": "MOBILIZA",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017115862",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "40002551740"
             },
             {
-              "id": "amazonas-roberto-cidade",
-              "nome": "Roberto Cidade",
-              "cargo": "governador",
-              "partido": "UNIÃO (44)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017006462",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amazonas-omar-aziz",
-              "nome": "Omar Aziz",
-              "cargo": "governador",
-              "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016839999",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amazonas-david-almeida",
+              "id": "am-david-almeida",
               "nome": "David Almeida",
               "cargo": "governador",
-              "partido": "AVANTE (70)",
+              "partido": "AVANTE",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40016870408",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "40002536086"
+            },
+            {
+              "id": "am-gilberto-vasconcelos",
+              "nome": "Gilberto Vasconcelos",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "40002535267"
+            },
+            {
+              "id": "am-isael-munduruku",
+              "nome": "Isael Munduruku",
+              "cargo": "governador",
+              "partido": "REDE",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "40002550776"
+            },
+            {
+              "id": "am-professora-maria-do-carmo",
+              "nome": "Professora Maria do Carmo",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "40002541626"
+            },
+            {
+              "id": "am-omar-aziz",
+              "nome": "Omar Aziz",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": "546 (142 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "[...] O crescimento do consumo digital, das plataformas de streaming, dos games, dos produtos culturais e das soluções sustentáveis cria um ambiente favorável para que o Amazonas se destaque. [...]"
+                },
+                {
+                  "pagina": "556 (153 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "**Em relação as fraquezas da economia criativa:** [...] Falta de regulamentação específica para setores emergentes (games, audiovisual, NFTs, inteligência artificial) [...]"
+                },
+                {
+                  "pagina": "558 (155 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "[...] Integração entre inovação digital e cultura: games, metaverso, NFTs, IA aplicada ao audiovisual e ao design [...]"
+                },
+                {
+                  "pagina": "563 (159 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "[...] Implantar hubs criativos nos setores de audiovisual, moda, games, gastronomia, design e economia digital. [...]"
+                },
+                {
+                  "pagina": "566 (162 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "[...] Editais contínuos de audiovisual, música, design, games, moda e artes visuais. [...]"
+                },
+                {
+                  "pagina": "569 (165 da parte 2 de 8 disponibilizadas pelo candidato)",
+                  "trecho": "[...] Qualificação profissional em tecnologia, audiovisual, design, games e economia digital. [...]"
+                }
+              ],
+              "sq_candidato": "40002532272"
+            },
+            {
+              "id": "am-roberto-cidade",
+              "nome": "Roberto Cidade",
+              "cargo": "governador",
+              "partido": "UNIÃO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "40002541741"
             }
           ]
         },
@@ -307,54 +186,59 @@
           "nome": "Amapá",
           "candidatos": [
             {
-              "id": "amapa-carlos-cley",
+              "id": "ap-dr-furlan",
+              "nome": "Dr. Furlan",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "30002530014"
+            },
+            {
+              "id": "ap-carlos-cley",
               "nome": "Carlos Cley",
               "cargo": "governador",
-              "partido": "PSTU (16)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016872195",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "30002536313"
             },
             {
-              "id": "amapa-marcos-reategui",
-              "nome": "Marcos Reátegui",
+              "id": "ap-clecio",
+              "nome": "Clécio",
               "cargo": "governador",
-              "partido": "DC (27)",
+              "partido": "UNIÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30017107841",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "30002536311"
             },
             {
-              "id": "amapa-jairo-palheta",
+              "id": "ap-jairo-palheta",
               "nome": "Jairo Palheta",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30017103910",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "30002551388"
             },
             {
-              "id": "amapa-clecio-luis",
-              "nome": "Clécio Luís",
+              "id": "ap-delegado-marcos",
+              "nome": "Delegado Marcos",
               "cargo": "governador",
-              "partido": "UNIÃO (44)",
+              "partido": "DC",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016872175",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "amapa-antonio-furlan",
-              "nome": "Antônio Furlan",
-              "cargo": "governador",
-              "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/30016816220",
-              "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "30002552017"
             }
           ]
         },
@@ -362,74 +246,81 @@
           "nome": "Pará",
           "candidatos": [
             {
-              "id": "para-hana-ghassan",
-              "nome": "Hana Ghassan",
-              "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017108621",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "para-cleber-rabelo",
-              "nome": "Cleber Rabelo",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140016898081",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "para-daniel-barbosa",
-              "nome": "Daniel Barbosa",
-              "cargo": "governador",
-              "partido": "PODE (20)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017085515",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "para-roberto-martins",
-              "nome": "Roberto Martins",
-              "cargo": "governador",
-              "partido": "PRTB (28)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "para-jose-moita",
-              "nome": "José Moita",
-              "cargo": "governador",
-              "partido": "DEM (35)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017103471",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "para-araceli",
+              "id": "pa-araceli",
               "nome": "Araceli",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017014339",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "140002542386"
             },
             {
-              "id": "para-gal-leite",
+              "id": "pa-dr-daniel",
+              "nome": "Dr. Daniel",
+              "cargo": "governador",
+              "partido": "PODE",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "140002549930"
+            },
+            {
+              "id": "pa-gal-leite",
               "nome": "Gal Leite",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140017106691",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "140002551943"
+            },
+            {
+              "id": "pa-hana-ghassan",
+              "nome": "Hana Ghassan",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "140002551598"
+            },
+            {
+              "id": "pa-cleber-rabelo",
+              "nome": "Cleber Rabelo",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "140002538631"
+            },
+            {
+              "id": "pa-jose-moita",
+              "nome": "José Moita",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "140002551357"
+            },
+            {
+              "id": "pa-well-macedo",
+              "nome": "Well Macedo",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "140002554108"
             }
           ]
         },
@@ -437,64 +328,75 @@
           "nome": "Rondônia",
           "candidatos": [
             {
-              "id": "rondonia-expedito-netto",
+              "id": "ro-adailton-furia",
+              "nome": "Adailton Furia",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "220002536806"
+            },
+            {
+              "id": "ro-expedito-netto",
               "nome": "Expedito Netto",
               "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_divulgado",
+              "partido": "PT",
+              "status": "nao_menciona",
               "fonte": null,
-              "observacoes": "O Programa de Governo dele ainda não está disponível, mesmo que já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "rondonia-pedro-abib",
-              "nome": "Pedro Abib",
-              "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/220017102553",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "220002542185"
             },
             {
-              "id": "rondonia-marcos-rogerio",
-              "nome": "Marcos Rogério",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/140016898081",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rondonia-samuel-costa",
-              "nome": "Samuel Costa",
-              "cargo": "governador",
-              "partido": "PSB (40)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/220017097592",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rondonia-hildon-chaves",
+              "id": "ro-hildon-chaves",
               "nome": "Hildon Chaves",
               "cargo": "governador",
-              "partido": "UNIÃO (44)",
-              "status": "nao_divulgado",
+              "partido": "UNIÃO",
+              "status": "nao_menciona",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "220002542916"
             },
             {
-              "id": "rondonia-adailton-furia",
-              "nome": "Adaílton Fúria",
+              "id": "ro-marcos-rogerio",
+              "nome": "Marcos Rogério",
               "cargo": "governador",
-              "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/220017095549",
+              "partido": "PL",
+              "status": "menciona",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 42,
+                  "trecho": "O Estado deixará de tratar os games como mero lazer para explorá-los como uma indústria global bilionária. Focaremos na qualificação técnica de jovens em programação, design e produção de software, criando um celeiro de startups. Utilizar os games como ferramenta de educação, tecnologia, criatividade e desenvolvimento profissional. Realização do campeonato estadual de eSports. Criação da Arena Gamer Itinerante, percorrendo todos os municípios. Incentivo ao desenvolvimento de jogos digitais com temática amazônica. Formação em design de games, programação e produção audiovisual. Realizar etapas do campeonato em todas as regiões do estado. Capacitar jovens na área de games e desenvolvimento digital."
+                }
+              ],
+              "sq_candidato": "220002541939"
+            },
+            {
+              "id": "ro-pedro-abib",
+              "nome": "Pedro Abib",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "220002551251"
+            },
+            {
+              "id": "ro-samuel-costa",
+              "nome": "Samuel Costa",
+              "cargo": "governador",
+              "partido": "PSB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "220002550927"
             }
           ]
         },
@@ -502,49 +404,64 @@
           "nome": "Roraima",
           "candidatos": [
             {
-              "id": "roraima-francisco-sampaio",
-              "nome": "Francisco Sampaio",
+              "id": "rr-arthur-henrique",
+              "nome": "Arthur Henrique",
               "cargo": "governador",
-              "partido": "REP (10)",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "230002549223"
+            },
+            {
+              "id": "rr-farah-mesquita",
+              "nome": "Farah Mesquita",
+              "cargo": "governador",
+              "partido": "SOLIDARIEDADE",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "230002549294"
+            },
+            {
+              "id": "rr-soldado-sampaio",
+              "nome": "Soldado Sampaio",
+              "cargo": "governador",
+              "partido": "REPUBLICANOS",
               "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017107422",
+              "fonte": null,
               "observacoes": null,
               "mencoes": [
                 {
                   "pagina": 59,
                   "trecho": "[...] Abre-se uma janela de oportunidades para nossa juventude entrar de cabeça na indústria da tecnologia e inovação, na indústria de games, na cultura digital, inteligência artificial e centenas de outras áreas. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "230002551571"
             },
             {
-              "id": "roraima-arthur-henrique",
-              "nome": "Arthur Henrique",
+              "id": "rr-clebio-genuino",
+              "nome": "Clébio Genuíno",
               "cargo": "governador",
-              "partido": "PL (22)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017078577",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "230002553857"
             },
             {
-              "id": "roraima-rosi-aires",
+              "id": "rr-rosi-aires",
               "nome": "Rosi Aires",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017108199",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "roraima-farah-mesquita",
-              "nome": "Farah Mesquita",
-              "cargo": "governador",
-              "partido": "SD (77)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/230017079180",
-              "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "230002552060"
             }
           ]
         },
@@ -552,74 +469,81 @@
           "nome": "Tocantins",
           "candidatos": [
             {
-              "id": "tocantins-ataides-oliveira",
-              "nome": "Ataídes Oliveira",
+              "id": "to-ataides-de-oliveira",
+              "nome": "Ataides de Oliveira",
               "cargo": "governador",
-              "partido": "NOVO (30)",
+              "partido": "NOVO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017072174",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "tocantins-luiz-carlos",
-              "nome": "Luiz Carlos",
-              "cargo": "governador",
-              "partido": "DEM (35)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017053627",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "tocantins-ivaildo-pereira",
-              "nome": "Ivaildo Pereira",
-              "cargo": "governador",
-              "partido": "DC (27)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "tocantins-dorinha-rezende",
-              "nome": "Dorinha Rezende",
-              "cargo": "governador",
-              "partido": "UNIÃO (44)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017035491",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "270002548412"
             },
             {
-              "id": "tocantins-vicente-alves-junior",
-              "nome": "Vicente Alves Júnior",
+              "id": "to-du-pereira",
+              "nome": "Du Pereira",
               "cargo": "governador",
-              "partido": "PSDB (45)",
+              "partido": "DC",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017033657",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "270002550458"
             },
             {
-              "id": "tocantins-witer-naves",
-              "nome": "Witer Naves",
-              "cargo": "governador",
-              "partido": "PSOL (50)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270016900853",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "tocantins-laurez-moreira",
+              "id": "to-laurez-moreira",
               "nome": "Laurez Moreira",
               "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017033157",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "270002544494"
+            },
+            {
+              "id": "to-subtenente-luiz-carlos",
+              "nome": "Subtenente Luiz Carlos",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "270002546368"
+            },
+            {
+              "id": "to-professora-dorinha",
+              "nome": "Professora Dorinha",
+              "cargo": "governador",
+              "partido": "UNIÃO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "270002544599"
+            },
+            {
+              "id": "to-vicentinho-junior",
+              "nome": "Vicentinho Júnior",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "270002544544"
+            },
+            {
+              "id": "to-prof-witer-naves",
+              "nome": "Prof Witer Naves",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "270002539187"
             }
           ]
         }
@@ -632,44 +556,48 @@
           "nome": "Alagoas",
           "candidatos": [
             {
-              "id": "alagoas-renan-filho",
+              "id": "al-renan-filho",
               "nome": "Renan Filho",
               "cargo": "governador",
               "partido": "MDB (15)",
               "status": "previa",
               "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017123882",
               "observacoes": "O Programa de Governo dele está disponível, mas vai precisar de uma verificação diária de status. Se a assesoria de imprensa do candidato puder enviar uma versão definitiva em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "20002553745"
             },
             {
-              "id": "alagoas-marcio-jambo",
-              "nome": "Márcio Jambo",
+              "id": "al-jhc",
+              "nome": "Jhc",
               "cargo": "governador",
-              "partido": "DEM (35)",
+              "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017113582",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "20002553350"
             },
             {
-              "id": "alagoas-joao-henrique-caldas",
-              "nome": "João Henrique Caldas",
-              "cargo": "governador",
-              "partido": "PSDB (45)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20017121679",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "alagoas-lenilda-luna",
+              "id": "al-lenilda-luna",
               "nome": "Lenilda Luna",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/20016934251",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "20002539642"
+            },
+            {
+              "id": "al-marcio-jambo",
+              "nome": "Márcio Jambo",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "20002552502"
             }
           ]
         },
@@ -677,27 +605,7 @@
           "nome": "Bahia",
           "candidatos": [
             {
-              "id": "bahia-jeronimo-rodrigues",
-              "nome": "Jerônimo Rodrigues",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017113080",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "bahia-jose-estevao",
-              "nome": "José Estevão",
-              "cargo": "governador",
-              "partido": "DC (27)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016868808",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c63",
+              "id": "ba-acm-neto",
               "nome": "ACM Neto",
               "cargo": "governador",
               "partido": "UNIÃO (44)",
@@ -713,37 +621,74 @@
                   "pagina": "114",
                   "trecho": "[...] A referência é o Polo Gamer da Paraíba, que transformou um nicho cultural em polo de exportação de software. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "50002533190"
             },
             {
-              "id": "bahia-maria-bona",
+              "id": "ba-ariel-capistrano",
+              "nome": "Ariel Capistrano",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "50002535253"
+            },
+            {
+              "id": "ba-aroldo-felix",
+              "nome": "Aroldo Felix",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "50002544692"
+            },
+            {
+              "id": "ba-jeronimo-rodrigues",
+              "nome": "Jerônimo Rodrigues",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "50002536314"
+            },
+            {
+              "id": "ba-estevao",
+              "nome": "Estêvão",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "50002536579"
+            },
+            {
+              "id": "ba-maria-bona",
               "nome": "Maria Bona",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017113438",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "50002552489"
             },
             {
-              "id": "bahia-ronaldo-mansur",
+              "id": "ba-ronaldo-mansur",
               "nome": "Ronaldo Mansur",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50016839948",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "bahia-aroldo-felix",
-              "nome": "Aroldo Félix",
-              "cargo": "governador",
-              "partido": "UP (80)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017041043",
-              "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "50002532269"
             }
           ]
         },
@@ -751,7 +696,29 @@
           "nome": "Ceará",
           "candidatos": [
             {
-              "id": "c66",
+              "id": "ce-ciro-gomes",
+              "nome": "Ciro Gomes",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "60002531351"
+            },
+            {
+              "id": "ce-danilo-soares",
+              "nome": "Danilo Soares",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "60002552498"
+            },
+            {
+              "id": "ce-elmano-de-freitas",
               "nome": "Elmano de Freitas",
               "cargo": "governador",
               "partido": "PT (13)",
@@ -767,40 +734,44 @@
                   "pagina": 51,
                   "trecho": "[...] Desenvolver a cadeia estadual de games, em consonância com o Marco Legal dos Games – Fortalecendo formação profissional, pesquisa, desenvolvimento de estúdios, startups e aplicações educacionais, terapêuticas e corporativas, em parceria entre Secitece, Secult, MinC e MCTI. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "60002543969"
             },
             {
-              "id": "ceara-delegado-huggo",
+              "id": "ce-delegado-huggo",
               "nome": "Delegado Huggo",
               "cargo": "governador",
-              "partido": "MISSÃO (14)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016983478",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "60002540417"
             },
             {
-              "id": "ceara-ze-batista",
-              "nome": "Zé Batista",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017085920",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "ceara-ieri-braga",
+              "id": "ce-ieri-braga",
               "nome": "Ieri Braga",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017111569",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "60002552320"
             },
             {
-              "id": "c70",
+              "id": "ce-ze-batista",
+              "nome": "Zé Batista",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "60002549967"
+            },
+            {
+              "id": "ce-pedro-brito",
               "nome": "Pedro Brito",
               "cargo": "governador",
               "partido": "NOVO (30)",
@@ -812,37 +783,30 @@
                   "pagina": 10,
                   "trecho": "[...] Tratar cinema, música, teatro, games e eventos como indústrias da economia criativa, promovendo integração com turismo, tecnologia e desenvolvimento urbano (rotas culturais, festivais, polos criativos) [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "60002540336"
             },
             {
-              "id": "ceara-danilo-soares",
-              "nome": "Danilo Soares",
-              "cargo": "governador",
-              "partido": "DEM (35)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60017113522",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "ceara-ciro-gomes",
-              "nome": "Ciro Gomes",
-              "cargo": "governador",
-              "partido": "PSDB (45)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016833100",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "ceara-serley-leal",
+              "id": "ce-serley-leal",
               "nome": "Serley Leal",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/60016845833",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "60002533729"
+            },
+            {
+              "id": "ce-vera-lucia",
+              "nome": "Vera Lúcia",
+              "cargo": "governador",
+              "partido": "NOVO",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas.",
+              "mencoes": [],
+              "sq_candidato": "60002553922"
             }
           ]
         },
@@ -850,64 +814,92 @@
           "nome": "Maranhão",
           "candidatos": [
             {
-              "id": "maranhao-felipe-camarao",
-              "nome": "Felipe Camarão",
+              "id": "ma-andre-luis",
+              "nome": "André Luis",
               "cargo": "governador",
-              "partido": "PT (13)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017016099",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "100002544076"
             },
             {
-              "id": "maranhao-andre-luis",
-              "nome": "André Luís",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017027319",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "maranhao-orleans-brandao",
+              "id": "ma-orleans-brandao",
               "nome": "Orleans Brandão",
               "cargo": "governador",
-              "partido": "PSTU (16)",
+              "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100016860223",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "100002543869"
             },
             {
-              "id": "maranhao-reginaldo-lima",
-              "nome": "Reginaldo Lima",
+              "id": "ma-dimas-cassimiro",
+              "nome": "Dimas Cassimiro",
               "cargo": "governador",
-              "partido": "PCB (21)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017027284",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "100002552700"
             },
             {
-              "id": "maranhao-roberto-rocha",
-              "nome": "Roberto Rocha",
-              "cargo": "governador",
-              "partido": "PRTB (28)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017104045",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "maranhao-eduardo-braide",
+              "id": "ma-eduardo-braide",
               "nome": "Eduardo Braide",
               "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/100017102842",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "100002545679"
+            },
+            {
+              "id": "ma-felipe-camarao",
+              "nome": "Felipe Camarão",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "100002542556"
+            },
+            {
+              "id": "ma-reginaldo-lima",
+              "nome": "Reginaldo Lima",
+              "cargo": "governador",
+              "partido": "PCB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "100002544073"
+            },
+            {
+              "id": "ma-roberto-rocha",
+              "nome": "Roberto Rocha",
+              "cargo": "governador",
+              "partido": "PRTB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "100002551399"
+            },
+            {
+              "id": "ma-saulo-arcangeli",
+              "nome": "Saulo Arcangeli",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "100002534190"
             }
           ]
         },
@@ -915,64 +907,70 @@
           "nome": "Paraíba",
           "candidatos": [
             {
-              "id": "paraiba-lucas-ribeiro",
-              "nome": "Lucas Ribeiro",
-              "cargo": "governador",
-              "partido": "PP (11)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150017105439",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "paraiba-cicero-lucena",
-              "nome": "Cícero Lucena",
-              "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150017027530",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "paraiba-efraim-filho",
-              "nome": "Efraim Filho",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150016890636",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "paraiba-pedro-coutinho",
-              "nome": "Pedro Coutinho",
-              "cargo": "governador",
-              "partido": "DC (27)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "paraiba-camilo-duarte",
+              "id": "pb-camilo-duarte",
               "nome": "Camilo Duarte",
               "cargo": "governador",
-              "partido": "PCO (29)",
-              "status": "nao_divulgado",
+              "partido": "PCO",
+              "status": "nao_menciona",
               "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "150002552603"
             },
             {
-              "id": "paraiba-yuri-ezquivel",
-              "nome": "Yuri Ezquivel",
+              "id": "pb-cicero-lucena",
+              "nome": "Cícero Lucena",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/150016978935",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "150002544133"
+            },
+            {
+              "id": "pb-efraim-filho",
+              "nome": "Efraim Filho",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "150002538692"
+            },
+            {
+              "id": "pb-lucas-ribeiro",
+              "nome": "Lucas Ribeiro",
+              "cargo": "governador",
+              "partido": "PP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "150002551789"
+            },
+            {
+              "id": "pb-pedro-coutinho",
+              "nome": "Pedro Coutinho",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "150002551911"
+            },
+            {
+              "id": "pb-yuri-ezequiel",
+              "nome": "Yuri Ezequiel",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "150002540204"
             }
           ]
         },
@@ -980,84 +978,92 @@
           "nome": "Pernambuco",
           "candidatos": [
             {
-              "id": "pernambuco-renan-hallais",
-              "nome": "Renan Hallais",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016981541",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "pernambuco-guilherme-fonseca",
+              "id": "pe-guilherme-fonseca",
               "nome": "Guilherme Fonseca",
               "cargo": "governador",
-              "partido": "PSTU (16)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016868771",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "170002536575"
             },
             {
-              "id": "pernambuco-victor-assis",
-              "nome": "Victor Assis",
-              "cargo": "governador",
-              "partido": "PCO (29)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017115758",
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "pernambuco-jeremias-cosmo",
-              "nome": "Jeremias Cosmo",
-              "cargo": "governador",
-              "partido": "DEM (35)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017002129",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "pernambuco-joao-campos",
-              "nome": "João Campos",
-              "cargo": "governador",
-              "partido": "PSB (40)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016883406",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "pernambuco-ivan-moraes",
+              "id": "pe-ivan-moraes",
               "nome": "Ivan Moraes",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016885922",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "170002538097"
             },
             {
-              "id": "pernambuco-raquel-lyra",
+              "id": "pe-professor-jeremias-do-banco",
+              "nome": "Professor Jeremias do Banco",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "170002541258"
+            },
+            {
+              "id": "pe-joao-campos",
+              "nome": "João Campos",
+              "cargo": "governador",
+              "partido": "PSB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "170002537230"
+            },
+            {
+              "id": "pe-professora-camila",
+              "nome": "Professora Camila",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "170002537320"
+            },
+            {
+              "id": "pe-raquel-lyra",
               "nome": "Raquel Lyra",
               "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170017115776",
+              "fonte": null,
               "observacoes": "O Programa de Governo dela está disponível, mas vai precisar de uma verificação que vai além da varredura diária. Se a assesoria de imprensa da candidata puder enviar uma versão legível em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "170002537227"
             },
             {
-              "id": "pernambuco-maria-camila",
-              "nome": "Maria Camila",
+              "id": "pe-renan",
+              "nome": "Renan",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/170016884450",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "170002540337"
+            },
+            {
+              "id": "pe-victor-assis",
+              "nome": "Victor Assis",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "170002552776"
             }
           ]
         },
@@ -1065,94 +1071,125 @@
           "nome": "Piauí",
           "candidatos": [
             {
-              "id": "piaui-joel-rodrigues",
-              "nome": "Joel Rodrigues",
-              "cargo": "governador",
-              "partido": "PP (11)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016885807",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "piaui-rafael-fonteles",
-              "nome": "Rafael Fonteles",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016838798",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "piaui-geraldo-carvalho",
-              "nome": "Geraldo Carvalho",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016885807",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "piaui-francisco-jurity",
-              "nome": "Francisco Jurity",
-              "cargo": "governador",
-              "partido": "DC (27)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017073593",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "piaui-elizeu-aguiar",
+              "id": "pi-elizeu-aguiar",
               "nome": "Elizeu Aguiar",
               "cargo": "governador",
-              "partido": "NOVO (30)",
+              "partido": "NOVO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016848295",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "180002549920"
             },
             {
-              "id": "piaui-ravenna-de-castro",
-              "nome": "Ravenna de Castro",
+              "id": "pi-professor-jurity",
+              "nome": "Professor Jurity",
               "cargo": "governador",
-              "partido": "DEM (35)",
+              "partido": "DC",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017071583",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "180002548565"
             },
             {
-              "id": "piaui-lucia-santos",
-              "nome": "Lúcia Santos",
+              "id": "pi-geraldo-carvalho",
+              "nome": "Geraldo Carvalho",
               "cargo": "governador",
-              "partido": "PSDB (45)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017036523",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "180002537422"
             },
             {
-              "id": "piaui-gisvaldo-oliveira",
-              "nome": "Gisvaldo Oliveira",
+              "id": "pi-professor-gisvaldo",
+              "nome": "Professor Gisvaldo",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017085957",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "180002549970"
             },
             {
-              "id": "piaui-santiago-belizario",
+              "id": "pi-gustavo-pelo-piaui-ou-gustavo",
+              "nome": "Gustavo Pelo Piauí",
+              "cargo": "governador",
+              "partido": "AVANTE",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002550421"
+            },
+            {
+              "id": "pi-joel-rodrigues",
+              "nome": "Joel Rodrigues",
+              "cargo": "governador",
+              "partido": "PP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002538530"
+            },
+            {
+              "id": "pi-santiago-belizario",
               "nome": "Santiago Belizário",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180017086198",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "180002549995"
+            },
+            {
+              "id": "pi-dra-lucia-santos",
+              "nome": "Dra. Lúcia Santos",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002544216"
+            },
+            {
+              "id": "pi-lourdes-melo",
+              "nome": "Lourdes Melo",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002553722"
+            },
+            {
+              "id": "pi-rafael-fonteles",
+              "nome": "Rafael Fonteles",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002532987"
+            },
+            {
+              "id": "pi-ravenna-da-inclusao",
+              "nome": "Ravenna da Inclusão",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "180002548388"
             }
           ]
         },
@@ -1160,99 +1197,108 @@
           "nome": "Rio Grande do Norte",
           "candidatos": [
             {
-              "id": "rio-grande-do-norte-cadu-xavier",
-              "nome": "Cadu Xavier",
+              "id": "rn-allyson",
+              "nome": "Allyson",
               "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016850707",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-norte-dario-barbosa",
-              "nome": "Dário Barbosa",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017015264",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-norte-carlos-almeida",
-              "nome": "Carlos Almeida",
-              "cargo": "governador",
-              "partido": "DC (27)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017095769",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-norte-alvaro-dias",
-              "nome": "Álvaro Dias",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016848548",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-norte-karlo-rodrigo",
-              "nome": "Karlo Rodrigo",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017056313",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c108",
-              "nome": "Allyson Bezerra",
-              "cargo": "governador",
-              "partido": "UNIÃO (44)",
+              "partido": "UNIÃO",
               "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016865721",
+              "fonte": null,
               "observacoes": null,
               "mencoes": [
                 {
                   "pagina": 40,
                   "trecho": "[...] Apoiar música, audiovisual, design, moda, literatura, games, artesanato, gastronomia e produção digital com formação, crédito, incubação, espaços de trabalho e acesso a mercados. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "200002535255"
             },
             {
-              "id": "rio-grande-do-norte-roberio-paulino",
-              "nome": "Robério Paulino",
+              "id": "rn-arinalda-do-mlb",
+              "nome": "Arinalda do Mlb",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017056324",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "200002547826"
             },
             {
-              "id": "rio-grande-do-norte-arinalda-vasconcelos",
-              "nome": "Arinalda Vasconcelos",
+              "id": "rn-carlos-jararaca",
+              "nome": "Carlos Jararaca",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "DC",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200017068848",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "200002550223"
             },
             {
-              "id": "rio-grande-do-norte-emanuel-cacho",
-              "nome": "Emanuel Cacho",
+              "id": "rn-cadu-de-lula",
+              "nome": "Cadu de Lula",
               "cargo": "governador",
-              "partido": "PSDB (45)",
+              "partido": "PT",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260017109870",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "200002534001"
+            },
+            {
+              "id": "rn-dario-barbosa",
+              "nome": "Dário Barbosa",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "200002542481"
+            },
+            {
+              "id": "rn-henrique-lyra",
+              "nome": "Henrique Lyra",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "200002553301"
+            },
+            {
+              "id": "rn-rodrigo-de-bolsonaro",
+              "nome": "Rodrigo de Bolsonaro",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "200002546756"
+            },
+            {
+              "id": "rn-professor-roberio-paulino",
+              "nome": "Professor Roberio Paulino",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "200002546757"
+            },
+            {
+              "id": "rn-alvaro-dias",
+              "nome": "Álvaro Dias",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "200002534442"
             }
           ]
         },
@@ -1260,59 +1306,252 @@
           "nome": "Sergipe",
           "candidatos": [
             {
-              "id": "sergipe-jose-helton",
-              "nome": "José Helton",
+              "id": "se-emanuel-cacho",
+              "nome": "Emanuel Cacho",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260017062019",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "260002551712"
             },
             {
-              "id": "sergipe-tatiana-cristina",
-              "nome": "Tatiana Cristina",
+              "id": "se-fabio",
+              "nome": "Fábio",
               "cargo": "governador",
-              "partido": "DC (27)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260017095077",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "260002542491"
             },
             {
-              "id": "c112",
-              "nome": "Valmir dos Santos",
+              "id": "se-dr-helton",
+              "nome": "Dr. Helton",
               "cargo": "governador",
-              "partido": "REP (10)",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "260002547415"
+            },
+            {
+              "id": "se-ricardo-marques",
+              "nome": "Ricardo Marques",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "260002549466"
+            },
+            {
+              "id": "se-taty-cristina-de-jesus",
+              "nome": "Taty Cristina de Jesus",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "260002550683"
+            },
+            {
+              "id": "se-valmir-de-francisquinho",
+              "nome": "Valmir de Francisquinho",
+              "cargo": "governador",
+              "partido": "REPUBLICANOS",
               "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260016832789",
+              "fonte": null,
               "observacoes": null,
               "mencoes": [
                 {
                   "pagina": 51,
                   "trecho": "[...] Estimular jovens empreendedores nos segmentos de: audiovisual, música, games, design, produção digital, startups culturais e empreendedorismo criativo. [...]"
                 }
-              ]
-            },
+              ],
+              "sq_candidato": "260002532010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Nacional",
+      "estados": [
+        {
+          "nome": "Presidência da República",
+          "candidatos": [
             {
-              "id": "sergipe-ricardo-marques",
-              "nome": "Ricardo Marques",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/260017083488",
+              "id": "br-escritor-augusto-cury",
+              "nome": "Escritor Augusto Cury",
+              "cargo": "presidente",
+              "partido": "AVANTE",
+              "status": "menciona",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 73,
+                  "trecho": "[...] Vivemos a era da hiperinformação. Os alunos têm acesso, por meio dos celulares, a um volume de dados e estímulos infinitamente superior ao que encontram na escola. Games, redes sociais e plataformas digitais oferecem experiências mais envolventes, rápidas e emocionalmente estimulantes. [...]"
+                }
+              ],
+              "sq_candidato": "280002551547"
             },
             {
-              "id": "sergipe-fabio-mitidieri",
-              "nome": "Fábio Mitidieri",
-              "cargo": "governador",
+              "id": "br-clariana-barao",
+              "nome": "Clariana Barao",
+              "cargo": "presidente",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002552484"
+            },
+            {
+              "id": "br-edmilson-costa",
+              "nome": "Edmilson Costa",
+              "cargo": "presidente",
+              "partido": "PCB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002551975"
+            },
+            {
+              "id": "br-flavio-bolsonaro",
+              "nome": "Flavio Bolsonaro",
+              "cargo": "presidente",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002551544"
+            },
+            {
+              "id": "br-hertz-dias",
+              "nome": "Hertz Dias",
+              "cargo": "presidente",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002541457"
+            },
+            {
+              "id": "br-lula",
+              "nome": "Lula",
+              "cargo": "presidente",
+              "partido": "PT",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": "42",
+                  "trecho": "[...] Sancionamos o Marco Legal dos Games, que reconhece e equipara os games a criações culturais. Com isto, esta importante indústria passa a acessar os mecanismos de fomento da Lei Rouanet e da Lei do Audiovisual. [...]"
+                },
+                {
+                  "pagina": "42",
+                  "trecho": "[...] Criamos uma classificação específica para o setor na CNAE e, em março/2026, incluímos o setor na Classificação Brasileira de Ocupações, para incentivar a formalização dos gamers. [...]"
+                }
+              ],
+              "sq_candidato": "280002542548"
+            },
+            {
+              "id": "br-pablo-marcal",
+              "nome": "Pablo Marçal",
+              "cargo": "presidente",
+              "partido": "PRTB",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 22,
+                  "trecho": "[...] Incentivo e condições tecnológicas para a produção de jogos digitais e desenvolvimento de polo nacional de produção de games [...]"
+                }
+              ],
+              "sq_candidato": "280002553884"
+            },
+            {
+              "id": "br-renan-santos",
+              "nome": "Renan Santos",
+              "cargo": "presidente",
+              "partido": "MISSÃO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002540694"
+            },
+            {
+              "id": "br-zema",
+              "nome": "Zema",
+              "cargo": "presidente",
+              "partido": "NOVO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002539826"
+            },
+            {
+              "id": "br-ronaldo-caiado",
+              "nome": "Ronaldo Caiado",
+              "cargo": "presidente",
               "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/180016838798",
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017106566",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 41,
+                  "trecho": "[...] Apoiar equipamentos, vestuário, tecnologia, mídia, games, serviços, turismo esportivo e empreendedorismo. [...]"
+                }
+              ],
+              "sq_candidato": "280002551932"
+            },
+            {
+              "id": "br-rui-costa-pimenta",
+              "nome": "Rui Costa Pimenta",
+              "cargo": "presidente",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002552487"
+            },
+            {
+              "id": "br-samara",
+              "nome": "Samara",
+              "cargo": "presidente",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002538811"
+            },
+            {
+              "id": "br-veterinario-wilson-grassi",
+              "nome": "Veterinário Wilson Grassi",
+              "cargo": "presidente",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "280002548139"
             }
           ]
         }
@@ -1325,7 +1564,24 @@
           "nome": "Distrito Federal",
           "candidatos": [
             {
-              "id": "distrito-federal-celina-leao",
+              "id": "df-rico-pinheiro",
+              "nome": "Rico Pinheiro",
+              "cargo": "governador",
+              "partido": "PRTB",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": "5",
+                  "trecho": "[...] Incentivar a indústria cinematográfica e de games com editais estruturados via Fundo de Apoio à Cultura (FAC) e criação de um Film Commission forte para atrair produções 
+nacionais e internacionais para o DF. [...]"
+                }
+              ],
+              "sq_candidato": "70002553982"
+            },
+            {
+              "id": "df-celina-leao",
               "nome": "Celina Leão",
               "cargo": "governador",
               "partido": "PP (11)",
@@ -1337,177 +1593,120 @@
                   "pagina": 9,
                   "trecho": "[...] Implantar o Trampo Novo, programa de formação técnica e profissionalizante da juventude, oferecendo cursos técnicos e profissionalizantes gratuitos voltados às novas demandas da economia digital, criativa e tecnológica, em áreas como inteligência artificial, desenvolvimento de aplicativos, UX/UI audiovisual, design gráfico, produção de conteúdo, marketing digital, games, robótica, articulando a formação com estágios,  mpreendedorismo, incubação de negócios e oportunidades de inserção no mercado de trabalho [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "70002553055"
             },
             {
-              "id": "distrito-federal-leandro-grass",
-              "nome": "Leandro Grass",
+              "id": "df-elisson",
+              "nome": "Elisson",
               "cargo": "governador",
-              "partido": "PT (13)",
+              "partido": "AGIR",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017113505",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002551298"
             },
             {
-              "id": "distrito-federal-robson-raymundo",
-              "nome": "Robson Raymundo",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70016863606",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-expedito-mendonca",
+              "id": "df-expedito-mendonca",
               "nome": "Expedito Mendonça",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017111770",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002552341"
             },
             {
-              "id": "distrito-federal-kiko-caputo",
+              "id": "df-kiko-caputo",
               "nome": "Kiko Caputo",
               "cargo": "governador",
-              "partido": "NOVO (30)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017107334",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-elisson-ferreira",
-              "nome": "Elisson Ferreira",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017102955",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-ricardo-cappelli",
-              "nome": "Ricardo Cappelli",
-              "cargo": "governador",
-              "partido": "PSB (40)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017107334",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-paula-belmonte",
-              "nome": "Paula Belmonte",
-              "cargo": "governador",
-              "partido": "PSDB (45)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017118167",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-jose-roberto-arruda",
-              "nome": "José Roberto Arruda",
-              "cargo": "governador",
-              "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017114369",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "distrito-federal-samara-mineiro",
-              "nome": "Samara Mineiro",
-              "cargo": "governador",
-              "partido": "UP (80)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70016882213",
-              "observacoes": null,
-              "mencoes": []
-            }
-          ]
-        },
-        {
-          "nome": "Mato Grossso do Sul",
-          "candidatos": [
-            {
-              "id": "mato-grossso-do-sul-eduardo-riedel",
-              "nome": "Eduardo Riedel",
-              "cargo": "governador",
-              "partido": "PP (11)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120016868872",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c126",
-              "nome": "Fábio Trad",
-              "cargo": "governador",
-              "partido": "PT (13)",
+              "partido": "NOVO",
               "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120016993257",
+              "fonte": null,
               "observacoes": null,
               "mencoes": [
                 {
-                  "pagina": 45,
-                  "trecho": "[...] Criar o Programa Estadual de Economia Criativa, com apoio a atividades e produções de audiovisual, design, música, artesanato, games, produção digital, cultura urbana e empreendedorismo cultural. [...]"
+                  "pagina": 112,
+                  "trecho": " [...] Fortalecer a economia criativa como vetor de desenvolvimento econômico, apoiando empreendedores, profissionais criativos e pequenos negócios dos setores de audiovisual, design, moda, gastronomia, artesanato, música, software, games, arquitetura, turismo criativo e demais atividades criativas, por meio de qualificação, inovação, acesso ao crédito do Programa PROSPERA, promoção comercial e articulação com cadeias produtivas estratégicas do Distrito Federal. [...]"
+                },
+                {
+                  "pagina": 122,
+                  "trecho": "[...] Também impulsionaremos a economia criativa, fortalecendo cadeias produtivas como audiovisual, música, teatro, dança, literatura, design, artes visuais, artesanato, moda, games e demais segmentos culturais. Apoiaremos a formação, a circulação artística, o acesso a mercados, a inovação e o fortalecimento das redes de cooperação, reconhecendo os agentes culturais como protagonistas do desenvolvimento econômico, social e cultural do Distrito Federal. [...]"
+                },
+                {
+                  "pagina": 123,
+                  "trecho": "[...] Fortalecer a economia da cultura e da economia criativa, impulsionando o desenvolvimento das cadeias produtivas culturais -audiovisual, o cinema, a música, o teatro, a dança, o circo, a literatura, as artes visuais, o design, a fotografia, a moda, o artesanato, os games, as plataformas digitais e as demais indústrias culturais [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "70002547775"
             },
             {
-              "id": "mato-grossso-do-sul-delcidio-do-amaral",
-              "nome": "Delcídio do Amaral",
+              "id": "df-arruda",
+              "nome": "Arruda",
               "cargo": "governador",
-              "partido": "PRD (25)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017109676",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002552586"
             },
             {
-              "id": "mato-grossso-do-sul-renato-gomes",
-              "nome": "Renato Gomes",
+              "id": "df-leandro-grass",
+              "nome": "Leandro Grass",
               "cargo": "governador",
-              "partido": "DC (27)",
+              "partido": "PT",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017089795",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002552496"
             },
             {
-              "id": "mato-grossso-do-sul-joao-henrique-catan",
-              "nome": "João Henrique Catan",
+              "id": "df-paula-belmonte",
+              "nome": "Paula Belmonte",
               "cargo": "governador",
-              "partido": "NOVO (30)",
+              "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017115315",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002552965"
             },
             {
-              "id": "mato-grossso-do-sul-jeferson-bezerra",
-              "nome": "Jeferson Bezerra",
+              "id": "df-cappelli",
+              "nome": "Cappelli",
               "cargo": "governador",
-              "partido": "AGIR (36)",
+              "partido": "PSB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120017089427",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002551557"
             },
             {
-              "id": "mato-grossso-do-sul-lucien-rezende",
-              "nome": "Lucien Rezende",
+              "id": "df-professor-robson",
+              "nome": "Professor Robson",
               "cargo": "governador",
-              "partido": "PSOL (50)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/120016837601",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "70002535930"
+            },
+            {
+              "id": "df-professora-samara-mineiro",
+              "nome": "Professora Samara Mineiro",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "70002537111"
             }
           ]
         },
@@ -1515,134 +1714,249 @@
           "nome": "Goiás",
           "candidatos": [
             {
-              "id": "goias-luis-cesar-bueno",
-              "nome": "Luis Cesar Bueno",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/90017043644",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "goias-daniel-vilela",
+              "id": "go-daniel-vilela",
               "nome": "Daniel Vilela",
               "cargo": "governador",
-              "partido": "MDB (15)",
+              "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/90016999476",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "goias-wilder-morais",
-              "nome": "Wilder Morais",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/90017105478",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "goias-marconi-perillo",
-              "nome": "Marconi Perillo",
-              "cargo": "governador",
-              "partido": "PSDB (45)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "90002540993"
             },
             {
-              "id": "goias-luciana-amorim",
+              "id": "go-danilo-pinheiro",
+              "nome": "Danilo Pinheiro",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "90002553733"
+            },
+            {
+              "id": "go-luciana-amorim",
               "nome": "Luciana Amorim",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/90017091823",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "90002550707"
+            },
+            {
+              "id": "go-luis-cesar-bueno",
+              "nome": "Luis Cesar Bueno",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "90002545476"
+            },
+            {
+              "id": "go-marconi-perillo",
+              "nome": "Marconi Perillo",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "90002543463"
+            },
+            {
+              "id": "go-wilder-morais",
+              "nome": "Wilder Morais",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "90002551791"
             }
           ]
         },
         {
-          "nome": "Mato Grossso",
+          "nome": "Mato Grosso do Sul",
           "candidatos": [
             {
-              "id": "mato-grossso-otaviano-pivetta",
+              "id": "ms-daniel-lemes",
+              "nome": "Daniel Lemes",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002552201"
+            },
+            {
+              "id": "ms-delcidio-amaral",
+              "nome": "Delcidio Amaral",
+              "cargo": "governador",
+              "partido": "PRD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002552155"
+            },
+            {
+              "id": "ms-eduardo-riedel",
+              "nome": "Eduardo Riedel",
+              "cargo": "governador",
+              "partido": "PP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002536582"
+            },
+            {
+              "id": "ms-fabio-trad",
+              "nome": "Fábio Trad",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 45,
+                  "trecho": "[...] Criar o Programa Estadual de Economia Criativa, com apoio a atividades e produções de audiovisual, design, música, artesanato, games, produção digital, cultura urbana e empreendedorismo cultural. [...]"
+                }
+              ],
+              "sq_candidato": "120002539834"
+            },
+            {
+              "id": "ms-jeferson-bezerra",
+              "nome": "Jeferson Bezerra",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002550198"
+            },
+            {
+              "id": "ms-joao-henrique-catan",
+              "nome": "João Henrique Catan",
+              "cargo": "governador",
+              "partido": "NOVO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002552191"
+            },
+            {
+              "id": "ms-lucien-rezende",
+              "nome": "Lucien Rezende",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002532257"
+            },
+            {
+              "id": "ms-economista-renato-gomes",
+              "nome": "Economista Renato Gomes",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "120002549681"
+            }
+          ]
+        },
+        {
+          "nome": "Mato Grosso",
+          "candidatos": [
+            {
+              "id": "mt-sargento-laudicerio-lau",
+              "nome": "Sargento Laudicério (lau)",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 47,
+                  "trecho": "[...] Apoiar competições, formação e eventos de e-sports e modalidades emergentes com critérios educacionais, de inclusão e de desenvolvimento econômico, integrando escolas, universidades, setor privado e economia criativa. [...]"
+                }
+              ],
+              "sq_candidato": "110002553937"
+            },
+            {
+              "id": "mt-mauricio-coelho",
+              "nome": "Mauricio Coelho",
+              "cargo": "governador",
+              "partido": "MOBILIZA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "110002553058"
+            },
+            {
+              "id": "mt-doutora-natasha",
+              "nome": "Doutora Natasha",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "110002544985"
+            },
+            {
+              "id": "mt-otaviano-pivetta",
               "nome": "Otaviano Pivetta",
               "cargo": "governador",
-              "partido": "REP (10)",
+              "partido": "REPUBLICANOS",
               "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017098106",
+              "fonte": null,
               "observacoes": null,
               "mencoes": [
                 {
                   "pagina": 17,
                   "trecho": ":[...] Incentivar o ingresso de Mato Grosso no circuito de eventos e competições de E-sports para fomentar a modalidade que mais cresce em número de jogadores e investimentos privados. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "110002551480"
             },
             {
-              "id": "mato-grossso-rafaell-milas",
+              "id": "mt-rafaell-milas",
               "nome": "Rafaell Milas",
               "cargo": "governador",
-              "partido": "MISSÃO (14)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017034522",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "110002543953"
             },
             {
-              "id": "mato-grossso-wellington-fagundes",
+              "id": "mt-wellington-fagundes",
               "nome": "Wellington Fagundes",
               "cargo": "governador",
-              "partido": "PL (22)",
+              "partido": "PL",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017115601",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "mato-grossso-mauricio-coelho",
-              "nome": "Maurício Coelho",
-              "cargo": "governador",
-              "partido": "MOBILIZA (33)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017118730",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "mato-grossso-alex-pucineli",
-              "nome": "Alex Pucineli",
-              "cargo": "governador",
-              "partido": "DEM (35)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "mato-grossso-laudicerio-aguiar",
-              "nome": "Laudicério Aguiar",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "mato-grossso-natasha-slhessarenko",
-              "nome": "Natasha Slhessarenko",
-              "cargo": "governador",
-              "partido": "PSD (55)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/110017039921",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "110002551737"
             }
           ]
         }
@@ -1655,54 +1969,195 @@
           "nome": "Espírito Santo",
           "candidatos": [
             {
-              "id": "espirito-santo-lorenzo-pazolini",
-              "nome": "Lorenzo Pazolini",
-              "cargo": "governador",
-              "partido": "REP (10)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "espirito-santo-rafael-demuner",
-              "nome": "Rafael Demuner",
-              "cargo": "governador",
-              "partido": "UP (80)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017092488",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "espirito-santo-helder-salomao",
-              "nome": "Helder Salomão",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017105860",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "espirito-santo-breno-barcelos",
+              "id": "es-breno-barcelos",
               "nome": "Breno Barcelos",
               "cargo": "governador",
-              "partido": "MISSÃO (14)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80016999677",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "80002541012"
             },
             {
-              "id": "espirito-santo-ricardo-ferraco",
+              "id": "es-helder-salomao",
+              "nome": "Helder Salomão",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "80002551833"
+            },
+            {
+              "id": "es-lorenzo-pazolini",
+              "nome": "Lorenzo Pazolini",
+              "cargo": "governador",
+              "partido": "REPUBLICANOS",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "80002552682"
+            },
+            {
+              "id": "es-rafael-demuner",
+              "nome": "Rafael Demuner",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "80002550832"
+            },
+            {
+              "id": "es-ricardo-ferraco",
               "nome": "Ricardo Ferraço",
               "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017109765",
+              "partido": "MDB",
+              "status": "menciona",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 64,
+                  "trecho": "[...] Diante da Reforma Tributária, fortalecer setores que geram valor a partir de conhecimento, criatividade e serviços (como audiovisual, música, games, design e artesanato) passa a ser também estratégia de desenvolvimento econômico."
+                }
+              ],
+              "sq_candidato": "80002552172"
+            }
+          ]
+        },
+        {
+          "nome": "Minas Gerais",
+          "candidatos": [
+            {
+              "id": "mg-alexandre-kalil",
+              "nome": "Alexandre Kalil",
+              "cargo": "governador",
+              "partido": "PDT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002539775"
+            },
+            {
+              "id": "mg-ben-mendes",
+              "nome": "Ben Mendes",
+              "cargo": "governador",
+              "partido": "MISSÃO",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a esteja no DivulgaCandContas.",
+              "mencoes": [],
+              "sq_candidato": "130002544411"
+            },
+            {
+              "id": "mg-cleitinho-azevedo",
+              "nome": "Cleitinho Azevedo",
+              "cargo": "governador",
+              "partido": "REPUBLICANOS",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002552296"
+            },
+            {
+              "id": "mg-flavio-roscoe",
+              "nome": "Flávio Roscoe",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002550834"
+            },
+            {
+              "id": "mg-gabriel",
+              "nome": "Gabriel",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002549557"
+            },
+            {
+              "id": "mg-henrique-areas",
+              "nome": "Henrique Áreas",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002552308"
+            },
+            {
+              "id": "mg-indira-xavier",
+              "nome": "Indira Xavier",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002547874"
+            },
+            {
+              "id": "mg-mateus-simoes",
+              "nome": "Mateus Simões",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002541911"
+            },
+            {
+              "id": "mg-patrus-ananias",
+              "nome": "Patrus Ananias",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 59,
+                  "trecho": "[...] Desenvolver políticas para cultura digital e games, apoiando criação, formação, experimentação, pesquisa, preservação digital, novas mídias e circulação em ambientes digitais, com articulação entre cultura, ciência, tecnologia e educação. [...]"
+                }
+              ],
+              "sq_candidato": "130002550464"
+            },
+            {
+              "id": "mg-rafael-duda",
+              "nome": "Rafael Duda",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002546802"
+            },
+            {
+              "id": "mg-professor-tulio-lopes",
+              "nome": "Professor Túlio Lopes",
+              "cargo": "governador",
+              "partido": "PCB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "130002544122"
             }
           ]
         },
@@ -1710,62 +2165,7 @@
           "nome": "Rio de Janeiro",
           "candidatos": [
             {
-              "id": "rio-de-janeiro-anthony-garotinho",
-              "nome": "Anthony Garotinho",
-              "cargo": "governador",
-              "partido": "REP (10)",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "Essa candidatura tem uma indefinição em relação ao seu registro no TSE. Qualquer confirmação sobre, somente quando o nome dele estiver no DivulgaCandContas do TSE como candidato, caso contrário, o nome dele será retirado do site.",
-              "mencoes": []
-            },
-            {
-              "id": "rio-de-janeiro-joao-busnello",
-              "nome": "João Busnello",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017031845",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-de-janeiro-cyro-garcia",
-              "nome": "Cyro Garcia",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016929078",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c151",
-              "nome": "Douglas Ruas",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017018638",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": 35,
-                  "trecho": "[...] Apoio a estúdios, startups e empresas de games, com acesso a crédito, hubs de inovação, conexão com investidores, qualificação técnica e integração com universidades e o setor privado. [...]"
-                }
-              ]
-            },
-            {
-              "id": "rio-de-janeiro-luan-monteiro",
-              "nome": "Luan Monteiro",
-              "cargo": "governador",
-              "partido": "PCO (29)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017113692",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c153",
+              "id": "rj-andre-marinho",
               "nome": "André Marinho",
               "cargo": "governador",
               "partido": "NOVO (30)",
@@ -1777,152 +2177,101 @@
                   "pagina": 16,
                   "trecho": "[...] Games e Economias Criativas: desenvolvimento, produção e marketing de videogames, softwares, hardwares e conteúdo digital — posicionando o Rio na fronteira da nova economia. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "190002537524"
             },
             {
-              "id": "rio-de-janeiro-william-siri",
-              "nome": "William Siri",
+              "id": "rj-garotinho",
+              "nome": "Garotinho",
               "cargo": "governador",
-              "partido": "PSOL (50)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016871149",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-de-janeiro-eduardo-paes",
-              "nome": "Eduardo Paes",
-              "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "REPUBLICANOS",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
+              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a esteja no DivulgaCandContas.",
+              "mencoes": [],
+              "sq_candidato": "190002550196"
             },
             {
-              "id": "rio-de-janeiro-juliete-pantoja",
-              "nome": "Juliete Pantoja",
+              "id": "rj-cyro-garcia",
+              "nome": "Cyro Garcia",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017059799",
-              "observacoes": null,
-              "mencoes": []
-            }
-          ]
-        },
-        {
-          "nome": "Minas Gerais",
-          "candidatos": [
-            {
-              "id": "minas-gerais-cleitinho",
-              "nome": "Cleitinho",
-              "cargo": "governador",
-              "partido": "REP (10)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017111301",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-alexandre-kalil",
-              "nome": "Alexandre Kalil",
-              "cargo": "governador",
-              "partido": "PDT (12)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130016911243",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-patrus-ananias",
-              "nome": "Patrus Ananias",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017091585",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-ben-mendes",
-              "nome": "Ben Mendes",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-gabriel-azevedo",
-              "nome": "Gabriel Azevedo",
-              "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017087227",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "190002540198"
             },
             {
-              "id": "minas-gerais-rafael-duda",
-              "nome": "Rafael Duda",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017056761",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-tulio-lopes",
-              "nome": "Túlio Lopes",
-              "cargo": "governador",
-              "partido": "PCB (21)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017031875",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "minas-gerais-flavio-roscoe",
-              "nome": "Flávio Roscoe",
+              "id": "rj-douglas-ruas",
+              "nome": "Douglas Ruas",
               "cargo": "governador",
               "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017092515",
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017018638",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [
+                {
+                  "pagina": 35,
+                  "trecho": "[...] Apoio a estúdios, startups e empresas de games, com acesso a crédito, hubs de inovação, conexão com investidores, qualificação técnica e integração com universidades e o setor privado. [...]"
+                }
+              ],
+              "sq_candidato": "190002542887"
             },
             {
-              "id": "minas-gerais-henrique-areas",
-              "nome": "Henrique Áreas",
+              "id": "rj-eduardo-paes",
+              "nome": "Eduardo Paes",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017111443",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "190002543380"
             },
             {
-              "id": "minas-gerais-mateus-simoes",
-              "nome": "Mateus Simões",
+              "id": "rj-coronel-busnello",
+              "nome": "Coronel Busnello",
               "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017009051",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "190002544120"
             },
             {
-              "id": "minas-gerais-indira-xavier",
-              "nome": "Indira Xavier",
+              "id": "rj-juliete",
+              "nome": "Juliete",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017069375",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "190002547272"
+            },
+            {
+              "id": "rj-luan-monteiro",
+              "nome": "Luan Monteiro",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "190002552513"
+            },
+            {
+              "id": "rj-william-siri",
+              "nome": "William Siri",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "190002536162"
             }
           ]
         },
@@ -1930,74 +2279,98 @@
           "nome": "São Paulo",
           "candidatos": [
             {
-              "id": "sao-paulo-tarcisio-de-freitas",
-              "nome": "Tarcísio de Freitas",
-              "cargo": "governador",
-              "partido": "REP (10)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017002678",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "sao-paulo-fernando-haddad",
-              "nome": "Fernando Haddad",
-              "cargo": "governador",
-              "partido": "PT (13)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017095435",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "sao-paulo-vera-lucia",
-              "nome": "Vera Lúcia",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250016879121",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "sao-paulo-carlos-machado",
+              "id": "sp-carlos-machado",
               "nome": "Carlos Machado",
               "cargo": "governador",
-              "partido": "PCB (21)",
+              "partido": "PCB",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017098706",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "250002550913"
             },
             {
-              "id": "sao-paulo-izadora-dias",
+              "id": "sp-policial-edjane",
+              "nome": "Policial Edjane",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "250002548080"
+            },
+            {
+              "id": "sp-fernando-haddad",
+              "nome": "Fernando Haddad",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "250002549705"
+            },
+            {
+              "id": "sp-izadora-dias",
               "nome": "Izadora Dias",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017118778",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "sao-paulo-edjane-lima",
-              "nome": "Edjane Lima",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "250002553062"
             },
             {
-              "id": "sao-paulo-vivian-mendes",
+              "id": "sp-tarcisio",
+              "nome": "Tarcísio",
+              "cargo": "governador",
+              "partido": "REPUBLICANOS",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 53,
+                  "trecho": "[...] tendo como referência o MyWorld, em Bristol/Bath, no Reino Unido (novas empresas e tecnologias para audiovisual, games, música, patrimônio, museus, produção virtual, experiências imersivas, inteligência artificial criativa [...]"
+                },
+                {
+                  "pagina": 57,
+                  "trecho": "[...] Faremos pesquisas e inovação no campo do esporte e da indústria criativa e fomentaremos iniciativas para campeonatos e eventos de esportes eletrônicos (e-Sports). [...]"
+                },
+                {
+                  "pagina": 60,
+                  "trecho": "[...] com prioridade para aqueles que nem estudam e nem trabalham (NEET) e para os egressos do ensino médio público. Organizado em seis trilhas — criação de conteúdo, produção musical, empreendedorismo digital, IA aplicada, games e eSports, e marca própria  [...]"
+                },
+                {
+                  "pagina": 62,
+                  "trecho": "[...] Consolidaremos o estado como referência nacional do audiovisual através do Plano Estadual do Audiovisual, em seus eixos: Cidades Amigas das Filmagens, Fomento, Formação e Games e Tecnologias Imersivas. [...]"
+                }
+              ],
+              "sq_candidato": "250002541303"
+            },
+            {
+              "id": "sp-vera-lucia",
+              "nome": "Vera Lúcia",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "250002536915"
+            },
+            {
+              "id": "sp-vivian-mendes",
               "nome": "Vivian Mendes",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/250017039196",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "250002544912"
             }
           ]
         }
@@ -2007,160 +2380,70 @@
       "nome": "Sul",
       "estados": [
         {
-          "nome": "Rio Grande do Sul",
-          "candidatos": [
-            {
-              "id": "rio-grande-do-sul-juliana-brizola",
-              "nome": "Juliana Brizola",
-              "cargo": "governador",
-              "partido": "PDT (12)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017104498",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": 14,
-                  "trecho": "[...] A política cultural valorizará a memória e o patrimônio material e imaterial, com investimentos na recuperação e proteção de museus, teatros, bibliotecas e prédios históricos, e estimulará a economia criativa, especialmente o audiovisual, os games e a animação. [...]"
-                }
-              ]
-            },
-            {
-              "id": "rio-grande-do-sul-gabriel-souza",
-              "nome": "Gabriel Souza",
-              "cargo": "governador",
-              "partido": "MDB (15)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017018692",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-sul-rejane-de-oliveira",
-              "nome": "Rejane de Oliveira",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210016998028",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-sul-luciano-zucco",
-              "nome": "Luciano Zucco",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017095572",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "rio-grande-do-sul-cesar-pontes",
-              "nome": "César Pontes",
-              "cargo": "governador",
-              "partido": "PCO (29)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017114435",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c180",
-              "nome": "Marcelo Soares",
-              "cargo": "governador",
-              "partido": "PSDB (45)",
-              "status": "menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210016868477",
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": "9 e 80",
-                  "trecho": "[...] Diferenciar jogos de azar eletrônicos de videogames e atividades digitais recreativas, evitando políticas genéricas que prejudiquem a indústria de tecnologia, o desenvolvimento de software e os esportes eletrônicos sem enfrentar o problema central das apostas. [...]"
-                }
-              ]
-            },
-            {
-              "id": "rio-grande-do-sul-priscila-voigt",
-              "nome": "Priscila Voigt",
-              "cargo": "governador",
-              "partido": "UP (80)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210016842100",
-              "observacoes": null,
-              "mencoes": []
-            }
-          ]
-        },
-        {
           "nome": "Paraná",
           "candidatos": [
             {
-              "id": "parana-requiao-filho",
+              "id": "pr-adriano-funileiro",
+              "nome": "Adriano Funileiro",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "160002552560"
+            },
+            {
+              "id": "pr-doutor-alexandre-salomao",
+              "nome": "Doutor Alexandre Salomão",
+              "cargo": "governador",
+              "partido": "MOBILIZA",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "160002547594"
+            },
+            {
+              "id": "pr-luiz-franca",
+              "nome": "Luiz França",
+              "cargo": "governador",
+              "partido": "MISSÃO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "160002551353"
+            },
+            {
+              "id": "pr-requiao-filho",
               "nome": "Requião Filho",
               "cargo": "governador",
               "partido": "PDT (12)",
               "status": "menciona",
               "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017104577",
-              "observacoes": null,
+              "observacoes": "O trecho abaixo foi identificado, mas é preciso verificação se o trecho realmente está correto. Se a assesoria de imprensa do candidato puder responder a essa questão, favor enviar um email para o endereço disponível no rodapé dessa página.",
               "mencoes": [
                 {
                   "pagina": 14,
-                  "trecho": "históricos, e estimulará a economia criativa, especialmente o audiovisual, os games e a animação. O Estado apoiará os Sistemas Municipais de Cultura e promoverá"
+                  "trecho": "[...] históricos, e estimulará a economia criativa, especialmente o audiovisual, os games e a animação. O Estado apoiará os Sistemas Municipais de Cultura e promoverá [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "160002547666"
             },
             {
-              "id": "parana-luiz-franca",
-              "nome": "Luiz França",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017103411",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "parana-samuel-de-mattos",
+              "id": "pr-samuel-de-mattos",
               "nome": "Samuel de Mattos",
               "cargo": "governador",
-              "partido": "PSTU (16)",
+              "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017064155",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "parana-sergio-moro",
-              "nome": "Sergio Moro",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas,",
-              "mencoes": []
-            },
-            {
-              "id": "parana-adriano-teixeira",
-              "nome": "Adriano Teixeira",
-              "cargo": "governador",
-              "partido": "PCO (29)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017114109",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "160002548010"
             },
             {
-              "id": "parana-alexandre-salomao",
-              "nome": "Alexandre Salomão",
-              "cargo": "governador",
-              "partido": "MOBILIZA (33)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017066734",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "c188",
+              "id": "pr-sandro-alex",
               "nome": "Sandro Alex",
               "cargo": "governador",
               "partido": "PSD (55)",
@@ -2176,17 +2459,127 @@
                   "pagina": 141,
                   "trecho": "[...] Com fomento descentralizado, calendário permanente de editais e apoio às cadeias criativas, do audiovisual aos games, o programa conecta artistas, produtores e empreendedores à formação, ao inanciamento e aos mercados, convertendo talento em emprego, renda e inovação. [...]"
                 }
-              ]
+              ],
+              "sq_candidato": "160002549553"
             },
             {
-              "id": "parana-tayna-miessa",
+              "id": "pr-sergio-moro",
+              "nome": "Sergio Moro",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": "25",
+                  "trecho": "[...] Os jogos eletrônicos já são indústria, esporte e cultura e podem abrir portas de inclusão social e desenvolvimento econômico para o nosso jovem. Vamos estimular os e-sports no Paraná, levando o uso saudável dos jogos eletrônicos a estudantes de escolas públicas e comunidades locais, com apoio a competições, formação de atletas e profissionais do setor e incentivo ao empreendedorismo digital, sempre com orientação a jovens e famílias sobre tempo de tela e bem-estar. [...]"
+                }
+              ],
+              "sq_candidato": "160002540833"
+            },
+            {
+              "id": "pr-tayna-miessa",
               "nome": "Tayná Miessa",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/160017099452",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "160002550997"
+            }
+          ]
+        },
+        {
+          "nome": "Rio Grande do Sul",
+          "candidatos": [
+            {
+              "id": "rs-cesar-pontes",
+              "nome": "Cesar Pontes",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "210002552592"
+            },
+            {
+              "id": "rs-gabriel-souza",
+              "nome": "Gabriel Souza",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "210002542892"
+            },
+            {
+              "id": "rs-juliana-brizola",
+              "nome": "Juliana Brizola",
+              "cargo": "governador",
+              "partido": "PDT (12)",
+              "status": "menciona",
+              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/210017104498",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 14,
+                  "trecho": "[...] A política cultural valorizará a memória e o patrimônio material e imaterial, com investimentos na recuperação e proteção de museus, teatros, bibliotecas e prédios históricos, e estimulará a economia criativa, especialmente o audiovisual, os games e a animação. [...]"
+                }
+              ],
+              "sq_candidato": "210002551508"
+            },
+            {
+              "id": "rs-zucco",
+              "nome": "Zucco",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "210002547857"
+            },
+            {
+              "id": "rs-marcelo-maranata",
+              "nome": "Marcelo Maranata",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": "9 e 80",
+                  "trecho": "[...] Diferenciar jogos de azar eletrônicos de videogames e atividades digitais recreativas, evitando políticas genéricas que prejudiquem a indústria de tecnologia, o desenvolvimento de software e os esportes eletrônicos sem enfrentar o problema central das apostas. [...]"
+                }
+              ],
+              "sq_candidato": "210002535802"
+            },
+            {
+              "id": "rs-priscila-voigt",
+              "nome": "Priscila Voigt",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "210002533355"
+            },
+            {
+              "id": "rs-rejane-de-oliveira",
+              "nome": "Rejane de Oliveira",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "210002541367"
             }
           ]
         },
@@ -2194,94 +2587,92 @@
           "nome": "Santa Catarina",
           "candidatos": [
             {
-              "id": "santa-catarina-brunno-andrade",
-              "nome": "Brunno Andrade",
+              "id": "sc-bruno-pedreiro-do-pco",
+              "nome": "Bruno Pedreiro do Pco",
               "cargo": "governador",
-              "partido": "PCO (29)",
+              "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017123645",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-marcelo-marcel",
-              "nome": "Marcelo Marcel",
-              "cargo": "governador",
-              "partido": "MISSÃO (14)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017031822",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-marcus-sodre",
-              "nome": "Marcus Sodré",
-              "cargo": "governador",
-              "partido": "PSTU (16)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017009086",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-jorginho-mello",
-              "nome": "Jorginho Mello",
-              "cargo": "governador",
-              "partido": "PL (22)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240016881802",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-ralf-zimmer",
-              "nome": "Ralf Zimmer",
-              "cargo": "governador",
-              "partido": "PRD (25)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017109691",
-              "observacoes": null,
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-helio-vaz",
-              "nome": "Hélio Vaz",
-              "cargo": "governador",
-              "partido": "AGIR (36)",
-              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O registro de sua candidatura ainda não foi efetivada no sistema do TSE, apesar disso, seu nome ainda está aqui.",
-              "mencoes": []
-            },
-            {
-              "id": "santa-catarina-gelson-merisio",
-              "nome": "Gelson Merisio",
-              "cargo": "governador",
-              "partido": "PSB (40)",
-              "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017074241",
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "240002553718"
             },
             {
-              "id": "santa-catarina-joao-rodrigues",
+              "id": "sc-gelson-merisio",
+              "nome": "Gelson Merísio",
+              "cargo": "governador",
+              "partido": "PSB",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "240002548628"
+            },
+            {
+              "id": "sc-joao-rodrigues",
               "nome": "João Rodrigues",
               "cargo": "governador",
-              "partido": "PSD (55)",
+              "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017099514",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "240002551001"
             },
             {
-              "id": "santa-catarina-lais-chaud",
+              "id": "sc-jorginho-mello",
+              "nome": "Jorginho Mello",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "240002537073"
+            },
+            {
+              "id": "sc-lais-chaud",
               "nome": "Laís Chaud",
               "cargo": "governador",
-              "partido": "UP (80)",
+              "partido": "UP",
               "status": "nao_menciona",
-              "fonte": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/240017093741",
+              "fonte": null,
               "observacoes": null,
-              "mencoes": []
+              "mencoes": [],
+              "sq_candidato": "240002550544"
+            },
+            {
+              "id": "sc-marcelo-brigadeiro",
+              "nome": "Marcelo Brigadeiro",
+              "cargo": "governador",
+              "partido": "MISSÃO",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "240002544118"
+            },
+            {
+              "id": "sc-professor-marcus-sodre",
+              "nome": "Professor Marcus Sodré",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "240002541913"
+            },
+            {
+              "id": "sc-ralf-zimmer",
+              "nome": "Ralf Zimmer",
+              "cargo": "governador",
+              "partido": "PRD",
+              "status": "nao_menciona",
+              "fonte": null,
+              "observacoes": null,
+              "mencoes": [],
+              "sq_candidato": "240002552157"
             }
           ]
         }

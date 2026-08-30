@@ -612,7 +612,7 @@
 </main>
 
 <footer>
-  Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: [email a definir]<br>
+  Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: bancadadojoystick@proton.me<br>
   <span id="rodape-atualizacao">carregando dados...</span> · registros de candidatura podem mudar (inclusive por decisão judicial) entre uma atualização e outra — confira sempre a data acima
 </footer>
 
@@ -898,9 +898,10 @@ function corpoDoCard(c){
     if(c.mencoes && c.mencoes.length){
       return c.mencoes.map(m=>{
         const fonteDoTrecho = m.fonte || c.fonte;
+        const tituloArquivo = c.arquivo_fonte ? `title="Extraído de: ${c.arquivo_fonte}"` : '';
         return `
         <div class="cand-quote">"${m.trecho}"</div>
-        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${fonteDoTrecho?`· <a href="${fonteDoTrecho}" target="_blank" rel="noopener">ver fonte oficial →</a>`:''}</div>
+        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${fonteDoTrecho?`· <a href="${fonteDoTrecho}" target="_blank" rel="noopener" ${tituloArquivo}>ver fonte oficial →</a>`:''}</div>
       `;
       }).join('<div style="height:8px"></div>');
     }

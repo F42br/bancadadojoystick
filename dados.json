@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-29T16:27:11-03:00",
+  "atualizado_em": "2026-08-30T16:24:40-03:00",
   "regioes": [
     {
       "nome": "Norte",
@@ -9,69 +9,87 @@
           "candidatos": [
             {
               "id": "ac-alan-rick",
+              "sq_candidato": "10002532492",
               "nome": "Alan Rick",
+              "nome_civil": "Alan Rick Miranda",
               "cargo": "governador",
               "partido": "REPUBLICANOS",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002532492_01.pdf",
+              "foto": "fotos/AC/FAC10002532492_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002532492"
-            },
-            {
-              "id": "ac-eudo-raffael",
-              "nome": "Eudo Raffael",
-              "cargo": "governador",
-              "partido": "PCB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002549500"
+              "mencoes": []
             },
             {
               "id": "ac-dr-luisinho",
+              "sq_candidato": "10002533539",
               "nome": "Dr.luisinho",
+              "nome_civil": "Francisco das Chagas Conceicao da Silva",
               "cargo": "governador",
               "partido": "AGIR",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002533539_01.pdf",
+              "foto": "fotos/AC/FAC10002533539_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002533539"
+              "mencoes": []
+            },
+            {
+              "id": "ac-eudo-raffael",
+              "sq_candidato": "10002549500",
+              "nome": "Eudo Raffael",
+              "nome_civil": "Eudo Raffael Lima da Silva",
+              "cargo": "governador",
+              "partido": "PCB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002549500_01.pdf",
+              "foto": "fotos/AC/FAC10002549500_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "ac-mailza-assis",
+              "sq_candidato": "10002544107",
               "nome": "Mailza Assis",
+              "nome_civil": "Mailza Assis Cameli",
               "cargo": "governador",
               "partido": "PP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002544107_01.pdf",
+              "foto": "fotos/AC/FAC10002544107_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002544107"
-            },
-            {
-              "id": "ac-tiao-bocalom",
-              "nome": "Tião Bocalom",
-              "cargo": "governador",
-              "partido": "PSDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002544015"
+              "mencoes": []
             },
             {
               "id": "ac-thor-dantas",
+              "sq_candidato": "10002550719",
               "nome": "Thor Dantas",
+              "nome_civil": "Thor Oliveira Dantas",
               "cargo": "governador",
               "partido": "PSB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002550719_01.pdf",
+              "foto": "fotos/AC/FAC10002550719_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "10002550719"
+              "mencoes": []
+            },
+            {
+              "id": "ac-tiao-bocalom",
+              "sq_candidato": "10002544015",
+              "nome": "Tião Bocalom",
+              "nome_civil": "Sebastiao Bocalom Rodrigues",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AC.zip",
+              "arquivo_fonte": "2026AC10002544015_01.pdf",
+              "foto": "fotos/AC/FAC10002544015_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -80,58 +98,59 @@
           "candidatos": [
             {
               "id": "am-cabo-daciolo",
+              "sq_candidato": "40002551740",
               "nome": "Cabo Daciolo",
+              "nome_civil": "Benevenuto Daciolo Fonseca dos Santos",
               "cargo": "governador",
               "partido": "MOBILIZA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002551740_01.pdf",
+              "foto": "fotos/AM/FAM40002551740_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002551740"
+              "mencoes": []
             },
             {
               "id": "am-david-almeida",
+              "sq_candidato": "40002536086",
               "nome": "David Almeida",
+              "nome_civil": "David Antônio Abisai Pereira de Almeida",
               "cargo": "governador",
               "partido": "AVANTE",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002536086_01.pdf",
+              "foto": "fotos/AM/FAM40002536086_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002536086"
+              "mencoes": []
             },
             {
               "id": "am-gilberto-vasconcelos",
+              "sq_candidato": "40002535267",
               "nome": "Gilberto Vasconcelos",
+              "nome_civil": "Gilberto Vasconcelos da Silva",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002535267_01.pdf",
+              "foto": "fotos/AM/FAM40002535267_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002535267"
+              "mencoes": []
             },
             {
               "id": "am-isael-munduruku",
+              "sq_candidato": "40002550776",
               "nome": "Isael Munduruku",
+              "nome_civil": "Isael Franklin Gonçalves",
               "cargo": "governador",
               "partido": "REDE",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002550776_01.pdf",
+              "foto": "fotos/AM/FAM40002550776_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002550776"
-            },
-            {
-              "id": "am-professora-maria-do-carmo",
-              "nome": "Professora Maria do Carmo",
-              "cargo": "governador",
-              "partido": "PL",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002541626"
+              "mencoes": []
             },
             {
               "id": "am-omar-aziz",
@@ -170,15 +189,32 @@
               "sq_candidato": "40002532272"
             },
             {
+              "id": "am-professora-maria-do-carmo",
+              "sq_candidato": "40002541626",
+              "nome": "Professora Maria do Carmo",
+              "nome_civil": "Maria do Carmo Seffair Lins de Albuquerque",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002541626_01.pdf",
+              "foto": "fotos/AM/FAM40002541626_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
               "id": "am-roberto-cidade",
+              "sq_candidato": "40002541741",
               "nome": "Roberto Cidade",
+              "nome_civil": "Roberto Maia Cidade Filho",
               "cargo": "governador",
               "partido": "UNIÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AM.zip",
+              "arquivo_fonte": "2026AM40002541741_01.pdf",
+              "foto": "fotos/AM/FAM40002541741_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "40002541741"
+              "mencoes": []
             }
           ]
         },
@@ -186,59 +222,74 @@
           "nome": "Amapá",
           "candidatos": [
             {
-              "id": "ap-dr-furlan",
-              "nome": "Dr. Furlan",
-              "cargo": "governador",
-              "partido": "PSD",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "30002530014"
-            },
-            {
               "id": "ap-carlos-cley",
+              "sq_candidato": "30002536313",
               "nome": "Carlos Cley",
+              "nome_civil": "Carlos Cley Ramos Paiva",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AP.zip",
+              "arquivo_fonte": "2026AP30002536313_01.pdf",
+              "foto": "fotos/AP/FAP30002536313_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "30002536313"
+              "mencoes": []
             },
             {
               "id": "ap-clecio",
+              "sq_candidato": "30002536311",
               "nome": "Clécio",
+              "nome_civil": "Clécio Luís Vilhena Vieira",
               "cargo": "governador",
               "partido": "UNIÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AP.zip",
+              "arquivo_fonte": "2026AP30002536311_01.pdf",
+              "foto": "fotos/AP/FAP30002536311_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "30002536311"
-            },
-            {
-              "id": "ap-jairo-palheta",
-              "nome": "Jairo Palheta",
-              "cargo": "governador",
-              "partido": "PCO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "30002551388"
+              "mencoes": []
             },
             {
               "id": "ap-delegado-marcos",
+              "sq_candidato": "30002552017",
               "nome": "Delegado Marcos",
+              "nome_civil": "Marcos Jose Reategui de Souza",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AP.zip",
+              "arquivo_fonte": "2026AP30002552017_01.pdf",
+              "foto": "fotos/AP/FAP30002552017_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "30002552017"
+              "mencoes": []
+            },
+            {
+              "id": "ap-dr-furlan",
+              "sq_candidato": "30002530014",
+              "nome": "Dr. Furlan",
+              "nome_civil": "Antonio Paulo de Oliveira Furlan",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AP.zip",
+              "arquivo_fonte": "2026AP30002530014_01.pdf",
+              "foto": "fotos/AP/FAP30002530014_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "ap-jairo-palheta",
+              "sq_candidato": "30002551388",
+              "nome": "Jairo Palheta",
+              "nome_civil": "Jairo Palheta da Silva Marques",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AP.zip",
+              "arquivo_fonte": "2026AP30002551388_01.pdf",
+              "foto": "fotos/AP/FAP30002551388_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -247,80 +298,101 @@
           "candidatos": [
             {
               "id": "pa-araceli",
+              "sq_candidato": "140002542386",
               "nome": "Araceli",
+              "nome_civil": "Araceli Maria Pereira Lemos",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002542386_01.pdf",
+              "foto": "fotos/PA/FPA140002542386_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002542386"
-            },
-            {
-              "id": "pa-dr-daniel",
-              "nome": "Dr. Daniel",
-              "cargo": "governador",
-              "partido": "PODE",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002549930"
-            },
-            {
-              "id": "pa-gal-leite",
-              "nome": "Gal Leite",
-              "cargo": "governador",
-              "partido": "UP",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002551943"
-            },
-            {
-              "id": "pa-hana-ghassan",
-              "nome": "Hana Ghassan",
-              "cargo": "governador",
-              "partido": "MDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002551598"
+              "mencoes": []
             },
             {
               "id": "pa-cleber-rabelo",
+              "sq_candidato": "140002538631",
               "nome": "Cleber Rabelo",
+              "nome_civil": "Jose Cleber Barros Rabelo",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002538631_01.pdf",
+              "foto": "fotos/PA/FPA140002538631_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002538631"
+              "mencoes": []
+            },
+            {
+              "id": "pa-dr-daniel",
+              "sq_candidato": "140002549930",
+              "nome": "Dr. Daniel",
+              "nome_civil": "Daniel Barbosa Santos",
+              "cargo": "governador",
+              "partido": "PODE",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002549930_01.pdf",
+              "foto": "fotos/PA/FPA140002549930_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pa-gal-leite",
+              "sq_candidato": "140002551943",
+              "nome": "Gal Leite",
+              "nome_civil": "Gualdina Maria Menezes Leite",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002551943_01.pdf",
+              "foto": "fotos/PA/FPA140002551943_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pa-hana-ghassan",
+              "sq_candidato": "140002551598",
+              "nome": "Hana Ghassan",
+              "nome_civil": "Hana Ghassan Tuma",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002551598_01.pdf",
+              "foto": "fotos/PA/FPA140002551598_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "pa-jose-moita",
+              "sq_candidato": "140002551357",
               "nome": "José Moita",
+              "nome_civil": "José Lucivaldo Moita",
               "cargo": "governador",
               "partido": "DEMOCRATA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002551357_01.pdf",
+              "foto": "fotos/PA/FPA140002551357_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002551357"
+              "mencoes": []
             },
             {
               "id": "pa-well-macedo",
+              "sq_candidato": "140002554108",
               "nome": "Well Macedo",
+              "nome_civil": "Wellingta Josyane Siqueira Macedo",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PA.zip",
+              "arquivo_fonte": "2026PA140002554108_01.pdf",
+              "foto": "fotos/PA/FPA140002554108_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "140002554108"
+              "mencoes": []
             }
           ]
         },
@@ -329,36 +401,45 @@
           "candidatos": [
             {
               "id": "ro-adailton-furia",
+              "sq_candidato": "220002536806",
               "nome": "Adailton Furia",
+              "nome_civil": "Adailton Antunes Ferreira",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RO.zip",
+              "arquivo_fonte": "2026RO220002536806_01.pdf",
+              "foto": "fotos/RO/FRO220002536806_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "220002536806"
+              "mencoes": []
             },
             {
               "id": "ro-expedito-netto",
+              "sq_candidato": "220002542185",
               "nome": "Expedito Netto",
+              "nome_civil": "Expedito Goncalves Ferreira Netto",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RO.zip",
+              "arquivo_fonte": "2026RO220002542185_01.pdf",
+              "foto": "fotos/RO/FRO220002542185_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "220002542185"
+              "mencoes": []
             },
             {
               "id": "ro-hildon-chaves",
+              "sq_candidato": "220002542916",
               "nome": "Hildon Chaves",
+              "nome_civil": "Hildon de Lima Chaves",
               "cargo": "governador",
               "partido": "UNIÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RO.zip",
+              "arquivo_fonte": "2026RO220002542916_01.pdf, 2026RO220002542916_02.pdf",
+              "foto": "fotos/RO/FRO220002542916_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "220002542916"
+              "mencoes": []
             },
             {
               "id": "ro-marcos-rogerio",
@@ -378,25 +459,31 @@
             },
             {
               "id": "ro-pedro-abib",
+              "sq_candidato": "220002551251",
               "nome": "Pedro Abib",
+              "nome_civil": "Pedro Abib Hecktheuer",
               "cargo": "governador",
               "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RO.zip",
+              "arquivo_fonte": "2026RO220002551251_01.pdf",
+              "foto": "fotos/RO/FRO220002551251_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "220002551251"
+              "mencoes": []
             },
             {
               "id": "ro-samuel-costa",
+              "sq_candidato": "220002550927",
               "nome": "Samuel Costa",
+              "nome_civil": "Samuel Costa Menezes",
               "cargo": "governador",
               "partido": "PSB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RO.zip",
+              "arquivo_fonte": "2026RO220002550927_01.pdf",
+              "foto": "fotos/RO/FRO220002550927_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "220002550927"
+              "mencoes": []
             }
           ]
         },
@@ -405,25 +492,59 @@
           "candidatos": [
             {
               "id": "rr-arthur-henrique",
+              "sq_candidato": "230002549223",
               "nome": "Arthur Henrique",
+              "nome_civil": "Arthur Henrique Brandao Machado",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RR.zip",
+              "arquivo_fonte": "2026RR230002549223_01.pdf",
+              "foto": "fotos/RR/FRR230002549223_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "230002549223"
+              "mencoes": []
+            },
+            {
+              "id": "rr-clebio-genuino",
+              "sq_candidato": "230002553857",
+              "nome": "Clébio Genuíno",
+              "nome_civil": "Jose Clebio Genuino do Nascimento",
+              "cargo": "governador",
+              "partido": "PCO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RR.zip",
+              "arquivo_fonte": "2026RR230002553857_01.pdf",
+              "foto": "fotos/RR/FRR230002553857_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "rr-farah-mesquita",
+              "sq_candidato": "230002549294",
               "nome": "Farah Mesquita",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "SOLIDARIEDADE",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RR.zip",
+              "arquivo_fonte": "2026RR230002549294_01.pdf",
+              "foto": "fotos/RR/FRR230002549294_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "230002549294"
+              "mencoes": []
+            },
+            {
+              "id": "rr-rosi-aires",
+              "sq_candidato": "230002552060",
+              "nome": "Rosi Aires",
+              "nome_civil": "Rosimayre Patricia Aires da Silva",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RR.zip",
+              "arquivo_fonte": "2026RR230002552060_01.pdf",
+              "foto": "fotos/RR/FRR230002552060_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "rr-soldado-sampaio",
@@ -440,28 +561,6 @@
                 }
               ],
               "sq_candidato": "230002551571"
-            },
-            {
-              "id": "rr-clebio-genuino",
-              "nome": "Clébio Genuíno",
-              "cargo": "governador",
-              "partido": "PCO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "230002553857"
-            },
-            {
-              "id": "rr-rosi-aires",
-              "nome": "Rosi Aires",
-              "cargo": "governador",
-              "partido": "PSOL",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "230002552060"
             }
           ]
         },
@@ -470,80 +569,101 @@
           "candidatos": [
             {
               "id": "to-ataides-de-oliveira",
+              "sq_candidato": "270002548412",
               "nome": "Ataides de Oliveira",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "NOVO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002548412_01.pdf",
+              "foto": "fotos/TO/FTO270002548412_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002548412"
+              "mencoes": []
             },
             {
               "id": "to-du-pereira",
+              "sq_candidato": "270002550458",
               "nome": "Du Pereira",
+              "nome_civil": "Ivaildo Pereira da Cruz",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002550458_01.pdf",
+              "foto": "fotos/TO/FTO270002550458_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002550458"
+              "mencoes": []
             },
             {
               "id": "to-laurez-moreira",
+              "sq_candidato": "270002544494",
               "nome": "Laurez Moreira",
+              "nome_civil": "Laurez da Rocha Moreira",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002544494_01.pdf",
+              "foto": "fotos/TO/FTO270002544494_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002544494"
-            },
-            {
-              "id": "to-subtenente-luiz-carlos",
-              "nome": "Subtenente Luiz Carlos",
-              "cargo": "governador",
-              "partido": "DEMOCRATA",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002546368"
-            },
-            {
-              "id": "to-professora-dorinha",
-              "nome": "Professora Dorinha",
-              "cargo": "governador",
-              "partido": "UNIÃO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002544599"
-            },
-            {
-              "id": "to-vicentinho-junior",
-              "nome": "Vicentinho Júnior",
-              "cargo": "governador",
-              "partido": "PSDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002544544"
+              "mencoes": []
             },
             {
               "id": "to-prof-witer-naves",
+              "sq_candidato": "270002539187",
               "nome": "Prof Witer Naves",
+              "nome_civil": "Witer Fonseca Naves",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002539187_01.pdf",
+              "foto": "fotos/TO/FTO270002539187_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "270002539187"
+              "mencoes": []
+            },
+            {
+              "id": "to-professora-dorinha",
+              "sq_candidato": "270002544599",
+              "nome": "Professora Dorinha",
+              "nome_civil": "Maria Auxiliadora Seabra Rezende",
+              "cargo": "governador",
+              "partido": "UNIÃO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002544599_01.pdf",
+              "foto": "fotos/TO/FTO270002544599_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "to-subtenente-luiz-carlos",
+              "sq_candidato": "270002546368",
+              "nome": "Subtenente Luiz Carlos",
+              "nome_civil": "Luiz Carlos Ferreira da Silva",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002546368_01.pdf",
+              "foto": "fotos/TO/FTO270002546368_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "to-vicentinho-junior",
+              "sq_candidato": "270002544544",
+              "nome": "Vicentinho Júnior",
+              "nome_civil": "Vicente Alves de Oliveira Júnior",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_TO.zip",
+              "arquivo_fonte": "2026TO270002544544_01.pdf",
+              "foto": "fotos/TO/FTO270002544544_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         }
@@ -556,6 +676,48 @@
           "nome": "Alagoas",
           "candidatos": [
             {
+              "id": "al-jhc",
+              "sq_candidato": "20002553350",
+              "nome": "Jhc",
+              "nome_civil": "João Henrique Holanda Caldas",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AL.zip",
+              "arquivo_fonte": "2026AL20002553350_01.pdf",
+              "foto": "fotos/AL/FAL20002553350_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "al-lenilda-luna",
+              "sq_candidato": "20002539642",
+              "nome": "Lenilda Luna",
+              "nome_civil": "Lenilda Luna de Almeida",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AL.zip",
+              "arquivo_fonte": "2026AL20002539642_01.pdf",
+              "foto": "fotos/AL/FAL20002539642_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "al-marcio-jambo",
+              "sq_candidato": "20002552502",
+              "nome": "Márcio Jambo",
+              "nome_civil": "Marcio Ferreira Jambo Sobrinho",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_AL.zip",
+              "arquivo_fonte": "2026AL20002552502_01.pdf",
+              "foto": "fotos/AL/FAL20002552502_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
               "id": "al-renan-filho",
               "nome": "Renan Filho",
               "cargo": "governador",
@@ -565,39 +727,6 @@
               "observacoes": "O Programa de Governo dele está disponível, mas vai precisar de uma verificação diária de status. Se a assesoria de imprensa do candidato puder enviar uma versão definitiva em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
               "mencoes": [],
               "sq_candidato": "20002553745"
-            },
-            {
-              "id": "al-jhc",
-              "nome": "Jhc",
-              "cargo": "governador",
-              "partido": "PSDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "20002553350"
-            },
-            {
-              "id": "al-lenilda-luna",
-              "nome": "Lenilda Luna",
-              "cargo": "governador",
-              "partido": "UP",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "20002539642"
-            },
-            {
-              "id": "al-marcio-jambo",
-              "nome": "Márcio Jambo",
-              "cargo": "governador",
-              "partido": "DEMOCRATA",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "20002552502"
             }
           ]
         },
@@ -626,69 +755,87 @@
             },
             {
               "id": "ba-ariel-capistrano",
+              "sq_candidato": "50002535253",
               "nome": "Ariel Capistrano",
+              "nome_civil": "Ariel da Silva Capistrano",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002535253_01.pdf",
+              "foto": "fotos/BA/FBA50002535253_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002535253"
+              "mencoes": []
             },
             {
               "id": "ba-aroldo-felix",
+              "sq_candidato": "50002544692",
               "nome": "Aroldo Felix",
+              "nome_civil": "Aroldo Felix de Azevedo Junior",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002544692_01.pdf",
+              "foto": "fotos/BA/FBA50002544692_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002544692"
-            },
-            {
-              "id": "ba-jeronimo-rodrigues",
-              "nome": "Jerônimo Rodrigues",
-              "cargo": "governador",
-              "partido": "PT",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002536314"
+              "mencoes": []
             },
             {
               "id": "ba-estevao",
+              "sq_candidato": "50002536579",
               "nome": "Estêvão",
+              "nome_civil": "Jose Estevao dos Santos Barbosa",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002536579_01.pdf",
+              "foto": "fotos/BA/FBA50002536579_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002536579"
+              "mencoes": []
+            },
+            {
+              "id": "ba-jeronimo-rodrigues",
+              "sq_candidato": "50002536314",
+              "nome": "Jerônimo Rodrigues",
+              "nome_civil": "Jeronimo Rodrigues Souza",
+              "cargo": "governador",
+              "partido": "PT",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002536314_01.pdf",
+              "foto": "fotos/BA/FBA50002536314_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "ba-maria-bona",
+              "sq_candidato": "50002552489",
               "nome": "Maria Bona",
+              "nome_civil": "Maria Bona Carrara de Sumbuy",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002552489_01.pdf",
+              "foto": "fotos/BA/FBA50002552489_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002552489"
+              "mencoes": []
             },
             {
               "id": "ba-ronaldo-mansur",
+              "sq_candidato": "50002532269",
               "nome": "Ronaldo Mansur",
+              "nome_civil": "Ronaldo Mansur Santos Silva",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BA.zip",
+              "arquivo_fonte": "2026BA50002532269_01.pdf",
+              "foto": "fotos/BA/FBA50002532269_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "50002532269"
+              "mencoes": []
             }
           ]
         },
@@ -697,25 +844,45 @@
           "candidatos": [
             {
               "id": "ce-ciro-gomes",
+              "sq_candidato": "60002531351",
               "nome": "Ciro Gomes",
+              "nome_civil": "Ciro Ferreira Gomes",
               "cargo": "governador",
               "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002531351_01.pdf",
+              "foto": "fotos/CE/FCE60002531351_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002531351"
+              "mencoes": []
             },
             {
               "id": "ce-danilo-soares",
+              "sq_candidato": "60002552498",
               "nome": "Danilo Soares",
+              "nome_civil": "Danilo Soares Sousa",
               "cargo": "governador",
               "partido": "DEMOCRATA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002552498_01.pdf",
+              "foto": "fotos/CE/FCE60002552498_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002552498"
+              "mencoes": []
+            },
+            {
+              "id": "ce-delegado-huggo",
+              "sq_candidato": "60002540417",
+              "nome": "Delegado Huggo",
+              "nome_civil": "Huggo Leonardo de Lima Anastacio",
+              "cargo": "governador",
+              "partido": "MISSÃO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002540417_01.pdf",
+              "foto": "fotos/CE/FCE60002540417_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "ce-elmano-de-freitas",
@@ -738,37 +905,18 @@
               "sq_candidato": "60002543969"
             },
             {
-              "id": "ce-delegado-huggo",
-              "nome": "Delegado Huggo",
-              "cargo": "governador",
-              "partido": "MISSÃO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002540417"
-            },
-            {
               "id": "ce-ieri-braga",
+              "sq_candidato": "60002552320",
               "nome": "Ieri Braga",
+              "nome_civil": "Ieri de Sousa Braga Junior",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002552320_01.pdf",
+              "foto": "fotos/CE/FCE60002552320_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002552320"
-            },
-            {
-              "id": "ce-ze-batista",
-              "nome": "Zé Batista",
-              "cargo": "governador",
-              "partido": "PSTU",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002549967"
+              "mencoes": []
             },
             {
               "id": "ce-pedro-brito",
@@ -788,25 +936,45 @@
             },
             {
               "id": "ce-serley-leal",
+              "sq_candidato": "60002533729",
               "nome": "Serley Leal",
+              "nome_civil": "Serley de Souza Leal",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002533729_01.pdf",
+              "foto": "fotos/CE/FCE60002533729_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "60002533729"
+              "mencoes": []
             },
             {
               "id": "ce-vera-lucia",
+              "sq_candidato": "60002553922",
               "nome": "Vera Lúcia",
+              "nome_civil": "Vera Lucia da Silva",
               "cargo": "governador",
               "partido": "NOVO",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a já esteja no DivulgaCandContas.",
-              "mencoes": [],
-              "sq_candidato": "60002553922"
+              "arquivo_fonte": null,
+              "foto": "fotos/CE/FCE60002553922_div.jpg",
+              "observacoes": "O Programa de Governo do candidato/a ainda não está disponível, mesmo que ele/ela esteja no DivulgaCandContas..",
+              "mencoes": []
+            },
+            {
+              "id": "ce-ze-batista",
+              "sq_candidato": "60002549967",
+              "nome": "Zé Batista",
+              "nome_civil": "Jose Batista Neto",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_CE.zip",
+              "arquivo_fonte": "2026CE60002549967_01.pdf",
+              "foto": "fotos/CE/FCE60002549967_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -815,91 +983,115 @@
           "candidatos": [
             {
               "id": "ma-andre-luis",
+              "sq_candidato": "100002544076",
               "nome": "André Luis",
+              "nome_civil": "André Luís Caetano dos Santos",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002544076_01.pdf",
+              "foto": "fotos/MA/FMA100002544076_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002544076"
-            },
-            {
-              "id": "ma-orleans-brandao",
-              "nome": "Orleans Brandão",
-              "cargo": "governador",
-              "partido": "MDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002543869"
+              "mencoes": []
             },
             {
               "id": "ma-dimas-cassimiro",
+              "sq_candidato": "100002552700",
               "nome": "Dimas Cassimiro",
+              "nome_civil": "Dimas Cassimiro do Nascimento",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002552700_01.pdf",
+              "foto": "fotos/MA/FMA100002552700_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002552700"
+              "mencoes": []
             },
             {
               "id": "ma-eduardo-braide",
+              "sq_candidato": "100002545679",
               "nome": "Eduardo Braide",
+              "nome_civil": "Eduardo Salim Braide",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002545679_01.pdf",
+              "foto": "fotos/MA/FMA100002545679_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002545679"
+              "mencoes": []
             },
             {
               "id": "ma-felipe-camarao",
+              "sq_candidato": "100002542556",
               "nome": "Felipe Camarão",
+              "nome_civil": "Felipe Costa Camarao",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002542556_01.pdf",
+              "foto": "fotos/MA/FMA100002542556_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002542556"
+              "mencoes": []
+            },
+            {
+              "id": "ma-orleans-brandao",
+              "sq_candidato": "100002543869",
+              "nome": "Orleans Brandão",
+              "nome_civil": "Carlos Orleans Braide Brandão",
+              "cargo": "governador",
+              "partido": "MDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002543869_01.pdf",
+              "foto": "fotos/MA/FMA100002543869_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "ma-reginaldo-lima",
+              "sq_candidato": "100002544073",
               "nome": "Reginaldo Lima",
+              "nome_civil": "Reginaldo Lima Brauno",
               "cargo": "governador",
               "partido": "PCB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002544073_01.pdf",
+              "foto": "fotos/MA/FMA100002544073_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002544073"
+              "mencoes": []
             },
             {
               "id": "ma-roberto-rocha",
+              "sq_candidato": "100002551399",
               "nome": "Roberto Rocha",
+              "nome_civil": "Roberto Coelho Rocha",
               "cargo": "governador",
               "partido": "PRTB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002551399_01.pdf",
+              "foto": "fotos/MA/FMA100002551399_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002551399"
+              "mencoes": []
             },
             {
               "id": "ma-saulo-arcangeli",
+              "sq_candidato": "100002534190",
               "nome": "Saulo Arcangeli",
+              "nome_civil": "Saulo Costa Arcangeli",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MA.zip",
+              "arquivo_fonte": "2026MA100002534190_01.pdf",
+              "foto": "fotos/MA/FMA100002534190_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "100002534190"
+              "mencoes": []
             }
           ]
         },
@@ -908,69 +1100,87 @@
           "candidatos": [
             {
               "id": "pb-camilo-duarte",
+              "sq_candidato": "150002552603",
               "nome": "Camilo Duarte",
+              "nome_civil": "Camilo Sobreira Duarte Filho",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002552603_01.pdf",
+              "foto": "fotos/PB/FPB150002552603_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002552603"
+              "mencoes": []
             },
             {
               "id": "pb-cicero-lucena",
+              "sq_candidato": "150002544133",
               "nome": "Cícero Lucena",
+              "nome_civil": "Cicero de Lucena Filho",
               "cargo": "governador",
               "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002544133_01.pdf",
+              "foto": "fotos/PB/FPB150002544133_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002544133"
+              "mencoes": []
             },
             {
               "id": "pb-efraim-filho",
+              "sq_candidato": "150002538692",
               "nome": "Efraim Filho",
+              "nome_civil": "Efraim de Araujo Morais Filho",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002538692_01.pdf",
+              "foto": "fotos/PB/FPB150002538692_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002538692"
+              "mencoes": []
             },
             {
               "id": "pb-lucas-ribeiro",
+              "sq_candidato": "150002551789",
               "nome": "Lucas Ribeiro",
+              "nome_civil": "Lucas Ribeiro Novais de Araujo",
               "cargo": "governador",
               "partido": "PP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002551789_01.pdf",
+              "foto": "fotos/PB/FPB150002551789_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002551789"
+              "mencoes": []
             },
             {
               "id": "pb-pedro-coutinho",
+              "sq_candidato": "150002551911",
               "nome": "Pedro Coutinho",
+              "nome_civil": "Pedro Jorge Coutinho Guerra",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002551911_01.pdf",
+              "foto": "fotos/PB/FPB150002551911_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002551911"
+              "mencoes": []
             },
             {
               "id": "pb-yuri-ezequiel",
+              "sq_candidato": "150002540204",
               "nome": "Yuri Ezequiel",
+              "nome_civil": "Yuri Ezequiel de Lima Silva",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PB.zip",
+              "arquivo_fonte": "2026PB150002540204_01.pdf",
+              "foto": "fotos/PB/FPB150002540204_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "150002540204"
+              "mencoes": []
             }
           ]
         },
@@ -979,91 +1189,115 @@
           "candidatos": [
             {
               "id": "pe-guilherme-fonseca",
+              "sq_candidato": "170002536575",
               "nome": "Guilherme Fonseca",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002536575_01.pdf",
+              "foto": "fotos/PE/FPE170002536575_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002536575"
+              "mencoes": []
             },
             {
               "id": "pe-ivan-moraes",
+              "sq_candidato": "170002538097",
               "nome": "Ivan Moraes",
+              "nome_civil": "Ivan Vasconcellos de Moraes Filho",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002538097_01.pdf",
+              "foto": "fotos/PE/FPE170002538097_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002538097"
-            },
-            {
-              "id": "pe-professor-jeremias-do-banco",
-              "nome": "Professor Jeremias do Banco",
-              "cargo": "governador",
-              "partido": "DEMOCRATA",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002541258"
+              "mencoes": []
             },
             {
               "id": "pe-joao-campos",
+              "sq_candidato": "170002537230",
               "nome": "João Campos",
+              "nome_civil": "João Henrique de Andrade Lima Campos",
               "cargo": "governador",
               "partido": "PSB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002537230_01.pdf",
+              "foto": "fotos/PE/FPE170002537230_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002537230"
+              "mencoes": []
+            },
+            {
+              "id": "pe-professor-jeremias-do-banco",
+              "sq_candidato": "170002541258",
+              "nome": "Professor Jeremias do Banco",
+              "nome_civil": "Jeremias Cosmo Silva dos Santos",
+              "cargo": "governador",
+              "partido": "DEMOCRATA",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002541258_01.pdf",
+              "foto": "fotos/PE/FPE170002541258_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "pe-professora-camila",
+              "sq_candidato": "170002537320",
               "nome": "Professora Camila",
+              "nome_civil": "Maria Camila da Silva Falcão",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002537320_01.pdf",
+              "foto": "fotos/PE/FPE170002537320_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002537320"
+              "mencoes": []
             },
             {
               "id": "pe-raquel-lyra",
+              "sq_candidato": "170002537227",
               "nome": "Raquel Lyra",
+              "nome_civil": "Raquel Teixeira Lyra Lucena",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": "O Programa de Governo dela está disponível, mas vai precisar de uma verificação que vai além da varredura diária. Se a assesoria de imprensa da candidata puder enviar uma versão legível em .pdf do programa de governo, favor enviar no email no rodapé dessa página.",
-              "mencoes": [],
-              "sq_candidato": "170002537227"
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002537227_01.pdf",
+              "foto": "fotos/PE/FPE170002537227_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "pe-renan",
+              "sq_candidato": "170002540337",
               "nome": "Renan",
+              "nome_civil": "Renan Lucio Sant Anna Hallais",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002540337_01.pdf",
+              "foto": "fotos/PE/FPE170002540337_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002540337"
+              "mencoes": []
             },
             {
               "id": "pe-victor-assis",
+              "sq_candidato": "170002552776",
               "nome": "Victor Assis",
+              "nome_civil": "Victor Assis da Silva",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PE.zip",
+              "arquivo_fonte": "2026PE170002552776_01.pdf",
+              "foto": "fotos/PE/FPE170002552776_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "170002552776"
+              "mencoes": []
             }
           ]
         },
@@ -1071,125 +1305,158 @@
           "nome": "Piauí",
           "candidatos": [
             {
-              "id": "pi-elizeu-aguiar",
-              "nome": "Elizeu Aguiar",
-              "cargo": "governador",
-              "partido": "NOVO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002549920"
-            },
-            {
-              "id": "pi-professor-jurity",
-              "nome": "Professor Jurity",
-              "cargo": "governador",
-              "partido": "DC",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002548565"
-            },
-            {
-              "id": "pi-geraldo-carvalho",
-              "nome": "Geraldo Carvalho",
-              "cargo": "governador",
-              "partido": "PSTU",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002537422"
-            },
-            {
-              "id": "pi-professor-gisvaldo",
-              "nome": "Professor Gisvaldo",
-              "cargo": "governador",
-              "partido": "PSOL",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002549970"
-            },
-            {
-              "id": "pi-gustavo-pelo-piaui-ou-gustavo",
-              "nome": "Gustavo Pelo Piauí",
-              "cargo": "governador",
-              "partido": "AVANTE",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002550421"
-            },
-            {
-              "id": "pi-joel-rodrigues",
-              "nome": "Joel Rodrigues",
-              "cargo": "governador",
-              "partido": "PP",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002538530"
-            },
-            {
-              "id": "pi-santiago-belizario",
-              "nome": "Santiago Belizário",
-              "cargo": "governador",
-              "partido": "UP",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002549995"
-            },
-            {
               "id": "pi-dra-lucia-santos",
+              "sq_candidato": "180002544216",
               "nome": "Dra. Lúcia Santos",
+              "nome_civil": "Lúcia Maria de Sousa Aguiar dos Santos",
               "cargo": "governador",
               "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002544216_01.pdf",
+              "foto": "fotos/PI/FPI180002544216_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002544216"
+              "mencoes": []
+            },
+            {
+              "id": "pi-elizeu-aguiar",
+              "sq_candidato": "180002549920",
+              "nome": "Elizeu Aguiar",
+              "nome_civil": "Elizeu Morais de Aguiar",
+              "cargo": "governador",
+              "partido": "NOVO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002549920_01.pdf",
+              "foto": "fotos/PI/FPI180002549920_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pi-geraldo-carvalho",
+              "sq_candidato": "180002537422",
+              "nome": "Geraldo Carvalho",
+              "nome_civil": "Geraldo do Nascimento Carvalho",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002537422_01.pdf",
+              "foto": "fotos/PI/FPI180002537422_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pi-gustavo-pelo-piaui-ou-gustavo",
+              "sq_candidato": "180002550421",
+              "nome": "Gustavo Pelo Piauí",
+              "nome_civil": "Gustavo Henrique Leite Feijó",
+              "cargo": "governador",
+              "partido": "AVANTE",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002550421_01.pdf",
+              "foto": "fotos/PI/FPI180002550421_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pi-joel-rodrigues",
+              "sq_candidato": "180002538530",
+              "nome": "Joel Rodrigues",
+              "nome_civil": "Joel Rodrigues da Silva",
+              "cargo": "governador",
+              "partido": "PP",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002538530_01.pdf",
+              "foto": "fotos/PI/FPI180002538530_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "pi-lourdes-melo",
+              "sq_candidato": "180002553722",
               "nome": "Lourdes Melo",
+              "nome_civil": "Maria de Lourdes Soares Melo",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002553722_01.pdf",
+              "foto": "fotos/PI/FPI180002553722_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002553722"
+              "mencoes": []
+            },
+            {
+              "id": "pi-professor-gisvaldo",
+              "sq_candidato": "180002549970",
+              "nome": "Professor Gisvaldo",
+              "nome_civil": "Gisvaldo Oliveira da Silva",
+              "cargo": "governador",
+              "partido": "PSOL",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002549970_01.pdf",
+              "foto": "fotos/PI/FPI180002549970_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "pi-professor-jurity",
+              "sq_candidato": "180002548565",
+              "nome": "Professor Jurity",
+              "nome_civil": "Francisco José Martins Jurity",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002548565_01.pdf",
+              "foto": "fotos/PI/FPI180002548565_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "pi-rafael-fonteles",
+              "sq_candidato": "180002532987",
               "nome": "Rafael Fonteles",
+              "nome_civil": "Rafael Tajra Fonteles",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002532987_01.pdf",
+              "foto": "fotos/PI/FPI180002532987_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002532987"
+              "mencoes": []
             },
             {
               "id": "pi-ravenna-da-inclusao",
+              "sq_candidato": "180002548388",
               "nome": "Ravenna da Inclusão",
+              "nome_civil": "Ravenna de Castro Lima Azevedo",
               "cargo": "governador",
               "partido": "DEMOCRATA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002548388_01.pdf",
+              "foto": "fotos/PI/FPI180002548388_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "180002548388"
+              "mencoes": []
+            },
+            {
+              "id": "pi-santiago-belizario",
+              "sq_candidato": "180002549995",
+              "nome": "Santiago Belizário",
+              "nome_civil": "José Santiago Belizário",
+              "cargo": "governador",
+              "partido": "UP",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PI.zip",
+              "arquivo_fonte": "2026PI180002549995_01.pdf",
+              "foto": "fotos/PI/FPI180002549995_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -1214,91 +1481,115 @@
             },
             {
               "id": "rn-arinalda-do-mlb",
+              "sq_candidato": "200002547826",
               "nome": "Arinalda do Mlb",
+              "nome_civil": "Arinalda Vasconcelos de Medeiros",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002547826_01.pdf",
+              "foto": "fotos/RN/FRN200002547826_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002547826"
-            },
-            {
-              "id": "rn-carlos-jararaca",
-              "nome": "Carlos Jararaca",
-              "cargo": "governador",
-              "partido": "DC",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002550223"
+              "mencoes": []
             },
             {
               "id": "rn-cadu-de-lula",
+              "sq_candidato": "200002534001",
               "nome": "Cadu de Lula",
+              "nome_civil": "Carlos Eduardo Xavier",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002534001_01.pdf",
+              "foto": "fotos/RN/FRN200002534001_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002534001"
+              "mencoes": []
+            },
+            {
+              "id": "rn-carlos-jararaca",
+              "sq_candidato": "200002550223",
+              "nome": "Carlos Jararaca",
+              "nome_civil": "Carlos Alberto de Almeida Cavalcante",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002550223_01.pdf",
+              "foto": "fotos/RN/FRN200002550223_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "rn-dario-barbosa",
+              "sq_candidato": "200002542481",
               "nome": "Dário Barbosa",
+              "nome_civil": "Dario Barbosa de Melo",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002542481_01.pdf",
+              "foto": "fotos/RN/FRN200002542481_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002542481"
+              "mencoes": []
             },
             {
               "id": "rn-henrique-lyra",
+              "sq_candidato": "200002553301",
               "nome": "Henrique Lyra",
+              "nome_civil": "Henrique Othon Costa de Lyra",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002553301_01.pdf",
+              "foto": "fotos/RN/FRN200002553301_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002553301"
-            },
-            {
-              "id": "rn-rodrigo-de-bolsonaro",
-              "nome": "Rodrigo de Bolsonaro",
-              "cargo": "governador",
-              "partido": "AGIR",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002546756"
+              "mencoes": []
             },
             {
               "id": "rn-professor-roberio-paulino",
+              "sq_candidato": "200002546757",
               "nome": "Professor Roberio Paulino",
+              "nome_civil": "Roberio Paulino Rodrigues",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002546757_01.pdf",
+              "foto": "fotos/RN/FRN200002546757_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002546757"
+              "mencoes": []
+            },
+            {
+              "id": "rn-rodrigo-de-bolsonaro",
+              "sq_candidato": "200002546756",
+              "nome": "Rodrigo de Bolsonaro",
+              "nome_civil": "Karlo Rodrigo Lucio Vieira",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002546756_01.pdf",
+              "foto": "fotos/RN/FRN200002546756_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "rn-alvaro-dias",
+              "sq_candidato": "200002534442",
               "nome": "Álvaro Dias",
+              "nome_civil": "Álvaro Costa Dias",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RN.zip",
+              "arquivo_fonte": "2026RN200002534442_01.pdf",
+              "foto": "fotos/RN/FRN200002534442_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "200002534442"
+              "mencoes": []
             }
           ]
         },
@@ -1306,59 +1597,74 @@
           "nome": "Sergipe",
           "candidatos": [
             {
-              "id": "se-emanuel-cacho",
-              "nome": "Emanuel Cacho",
-              "cargo": "governador",
-              "partido": "PSDB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "260002551712"
-            },
-            {
-              "id": "se-fabio",
-              "nome": "Fábio",
-              "cargo": "governador",
-              "partido": "PSD",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "260002542491"
-            },
-            {
               "id": "se-dr-helton",
+              "sq_candidato": "260002547415",
               "nome": "Dr. Helton",
+              "nome_civil": "Jose Helton Silva Monteiro",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SE.zip",
+              "arquivo_fonte": "2026SE260002547415_01.pdf",
+              "foto": "fotos/SE/FSE260002547415_div.jpg",
+              "observacoes": "Leitura automática incompleta em algum documento — confira manualmente.",
+              "mencoes": []
+            },
+            {
+              "id": "se-emanuel-cacho",
+              "sq_candidato": "260002551712",
+              "nome": "Emanuel Cacho",
+              "nome_civil": "Emanuel Messias Oliveira Cacho",
+              "cargo": "governador",
+              "partido": "PSDB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SE.zip",
+              "arquivo_fonte": "2026SE260002551712_01.pdf",
+              "foto": "fotos/SE/FSE260002551712_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "260002547415"
+              "mencoes": []
+            },
+            {
+              "id": "se-fabio",
+              "sq_candidato": "260002542491",
+              "nome": "Fábio",
+              "nome_civil": "Fabio Cruz Mitidieri",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SE.zip",
+              "arquivo_fonte": "2026SE260002542491_01.pdf",
+              "foto": "fotos/SE/FSE260002542491_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "se-ricardo-marques",
+              "sq_candidato": "260002549466",
               "nome": "Ricardo Marques",
+              "nome_civil": "Jose Ricardo Marques dos Santos",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SE.zip",
+              "arquivo_fonte": "2026SE260002549466_01.pdf",
+              "foto": "fotos/SE/FSE260002549466_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "260002549466"
+              "mencoes": []
             },
             {
               "id": "se-taty-cristina-de-jesus",
+              "sq_candidato": "260002550683",
               "nome": "Taty Cristina de Jesus",
+              "nome_civil": "Tatiana Cristina Santos de Jesus",
               "cargo": "governador",
               "partido": "DC",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SE.zip",
+              "arquivo_fonte": "2026SE260002550683_01.pdf",
+              "foto": "fotos/SE/FSE260002550683_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "260002550683"
+              "mencoes": []
             },
             {
               "id": "se-valmir-de-francisquinho",
@@ -1387,6 +1693,34 @@
           "nome": "Presidência da República",
           "candidatos": [
             {
+              "id": "br-clariana-barao",
+              "sq_candidato": "280002552484",
+              "nome": "Clariana Barao",
+              "nome_civil": "Clariana Zacarkim Barao",
+              "cargo": "presidente",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002552484_01.pdf",
+              "foto": "fotos/BR/FBR280002552484_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "br-edmilson-costa",
+              "sq_candidato": "280002551975",
+              "nome": "Edmilson Costa",
+              "nome_civil": "Edmilson Silva Costa",
+              "cargo": "presidente",
+              "partido": "PCB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002551975_01.pdf",
+              "foto": "fotos/BR/FBR280002551975_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
               "id": "br-escritor-augusto-cury",
               "nome": "Escritor Augusto Cury",
               "cargo": "presidente",
@@ -1403,48 +1737,32 @@
               "sq_candidato": "280002551547"
             },
             {
-              "id": "br-clariana-barao",
-              "nome": "Clariana Barao",
-              "cargo": "presidente",
-              "partido": "DC",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002552484"
-            },
-            {
-              "id": "br-edmilson-costa",
-              "nome": "Edmilson Costa",
-              "cargo": "presidente",
-              "partido": "PCB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002551975"
-            },
-            {
               "id": "br-flavio-bolsonaro",
+              "sq_candidato": "280002551544",
               "nome": "Flavio Bolsonaro",
+              "nome_civil": "Flavio Nantes Bolsonaro",
               "cargo": "presidente",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002551544_01.pdf",
+              "foto": "fotos/BR/FBR280002551544_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002551544"
+              "mencoes": []
             },
             {
               "id": "br-hertz-dias",
+              "sq_candidato": "280002541457",
               "nome": "Hertz Dias",
+              "nome_civil": "Hertz da Conceicao Dias",
               "cargo": "presidente",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002541457_01.pdf",
+              "foto": "fotos/BR/FBR280002541457_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002541457"
+              "mencoes": []
             },
             {
               "id": "br-lula",
@@ -1484,25 +1802,17 @@
             },
             {
               "id": "br-renan-santos",
+              "sq_candidato": "280002540694",
               "nome": "Renan Santos",
+              "nome_civil": "Renan Antonio Ferreira dos Santos",
               "cargo": "presidente",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002540694_01.pdf",
+              "foto": "fotos/BR/FBR280002540694_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002540694"
-            },
-            {
-              "id": "br-zema",
-              "nome": "Zema",
-              "cargo": "presidente",
-              "partido": "NOVO",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002539826"
+              "mencoes": []
             },
             {
               "id": "br-ronaldo-caiado",
@@ -1522,36 +1832,59 @@
             },
             {
               "id": "br-rui-costa-pimenta",
+              "sq_candidato": "280002552487",
               "nome": "Rui Costa Pimenta",
+              "nome_civil": null,
               "cargo": "presidente",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002552487_01.pdf",
+              "foto": "fotos/BR/FBR280002552487_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002552487"
+              "mencoes": []
             },
             {
               "id": "br-samara",
+              "sq_candidato": "280002538811",
               "nome": "Samara",
+              "nome_civil": "Samara Martins da Silva Feitosa",
               "cargo": "presidente",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002538811_01.pdf",
+              "foto": "fotos/BR/FBR280002538811_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002538811"
+              "mencoes": []
             },
             {
               "id": "br-veterinario-wilson-grassi",
+              "sq_candidato": "280002548139",
               "nome": "Veterinário Wilson Grassi",
+              "nome_civil": "Wilson Grassi Junior",
               "cargo": "presidente",
               "partido": "DEMOCRATA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002548139_01.pdf",
+              "foto": "fotos/BR/FBR280002548139_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "280002548139"
+              "mencoes": []
+            },
+            {
+              "id": "br-zema",
+              "sq_candidato": "280002539826",
+              "nome": "Zema",
+              "nome_civil": "Romeu Zema Neto",
+              "cargo": "presidente",
+              "partido": "NOVO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+              "arquivo_fonte": "2026BR280002539826_01.pdf",
+              "foto": "fotos/BR/FBR280002539826_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         }
@@ -1564,21 +1897,32 @@
           "nome": "Distrito Federal",
           "candidatos": [
             {
-              "id": "df-rico-pinheiro",
-              "nome": "Rico Pinheiro",
+              "id": "df-arruda",
+              "sq_candidato": "70002552586",
+              "nome": "Arruda",
+              "nome_civil": "José Roberto Arruda",
               "cargo": "governador",
-              "partido": "PRTB",
-              "status": "menciona",
-              "fonte": null,
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002552586_01.pdf",
+              "foto": "fotos/DF/FDF70002552586_div.jpg",
               "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": "5",
-                  "trecho": "[...] Incentivar a indústria cinematográfica e de games com editais estruturados via Fundo de Apoio à Cultura (FAC) e criação de um Film Commission forte para atrair produções 
-nacionais e internacionais para o DF. [...]"
-                }
-              ],
-              "sq_candidato": "70002553982"
+              "mencoes": []
+            },
+            {
+              "id": "df-cappelli",
+              "sq_candidato": "70002551557",
+              "nome": "Cappelli",
+              "nome_civil": "Ricardo Garcia Cappelli",
+              "cargo": "governador",
+              "partido": "PSB",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002551557_01.pdf",
+              "foto": "fotos/DF/FDF70002551557_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "df-celina-leao",
@@ -1598,25 +1942,31 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "df-elisson",
+              "sq_candidato": "70002551298",
               "nome": "Elisson",
+              "nome_civil": "Elisson Ferreira Freire",
               "cargo": "governador",
               "partido": "AGIR",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002551298_01.pdf",
+              "foto": "fotos/DF/FDF70002551298_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002551298"
+              "mencoes": []
             },
             {
               "id": "df-expedito-mendonca",
+              "sq_candidato": "70002552341",
               "nome": "Expedito Mendonça",
+              "nome_civil": "Expedito Carneiro de Mendonça",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002552341_01.pdf",
+              "foto": "fotos/DF/FDF70002552341_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002552341"
+              "mencoes": []
             },
             {
               "id": "df-kiko-caputo",
@@ -1643,70 +1993,76 @@ nacionais e internacionais para o DF. [...]"
               "sq_candidato": "70002547775"
             },
             {
-              "id": "df-arruda",
-              "nome": "Arruda",
-              "cargo": "governador",
-              "partido": "PSD",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002552586"
-            },
-            {
               "id": "df-leandro-grass",
+              "sq_candidato": "70002552496",
               "nome": "Leandro Grass",
+              "nome_civil": "Leandro Antônio Grass Peixoto",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002552496_01.pdf",
+              "foto": "fotos/DF/FDF70002552496_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002552496"
+              "mencoes": []
             },
             {
               "id": "df-paula-belmonte",
+              "sq_candidato": "70002552965",
               "nome": "Paula Belmonte",
+              "nome_civil": "Paula Moreno Paro Belmonte",
               "cargo": "governador",
               "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002552965_01.pdf",
+              "foto": "fotos/DF/FDF70002552965_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002552965"
-            },
-            {
-              "id": "df-cappelli",
-              "nome": "Cappelli",
-              "cargo": "governador",
-              "partido": "PSB",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002551557"
+              "mencoes": []
             },
             {
               "id": "df-professor-robson",
+              "sq_candidato": "70002535930",
               "nome": "Professor Robson",
+              "nome_civil": "Robson Raymundo da Silva",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002535930_01.pdf",
+              "foto": "fotos/DF/FDF70002535930_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002535930"
+              "mencoes": []
             },
             {
               "id": "df-professora-samara-mineiro",
+              "sq_candidato": "70002537111",
               "nome": "Professora Samara Mineiro",
+              "nome_civil": "Samara Mineiro Oliveira",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_DF.zip",
+              "arquivo_fonte": "2026DF70002537111_01.pdf",
+              "foto": "fotos/DF/FDF70002537111_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "df-rico-pinheiro",
+              "nome": "Rico Pinheiro",
+              "cargo": "governador",
+              "partido": "PRTB",
+              "status": "menciona",
               "fonte": null,
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "70002537111"
+              "mencoes": [
+                {
+                  "pagina": "5",
+                  "trecho": "[...] Incentivar a indústria cinematográfica e de games com editais estruturados via Fundo de Apoio à Cultura (FAC) e criação de um Film Commission forte para atrair produções \nnacionais e internacionais para o DF. [...]"
+                }
+              ],
+              "sq_candidato": "70002553982"
             }
           ]
         },
@@ -1715,69 +2071,87 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "go-daniel-vilela",
+              "sq_candidato": "90002540993",
               "nome": "Daniel Vilela",
+              "nome_civil": "Daniel Elias Carvalho Vilela",
               "cargo": "governador",
               "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002540993_01.pdf",
+              "foto": "fotos/GO/FGO90002540993_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002540993"
+              "mencoes": []
             },
             {
               "id": "go-danilo-pinheiro",
+              "sq_candidato": "90002553733",
               "nome": "Danilo Pinheiro",
+              "nome_civil": "Danilo Pinheiro Evangelista da Silva",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002553733_01.pdf",
+              "foto": "fotos/GO/FGO90002553733_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002553733"
+              "mencoes": []
             },
             {
               "id": "go-luciana-amorim",
+              "sq_candidato": "90002550707",
               "nome": "Luciana Amorim",
+              "nome_civil": "Luciana de Deus Amorim",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002550707_01.pdf",
+              "foto": "fotos/GO/FGO90002550707_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002550707"
+              "mencoes": []
             },
             {
               "id": "go-luis-cesar-bueno",
+              "sq_candidato": "90002545476",
               "nome": "Luis Cesar Bueno",
+              "nome_civil": "Luis Cesar Bueno e Freitas",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002545476_01.pdf",
+              "foto": "fotos/GO/FGO90002545476_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002545476"
+              "mencoes": []
             },
             {
               "id": "go-marconi-perillo",
+              "sq_candidato": "90002543463",
               "nome": "Marconi Perillo",
+              "nome_civil": "Marconi Ferreira Perillo Junior",
               "cargo": "governador",
               "partido": "PSDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002543463_01.pdf, 2026GO90002543463_02.pdf",
+              "foto": "fotos/GO/FGO90002543463_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002543463"
+              "mencoes": []
             },
             {
               "id": "go-wilder-morais",
+              "sq_candidato": "90002551791",
               "nome": "Wilder Morais",
+              "nome_civil": "Wilder Pedro de Morais",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_GO.zip",
+              "arquivo_fonte": "2026GO90002551791_01.pdf",
+              "foto": "fotos/GO/FGO90002551791_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "90002551791"
+              "mencoes": []
             }
           ]
         },
@@ -1786,36 +2160,59 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "ms-daniel-lemes",
+              "sq_candidato": "120002552201",
               "nome": "Daniel Lemes",
+              "nome_civil": "Daniel Lemes Vasques",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002552201_01.pdf",
+              "foto": "fotos/MS/FMS120002552201_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002552201"
+              "mencoes": []
             },
             {
               "id": "ms-delcidio-amaral",
+              "sq_candidato": "120002552155",
               "nome": "Delcidio Amaral",
+              "nome_civil": "Delcidio do Amaral Gomez",
               "cargo": "governador",
               "partido": "PRD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002552155_01.pdf",
+              "foto": "fotos/MS/FMS120002552155_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002552155"
+              "mencoes": []
+            },
+            {
+              "id": "ms-economista-renato-gomes",
+              "sq_candidato": "120002549681",
+              "nome": "Economista Renato Gomes",
+              "nome_civil": "Renato Wanderley Gomes",
+              "cargo": "governador",
+              "partido": "DC",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002549681_01.pdf",
+              "foto": "fotos/MS/FMS120002549681_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "ms-eduardo-riedel",
+              "sq_candidato": "120002536582",
               "nome": "Eduardo Riedel",
+              "nome_civil": "Eduardo Correa Riedel",
               "cargo": "governador",
               "partido": "PP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002536582_01.pdf",
+              "foto": "fotos/MS/FMS120002536582_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002536582"
+              "mencoes": []
             },
             {
               "id": "ms-fabio-trad",
@@ -1835,47 +2232,45 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "ms-jeferson-bezerra",
+              "sq_candidato": "120002550198",
               "nome": "Jeferson Bezerra",
+              "nome_civil": "Jeferson Jose Bezerra",
               "cargo": "governador",
               "partido": "AGIR",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002550198_01.pdf",
+              "foto": "fotos/MS/FMS120002550198_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002550198"
+              "mencoes": []
             },
             {
               "id": "ms-joao-henrique-catan",
+              "sq_candidato": "120002552191",
               "nome": "João Henrique Catan",
+              "nome_civil": "João Henrique Miranda Soares Catan",
               "cargo": "governador",
               "partido": "NOVO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002552191_01.pdf",
+              "foto": "fotos/MS/FMS120002552191_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002552191"
+              "mencoes": []
             },
             {
               "id": "ms-lucien-rezende",
+              "sq_candidato": "120002532257",
               "nome": "Lucien Rezende",
+              "nome_civil": "Lucien Roberto Garcia de Rezende",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MS.zip",
+              "arquivo_fonte": "2026MS120002532257_01.pdf",
+              "foto": "fotos/MS/FMS120002532257_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002532257"
-            },
-            {
-              "id": "ms-economista-renato-gomes",
-              "nome": "Economista Renato Gomes",
-              "cargo": "governador",
-              "partido": "DC",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "120002549681"
+              "mencoes": []
             }
           ]
         },
@@ -1883,42 +2278,32 @@ nacionais e internacionais para o DF. [...]"
           "nome": "Mato Grosso",
           "candidatos": [
             {
-              "id": "mt-sargento-laudicerio-lau",
-              "nome": "Sargento Laudicério (lau)",
-              "cargo": "governador",
-              "partido": "AGIR",
-              "status": "menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [
-                {
-                  "pagina": 47,
-                  "trecho": "[...] Apoiar competições, formação e eventos de e-sports e modalidades emergentes com critérios educacionais, de inclusão e de desenvolvimento econômico, integrando escolas, universidades, setor privado e economia criativa. [...]"
-                }
-              ],
-              "sq_candidato": "110002553937"
-            },
-            {
-              "id": "mt-mauricio-coelho",
-              "nome": "Mauricio Coelho",
-              "cargo": "governador",
-              "partido": "MOBILIZA",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "110002553058"
-            },
-            {
               "id": "mt-doutora-natasha",
+              "sq_candidato": "110002544985",
               "nome": "Doutora Natasha",
+              "nome_civil": "Natasha Slhessarenko Fraife Barreto",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MT.zip",
+              "arquivo_fonte": "2026MT110002544985_01.pdf",
+              "foto": "fotos/MT/FMT110002544985_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "110002544985"
+              "mencoes": []
+            },
+            {
+              "id": "mt-mauricio-coelho",
+              "sq_candidato": "110002553058",
+              "nome": "Mauricio Coelho",
+              "nome_civil": "Mauricio Coelho de Souza Junior",
+              "cargo": "governador",
+              "partido": "MOBILIZA",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MT.zip",
+              "arquivo_fonte": "2026MT110002553058_01.pdf",
+              "foto": "fotos/MT/FMT110002553058_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "mt-otaviano-pivetta",
@@ -1938,25 +2323,66 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "mt-rafaell-milas",
+              "sq_candidato": "110002543953",
               "nome": "Rafaell Milas",
+              "nome_civil": "Rafaell Milas de Oliveira",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MT.zip",
+              "arquivo_fonte": "2026MT110002543953_01.pdf",
+              "foto": "fotos/MT/FMT110002543953_div.jpg",
+              "observacoes": null,
+              "mencoes": []
+            },
+            {
+              "id": "mt-sargento-laudicerio",
+              "sq_candidato": "110002554073",
+              "nome": "Sargento Laudicério",
+              "nome_civil": "Laudicerio Aguiar Machado",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MT.zip",
+              "arquivo_fonte": "2026MT110002554073_01.pdf",
+              "foto": "fotos/MT/FMT110002554073_div.jpg",
+              "observacoes": null,
+              "mencoes": [
+                {
+                  "pagina": 47,
+                  "trecho": "ências territor iais e criação de oportunidades de formação e competição. 12. Esportes eletrônicos e novas modalidades. Apoiar competições, formação e eventos de e -sports e mo"
+                }
+              ]
+            },
+            {
+              "id": "mt-sargento-laudicerio-lau",
+              "nome": "Sargento Laudicério (lau)",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "menciona",
               "fonte": null,
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "110002543953"
+              "mencoes": [
+                {
+                  "pagina": 47,
+                  "trecho": "[...] Apoiar competições, formação e eventos de e-sports e modalidades emergentes com critérios educacionais, de inclusão e de desenvolvimento econômico, integrando escolas, universidades, setor privado e economia criativa. [...]"
+                }
+              ],
+              "sq_candidato": "110002553937"
             },
             {
               "id": "mt-wellington-fagundes",
+              "sq_candidato": "110002551737",
               "nome": "Wellington Fagundes",
+              "nome_civil": "Wellington Antonio Fagundes",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MT.zip",
+              "arquivo_fonte": "2026MT110002551737_01.pdf",
+              "foto": "fotos/MT/FMT110002551737_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "110002551737"
+              "mencoes": []
             }
           ]
         }
@@ -1970,47 +2396,59 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "es-breno-barcelos",
+              "sq_candidato": "80002541012",
               "nome": "Breno Barcelos",
+              "nome_civil": "Breno Augusto Fagundes Barcelos",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_ES.zip",
+              "arquivo_fonte": "2026ES80002541012_01.pdf",
+              "foto": "fotos/ES/FES80002541012_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "80002541012"
+              "mencoes": []
             },
             {
               "id": "es-helder-salomao",
+              "sq_candidato": "80002551833",
               "nome": "Helder Salomão",
+              "nome_civil": "Helder Ignacio Salomao",
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_ES.zip",
+              "arquivo_fonte": "2026ES80002551833_01.pdf",
+              "foto": "fotos/ES/FES80002551833_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "80002551833"
+              "mencoes": []
             },
             {
               "id": "es-lorenzo-pazolini",
+              "sq_candidato": "80002552682",
               "nome": "Lorenzo Pazolini",
+              "nome_civil": "Lorenzo Silva de Pazolini",
               "cargo": "governador",
               "partido": "REPUBLICANOS",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_ES.zip",
+              "arquivo_fonte": "2026ES80002552682_01.pdf",
+              "foto": "fotos/ES/FES80002552682_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "80002552682"
+              "mencoes": []
             },
             {
               "id": "es-rafael-demuner",
+              "sq_candidato": "80002550832",
               "nome": "Rafael Demuner",
+              "nome_civil": "Rafael Ketley Demuner",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_ES.zip",
+              "arquivo_fonte": "2026ES80002550832_01.pdf",
+              "foto": "fotos/ES/FES80002550832_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "80002550832"
+              "mencoes": []
             },
             {
               "id": "es-ricardo-ferraco",
@@ -2035,91 +2473,115 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "mg-alexandre-kalil",
+              "sq_candidato": "130002539775",
               "nome": "Alexandre Kalil",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "PDT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002539775_01.pdf",
+              "foto": "fotos/MG/FMG130002539775_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002539775"
+              "mencoes": []
             },
             {
               "id": "mg-ben-mendes",
+              "sq_candidato": "130002544411",
               "nome": "Ben Mendes",
+              "nome_civil": "Benoni Benjamin Cardoso Mendes",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a esteja no DivulgaCandContas.",
-              "mencoes": [],
-              "sq_candidato": "130002544411"
+              "arquivo_fonte": null,
+              "foto": "fotos/MG/FMG130002544411_div.jpg",
+              "observacoes": "O Programa de Governo do candidato/a ainda não está disponível, mesmo que ele/ela esteja no DivulgaCandContas..",
+              "mencoes": []
             },
             {
               "id": "mg-cleitinho-azevedo",
+              "sq_candidato": "130002552296",
               "nome": "Cleitinho Azevedo",
+              "nome_civil": "Cleiton Gontijo de Azevedo",
               "cargo": "governador",
               "partido": "REPUBLICANOS",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002552296_01.pdf",
+              "foto": "fotos/MG/FMG130002552296_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002552296"
+              "mencoes": []
             },
             {
               "id": "mg-flavio-roscoe",
+              "sq_candidato": "130002550834",
               "nome": "Flávio Roscoe",
+              "nome_civil": "Flavio Roscoe Nogueira",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002550834_01.pdf",
+              "foto": "fotos/MG/FMG130002550834_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002550834"
+              "mencoes": []
             },
             {
               "id": "mg-gabriel",
+              "sq_candidato": "130002549557",
               "nome": "Gabriel",
+              "nome_civil": "Gabriel Sousa Marques de Azevedo",
               "cargo": "governador",
               "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002549557_01.pdf",
+              "foto": "fotos/MG/FMG130002549557_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002549557"
+              "mencoes": []
             },
             {
               "id": "mg-henrique-areas",
+              "sq_candidato": "130002552308",
               "nome": "Henrique Áreas",
+              "nome_civil": "Henrique Areas de Araujo",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002552308_01.pdf",
+              "foto": "fotos/MG/FMG130002552308_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002552308"
+              "mencoes": []
             },
             {
               "id": "mg-indira-xavier",
+              "sq_candidato": "130002547874",
               "nome": "Indira Xavier",
+              "nome_civil": "Indira Ivanise Xavier",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002547874_01.pdf",
+              "foto": "fotos/MG/FMG130002547874_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002547874"
+              "mencoes": []
             },
             {
               "id": "mg-mateus-simoes",
+              "sq_candidato": "130002541911",
               "nome": "Mateus Simões",
+              "nome_civil": "Mateus Simões de Almeida",
               "cargo": "governador",
               "partido": "PSD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002541911_01.pdf",
+              "foto": "fotos/MG/FMG130002541911_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002541911"
+              "mencoes": []
             },
             {
               "id": "mg-patrus-ananias",
@@ -2138,26 +2600,32 @@ nacionais e internacionais para o DF. [...]"
               "sq_candidato": "130002550464"
             },
             {
-              "id": "mg-rafael-duda",
-              "nome": "Rafael Duda",
-              "cargo": "governador",
-              "partido": "PSTU",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002546802"
-            },
-            {
               "id": "mg-professor-tulio-lopes",
+              "sq_candidato": "130002544122",
               "nome": "Professor Túlio Lopes",
+              "nome_civil": "Tulio Cesar Dias Lopes",
               "cargo": "governador",
               "partido": "PCB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002544122_01.pdf",
+              "foto": "fotos/MG/FMG130002544122_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "130002544122"
+              "mencoes": []
+            },
+            {
+              "id": "mg-rafael-duda",
+              "sq_candidato": "130002546802",
+              "nome": "Rafael Duda",
+              "nome_civil": "Rafael Ribeiro de Ávila",
+              "cargo": "governador",
+              "partido": "PSTU",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_MG.zip",
+              "arquivo_fonte": "2026MG130002546802_01.pdf",
+              "foto": "fotos/MG/FMG130002546802_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -2181,26 +2649,32 @@ nacionais e internacionais para o DF. [...]"
               "sq_candidato": "190002537524"
             },
             {
-              "id": "rj-garotinho",
-              "nome": "Garotinho",
+              "id": "rj-coronel-busnello",
+              "sq_candidato": "190002544120",
+              "nome": "Coronel Busnello",
+              "nome_civil": "João Jacques Soares Busnello",
               "cargo": "governador",
-              "partido": "REPUBLICANOS",
-              "status": "nao_divulgado",
-              "fonte": null,
-              "observacoes": "O Programa de Governo ainda não está disponível, mesmo que o candidato/a esteja no DivulgaCandContas.",
-              "mencoes": [],
-              "sq_candidato": "190002550196"
+              "partido": "MISSÃO",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RJ.zip",
+              "arquivo_fonte": "2026RJ190002544120_01.pdf",
+              "foto": "fotos/RJ/FRJ190002544120_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "rj-cyro-garcia",
+              "sq_candidato": "190002540198",
               "nome": "Cyro Garcia",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RJ.zip",
+              "arquivo_fonte": "2026RJ190002540198_01.pdf",
+              "foto": "fotos/RJ/FRJ190002540198_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002540198"
+              "mencoes": []
             },
             {
               "id": "rj-douglas-ruas",
@@ -2220,58 +2694,73 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "rj-eduardo-paes",
+              "sq_candidato": "190002543380",
               "nome": "Eduardo Paes",
+              "nome_civil": "Eduardo da Costa Paes",
               "cargo": "governador",
               "partido": "PSD",
-              "status": "nao_menciona",
+              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002543380"
+              "arquivo_fonte": null,
+              "foto": "fotos/RJ/FRJ190002543380_div.jpg",
+              "observacoes": "O Programa de Governo do candidato/a ainda não está disponível, mesmo que ele/ela esteja no DivulgaCandContas..",
+              "mencoes": []
             },
             {
-              "id": "rj-coronel-busnello",
-              "nome": "Coronel Busnello",
+              "id": "rj-garotinho",
+              "sq_candidato": "190002550196",
+              "nome": "Garotinho",
+              "nome_civil": "Anthony William Garotinho Matheus de Oliveira",
               "cargo": "governador",
-              "partido": "MISSÃO",
-              "status": "nao_menciona",
+              "partido": "REPUBLICANOS",
+              "status": "nao_divulgado",
               "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002544120"
+              "arquivo_fonte": null,
+              "foto": "fotos/RJ/FRJ190002550196_div.jpg",
+              "observacoes": "O Programa de Governo do candidato/a ainda não está disponível, mesmo que ele/ela esteja no DivulgaCandContas..",
+              "mencoes": []
             },
             {
               "id": "rj-juliete",
+              "sq_candidato": "190002547272",
               "nome": "Juliete",
+              "nome_civil": "Juliete Pantoja Alves",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RJ.zip",
+              "arquivo_fonte": "2026RJ190002547272_01.pdf",
+              "foto": "fotos/RJ/FRJ190002547272_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002547272"
+              "mencoes": []
             },
             {
               "id": "rj-luan-monteiro",
+              "sq_candidato": "190002552513",
               "nome": "Luan Monteiro",
+              "nome_civil": "Luan Monteiro Paschoal Pires",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RJ.zip",
+              "arquivo_fonte": "2026RJ190002552513_01.pdf",
+              "foto": "fotos/RJ/FRJ190002552513_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002552513"
+              "mencoes": []
             },
             {
               "id": "rj-william-siri",
+              "sq_candidato": "190002536162",
               "nome": "William Siri",
+              "nome_civil": "William Carlos Brum Bispo",
               "cargo": "governador",
               "partido": "PSOL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RJ.zip",
+              "arquivo_fonte": "2026RJ190002536162_01.pdf",
+              "foto": "fotos/RJ/FRJ190002536162_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "190002536162"
+              "mencoes": []
             }
           ]
         },
@@ -2280,47 +2769,59 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "sp-carlos-machado",
+              "sq_candidato": "250002550913",
               "nome": "Carlos Machado",
+              "nome_civil": "Carlos Alberto Machado",
               "cargo": "governador",
               "partido": "PCB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+              "arquivo_fonte": "2026SP250002550913_01.pdf",
+              "foto": "fotos/SP/FSP250002550913_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002550913"
-            },
-            {
-              "id": "sp-policial-edjane",
-              "nome": "Policial Edjane",
-              "cargo": "governador",
-              "partido": "AGIR",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002548080"
+              "mencoes": []
             },
             {
               "id": "sp-fernando-haddad",
+              "sq_candidato": "250002549705",
               "nome": "Fernando Haddad",
+              "nome_civil": null,
               "cargo": "governador",
               "partido": "PT",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+              "arquivo_fonte": "2026SP250002549705_01.pdf",
+              "foto": "fotos/SP/FSP250002549705_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002549705"
+              "mencoes": []
             },
             {
               "id": "sp-izadora-dias",
+              "sq_candidato": "250002553062",
               "nome": "Izadora Dias",
+              "nome_civil": "Izadora Cristina Dias da Silva",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+              "arquivo_fonte": "2026SP250002553062_01.pdf",
+              "foto": "fotos/SP/FSP250002553062_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002553062"
+              "mencoes": []
+            },
+            {
+              "id": "sp-policial-edjane",
+              "sq_candidato": "250002548080",
+              "nome": "Policial Edjane",
+              "nome_civil": "Edjane Lima de Sousa",
+              "cargo": "governador",
+              "partido": "AGIR",
+              "status": "nao_divulgado",
+              "fonte": null,
+              "arquivo_fonte": null,
+              "foto": "fotos/SP/FSP250002548080_div.jpg",
+              "observacoes": "O Programa de Governo do candidato/a ainda não está disponível, mesmo que ele/ela esteja no DivulgaCandContas..",
+              "mencoes": []
             },
             {
               "id": "sp-tarcisio",
@@ -2352,25 +2853,31 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "sp-vera-lucia",
+              "sq_candidato": "250002536915",
               "nome": "Vera Lúcia",
+              "nome_civil": "Vera Lúcia Pereira da Silva Salgado",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+              "arquivo_fonte": "2026SP250002536915_01.pdf",
+              "foto": "fotos/SP/FSP250002536915_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002536915"
+              "mencoes": []
             },
             {
               "id": "sp-vivian-mendes",
+              "sq_candidato": "250002544912",
               "nome": "Vivian Mendes",
+              "nome_civil": "Vivian Mendes da Silva",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+              "arquivo_fonte": "2026SP250002544912_01.pdf, 2026SP250002544912_02.pdf, 2026SP250002544912_03.pdf",
+              "foto": "fotos/SP/FSP250002544912_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "250002544912"
+              "mencoes": []
             }
           ]
         }
@@ -2384,36 +2891,45 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "pr-adriano-funileiro",
+              "sq_candidato": "160002552560",
               "nome": "Adriano Funileiro",
+              "nome_civil": "Adriano Teixeira",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PR.zip",
+              "arquivo_fonte": "2026PR160002552560_01.pdf",
+              "foto": "fotos/PR/FPR160002552560_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "160002552560"
+              "mencoes": []
             },
             {
               "id": "pr-doutor-alexandre-salomao",
+              "sq_candidato": "160002547594",
               "nome": "Doutor Alexandre Salomão",
+              "nome_civil": "Alexandre Salomao",
               "cargo": "governador",
               "partido": "MOBILIZA",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PR.zip",
+              "arquivo_fonte": "2026PR160002547594_01.pdf",
+              "foto": "fotos/PR/FPR160002547594_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "160002547594"
+              "mencoes": []
             },
             {
               "id": "pr-luiz-franca",
+              "sq_candidato": "160002551353",
               "nome": "Luiz França",
+              "nome_civil": "Luiz Felipe Martins Franca",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PR.zip",
+              "arquivo_fonte": "2026PR160002551353_01.pdf",
+              "foto": "fotos/PR/FPR160002551353_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "160002551353"
+              "mencoes": []
             },
             {
               "id": "pr-requiao-filho",
@@ -2433,14 +2949,17 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "pr-samuel-de-mattos",
+              "sq_candidato": "160002548010",
               "nome": "Samuel de Mattos",
+              "nome_civil": "Samuel de Mattos Figueiredo",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PR.zip",
+              "arquivo_fonte": "2026PR160002548010_01.pdf",
+              "foto": "fotos/PR/FPR160002548010_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "160002548010"
+              "mencoes": []
             },
             {
               "id": "pr-sandro-alex",
@@ -2480,14 +2999,17 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "pr-tayna-miessa",
+              "sq_candidato": "160002550997",
               "nome": "Tayná Miessa",
+              "nome_civil": "Tayna Miessa Tsushida",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_PR.zip",
+              "arquivo_fonte": "2026PR160002550997_01.pdf",
+              "foto": "fotos/PR/FPR160002550997_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "160002550997"
+              "mencoes": []
             }
           ]
         },
@@ -2496,25 +3018,31 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "rs-cesar-pontes",
+              "sq_candidato": "210002552592",
               "nome": "Cesar Pontes",
+              "nome_civil": "Cesar Augusto Pontes Ferreira",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RS.zip",
+              "arquivo_fonte": "2026RS210002552592_01.pdf",
+              "foto": "fotos/RS/FRS210002552592_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "210002552592"
+              "mencoes": []
             },
             {
               "id": "rs-gabriel-souza",
+              "sq_candidato": "210002542892",
               "nome": "Gabriel Souza",
+              "nome_civil": "Gabriel Vieira de Souza",
               "cargo": "governador",
               "partido": "MDB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RS.zip",
+              "arquivo_fonte": "2026RS210002542892_01.pdf",
+              "foto": "fotos/RS/FRS210002542892_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "210002542892"
+              "mencoes": []
             },
             {
               "id": "rs-juliana-brizola",
@@ -2531,17 +3059,6 @@ nacionais e internacionais para o DF. [...]"
                 }
               ],
               "sq_candidato": "210002551508"
-            },
-            {
-              "id": "rs-zucco",
-              "nome": "Zucco",
-              "cargo": "governador",
-              "partido": "PL",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "210002547857"
             },
             {
               "id": "rs-marcelo-maranata",
@@ -2561,25 +3078,45 @@ nacionais e internacionais para o DF. [...]"
             },
             {
               "id": "rs-priscila-voigt",
+              "sq_candidato": "210002533355",
               "nome": "Priscila Voigt",
+              "nome_civil": "Priscila Voigt Severiano",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RS.zip",
+              "arquivo_fonte": "2026RS210002533355_01.pdf",
+              "foto": "fotos/RS/FRS210002533355_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "210002533355"
+              "mencoes": []
             },
             {
               "id": "rs-rejane-de-oliveira",
+              "sq_candidato": "210002541367",
               "nome": "Rejane de Oliveira",
+              "nome_civil": "Rejane Silva de Oliveira",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RS.zip",
+              "arquivo_fonte": "2026RS210002541367_01.pdf",
+              "foto": "fotos/RS/FRS210002541367_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "210002541367"
+              "mencoes": []
+            },
+            {
+              "id": "rs-zucco",
+              "sq_candidato": "210002547857",
+              "nome": "Zucco",
+              "nome_civil": "Luciano Lorenzini Zucco",
+              "cargo": "governador",
+              "partido": "PL",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_RS.zip",
+              "arquivo_fonte": "2026RS210002547857_01.pdf",
+              "foto": "fotos/RS/FRS210002547857_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             }
           ]
         },
@@ -2588,91 +3125,115 @@ nacionais e internacionais para o DF. [...]"
           "candidatos": [
             {
               "id": "sc-bruno-pedreiro-do-pco",
+              "sq_candidato": "240002553718",
               "nome": "Bruno Pedreiro do Pco",
+              "nome_civil": "Brunno Andrade Dias",
               "cargo": "governador",
               "partido": "PCO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002553718_01.pdf",
+              "foto": "fotos/SC/FSC240002553718_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002553718"
+              "mencoes": []
             },
             {
               "id": "sc-gelson-merisio",
+              "sq_candidato": "240002548628",
               "nome": "Gelson Merísio",
+              "nome_civil": "Gelson Luiz Merisio",
               "cargo": "governador",
               "partido": "PSB",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002548628_01.pdf",
+              "foto": "fotos/SC/FSC240002548628_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002548628"
-            },
-            {
-              "id": "sc-joao-rodrigues",
-              "nome": "João Rodrigues",
-              "cargo": "governador",
-              "partido": "PSD",
-              "status": "nao_menciona",
-              "fonte": null,
-              "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002551001"
+              "mencoes": []
             },
             {
               "id": "sc-jorginho-mello",
+              "sq_candidato": "240002537073",
               "nome": "Jorginho Mello",
+              "nome_civil": "Jorginho dos Santos Mello",
               "cargo": "governador",
               "partido": "PL",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002537073_01.pdf",
+              "foto": "fotos/SC/FSC240002537073_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002537073"
+              "mencoes": []
+            },
+            {
+              "id": "sc-joao-rodrigues",
+              "sq_candidato": "240002551001",
+              "nome": "João Rodrigues",
+              "nome_civil": "Joao Rodrigues",
+              "cargo": "governador",
+              "partido": "PSD",
+              "status": "nao_menciona",
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002551001_01.pdf",
+              "foto": "fotos/SC/FSC240002551001_div.jpg",
+              "observacoes": null,
+              "mencoes": []
             },
             {
               "id": "sc-lais-chaud",
+              "sq_candidato": "240002550544",
               "nome": "Laís Chaud",
+              "nome_civil": "Laís Paganelli Chaud",
               "cargo": "governador",
               "partido": "UP",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002550544_01.pdf",
+              "foto": "fotos/SC/FSC240002550544_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002550544"
+              "mencoes": []
             },
             {
               "id": "sc-marcelo-brigadeiro",
+              "sq_candidato": "240002544118",
               "nome": "Marcelo Brigadeiro",
+              "nome_civil": "Marcelo Marcel Franco Jose da Silva",
               "cargo": "governador",
               "partido": "MISSÃO",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002544118_01.pdf",
+              "foto": "fotos/SC/FSC240002544118_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002544118"
+              "mencoes": []
             },
             {
               "id": "sc-professor-marcus-sodre",
+              "sq_candidato": "240002541913",
               "nome": "Professor Marcus Sodré",
+              "nome_civil": "Marcus Alexandre Sodre",
               "cargo": "governador",
               "partido": "PSTU",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002541913_01.pdf",
+              "foto": "fotos/SC/FSC240002541913_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002541913"
+              "mencoes": []
             },
             {
               "id": "sc-ralf-zimmer",
+              "sq_candidato": "240002552157",
               "nome": "Ralf Zimmer",
+              "nome_civil": "Ralf Guimaraes Zimmer Junior",
               "cargo": "governador",
               "partido": "PRD",
               "status": "nao_menciona",
-              "fonte": null,
+              "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SC.zip",
+              "arquivo_fonte": "2026SC240002552157_01.pdf",
+              "foto": "fotos/SC/FSC240002552157_div.jpg",
               "observacoes": null,
-              "mencoes": [],
-              "sq_candidato": "240002552157"
+              "mencoes": []
             }
           ]
         }

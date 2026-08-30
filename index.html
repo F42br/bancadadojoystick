@@ -293,6 +293,12 @@
   }
   .cand-name{font-weight:600;}
   .cand-party{font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim);}
+  .cand-nome-civil{font-size:0.76rem; color:var(--ink-dim); margin-top:2px;}
+  .cand-card.tem-foto{grid-template-columns: 52px 1fr auto;}
+  .cand-foto{
+    width:52px; height:52px; border-radius:6px; object-fit:cover;
+    border:1px solid var(--line); background:var(--bg-panel-2);
+  }
   .cand-quote{
     margin-top:8px; font-size:0.86rem; color:var(--ink-dim);
     border-left:2px solid var(--line); padding-left:10px; font-style:italic;
@@ -370,7 +376,7 @@
       </div>
 
       <div class="placar">
-        <div class="placar-label">Placar da Bancada · Panorama Nacional</div>
+        <div class="placar-label">Placar Joystick · Panorama Nacional</div>
         <div class="gauge-wrap">
           <svg class="gauge-svg" viewBox="0 0 120 120" width="140" height="140" role="img" aria-label="Percentual de candidatos que mencionam o tema">
             <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
@@ -606,7 +612,7 @@
 </main>
 
 <footer>
-  Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: bancadadojoystick@proton.me <br>
+  Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: [email a definir]<br>
   <span id="rodape-atualizacao">carregando dados...</span> · registros de candidatura podem mudar (inclusive por decisão judicial) entre uma atualização e outra — confira sempre a data acima
 </footer>
 
@@ -944,9 +950,11 @@ function renderMencoes(){
       regiaoHTML += `<div class="state-title" id="estado-${slugify(estado.nome)}">${estado.nome}</div><div class="cand-list">`;
       cands.forEach(c=>{
         regiaoHTML += `
-          <div class="cand-card">
+          <div class="cand-card ${c.foto ? 'tem-foto' : ''}">
+            ${c.foto ? `<img class="cand-foto" src="${c.foto}" alt="Foto oficial de ${c.nome}" loading="lazy" onerror="this.remove(); this.closest('.cand-card').classList.remove('tem-foto');">` : ''}
             <div>
               <div class="cand-name">${c.nome} <span class="cand-party">· ${c.partido} · ${c.cargo==='presidente'?'Presidência':'Governo'}</span></div>
+              ${c.nome_civil ? `<div class="cand-nome-civil">nome civil: ${c.nome_civil}</div>` : ''}
               ${corpoDoCard(c)}
               ${c.observacoes ? `<div class="cand-obs">⚠ ${c.observacoes}</div>` : ''}
             </div>

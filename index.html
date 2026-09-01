@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <!--
-  Bancada do Joystick — versão de lançamento
-  Esta é a versão de referência do site: sem dados fictícios, com
-  tratamento defensivo contra falhas de carregamento/formato de dados.
-  Convém usar esta versão como base para qualquer atualização futura.
+  Bancada do Joystick — versão de lançamento (reconstrução completa)
+  Sem dados fictícios. Tratamento defensivo contra falha de carregamento
+  ou formato de dados. Use esta versão como base para atualizações futuras.
 -->
 <html lang="pt-BR">
 <head>
@@ -17,335 +16,236 @@
     --bg-panel-2: #1c212c;
     --ink: #e7e5df;
     --ink-dim: #8f95a3;
+    --ink-faint: #666d7c;
     --line: #2a2f3a;
-    --accent: #4fb0a5;      /* destaque principal — verde-azulado */
-    --pos: #5b8c5a;         /* menciona */
-    --neg: #5b5f6b;         /* não menciona */
-    --warn: #b8763f;        /* não divulgado ainda */
-    --info: #5f89c9;        /* prévia divulgada */
+    --accent: #4fb0a5;
+    --pos: #5b8c5a;
+    --neg: #5b5f6b;
+    --warn: #b8763f;
+    --info: #5f89c9;
     --font-display: "IBM Plex Serif", Georgia, serif;
     --font-body: "IBM Plex Sans", -apple-system, sans-serif;
     --font-mono: "IBM Plex Mono", monospace;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{
-    background:var(--bg);
-    color:var(--ink);
-    font-family:var(--font-body);
-    line-height:1.6;
-    min-height:100vh;
+    background:var(--bg); color:var(--ink); font-family:var(--font-body);
+    line-height:1.6; min-height:100vh;
   }
   ::selection{background:var(--accent); color:#161409;}
   a{color:var(--accent);}
   :focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  img{max-width:100%; display:block;}
 
   header{
     position:sticky; top:0; z-index:100;
-    background:rgba(16,19,26,0.94);
-    backdrop-filter: blur(6px);
+    background:rgba(16,19,26,0.96); backdrop-filter:blur(6px);
     border-bottom:1px solid var(--line);
-    padding: 16px 24px;
-    display:flex; align-items:center; justify-content:space-between;
-    gap:16px; flex-wrap:wrap;
+    padding:14px 24px; display:flex; align-items:center; justify-content:space-between;
+    gap:16px;
   }
   .logo{
-    font-family:var(--font-display);
-    font-weight:600;
-    font-size:1.15rem;
-    letter-spacing:0.2px;
-    display:flex; align-items:center; gap:10px;
+    font-family:var(--font-display); font-weight:600; font-size:1.1rem;
+    display:flex; align-items:center; gap:9px; white-space:nowrap;
   }
   .logo .glyph{
-    width:20px;height:20px;
-    display:inline-block;
+    width:18px; height:18px; flex-shrink:0;
     background:var(--accent);
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   }
-  nav{display:flex; gap:4px; flex-wrap:wrap;}
+  nav{display:flex; gap:2px; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch;}
+  nav::-webkit-scrollbar{display:none;}
   nav button{
-    font-family:var(--font-mono);
-    font-size:0.8rem;
-    background:transparent;
-    border:1px solid transparent;
-    color:var(--ink-dim);
-    padding:8px 14px;
-    cursor:pointer;
-    letter-spacing:0.3px;
-    transition:all .15s;
+    font-family:var(--font-mono); font-size:0.78rem;
+    background:transparent; border:1px solid transparent; color:var(--ink-dim);
+    padding:8px 12px; cursor:pointer; white-space:nowrap; flex-shrink:0; transition:.15s;
   }
   nav button:hover{color:var(--ink); border-color:var(--line);}
-  nav button.active{
-    color:var(--bg);
-    background:var(--accent);
-    font-weight:700;
-  }
+  nav button.active{color:var(--bg); background:var(--accent); font-weight:700;}
 
-  main{max-width:1140px; margin:0 auto; padding: 40px 24px 100px;}
+  main{max-width:1140px; margin:0 auto; padding:40px 24px 100px;}
   .view{display:none; animation:fadein .25s ease;}
   .view.active{display:block;}
   @keyframes fadein{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
 
-  /* ---- HOME / HERO ---- */
+  h1{font-family:var(--font-display); font-weight:600; font-size:2rem; line-height:1.3; letter-spacing:-0.3px;}
+  @media (max-width:600px){ h1{font-size:1.4rem;} }
+
+  /* ---- HOME ---- */
   .hero{
-    display:grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap:48px;
-    padding: 32px 0 56px;
-    border-bottom:1px solid var(--line);
-    align-items:center;
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:48px;
+    padding:28px 0 52px; border-bottom:1px solid var(--line); align-items:center;
   }
   @media (max-width:820px){ .hero{grid-template-columns:1fr;} }
   .eyebrow{
-    font-family:var(--font-mono);
-    color:var(--accent);
-    font-size:0.76rem;
-    letter-spacing:1.5px;
-    text-transform:uppercase;
-    margin-bottom:14px;
+    font-family:var(--font-mono); color:var(--accent); font-size:0.75rem;
+    letter-spacing:1.5px; text-transform:uppercase; margin-bottom:12px;
   }
-  h1{
-    font-family:var(--font-display);
-    font-weight:600;
-    font-size:2.1rem;
-    line-height:1.3;
-    letter-spacing:-0.3px;
-  }
-  @media (max-width:600px){ h1{font-size:1.5rem;} }
-  .hero p.lede{
-    margin-top:18px;
-    color:var(--ink-dim);
-    font-size:1.02rem;
-    max-width:54ch;
-  }
-  .cta-row{margin-top:26px; display:flex; gap:12px; flex-wrap:wrap;}
+  .hero p.lede{margin-top:16px; color:var(--ink-dim); font-size:1rem; max-width:54ch;}
+  .cta-row{margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;}
   .btn{
-    font-family:var(--font-mono);
-    font-size:0.83rem;
-    padding:12px 20px;
-    border:1px solid var(--line);
-    background:transparent;
-    color:var(--ink);
-    cursor:pointer;
-    transition:.15s;
+    font-family:var(--font-mono); font-size:0.82rem; padding:11px 18px;
+    border:1px solid var(--line); background:transparent; color:var(--ink);
+    cursor:pointer; transition:.15s;
   }
   .btn.primary{background:var(--accent); color:#161409; border-color:var(--accent); font-weight:700;}
   .btn:hover{border-color:var(--ink-dim);}
   .btn.primary:hover{filter:brightness(1.08);}
 
-  .placar{
-    background:var(--bg-panel);
-    border:1px solid var(--line);
-    padding:26px;
-  }
-  .placar-label{
-    font-family:var(--font-mono);
-    font-size:0.7rem;
-    color:var(--ink-dim);
-    letter-spacing:1.2px;
-    text-transform:uppercase;
-    margin-bottom:6px;
-  }
-  .gauge-wrap{position:relative; width:140px; height:140px; margin:18px auto 6px;}
+  .placar{background:var(--bg-panel); border:1px solid var(--line); padding:24px;}
+  .placar-label{font-family:var(--font-mono); font-size:0.68rem; color:var(--ink-dim); letter-spacing:1.2px; text-transform:uppercase; margin-bottom:6px;}
+  .gauge-wrap{position:relative; width:132px; height:132px; margin:16px auto 4px;}
   .gauge-svg{width:100%; height:100%; display:block;}
   .gauge-track{fill:none; stroke:var(--line); stroke-width:9;}
-  .gauge-fill{
-    fill:none; stroke:var(--accent); stroke-width:9; stroke-linecap:round;
-    stroke-dasharray:326.7; stroke-dashoffset:326.7;
-    transition:stroke-dashoffset .7s cubic-bezier(.4,0,.2,1);
-  }
-  .gauge-value{
-    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
-    font-family:var(--font-display); font-weight:600; font-size:1.9rem; color:var(--accent);
-  }
-  .placar-sub{font-size:0.85rem; color:var(--ink-dim); margin-top:8px; max-width:38ch; text-align:center; margin-left:auto; margin-right:auto;}
-  .placar-legend{
-    display:flex; justify-content:center;
-    font-family:var(--font-mono); font-size:0.66rem; color:var(--ink-dim); margin-top:10px; letter-spacing:0.5px; text-transform:uppercase;
-  }
+  .gauge-fill{fill:none; stroke:var(--accent); stroke-width:9; stroke-linecap:round; stroke-dasharray:326.7; stroke-dashoffset:326.7; transition:stroke-dashoffset .7s cubic-bezier(.4,0,.2,1);}
+  .gauge-value{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:var(--font-display); font-weight:600; font-size:1.8rem; color:var(--accent);}
+  .placar-sub{font-size:0.83rem; color:var(--ink-dim); margin-top:8px; max-width:36ch; text-align:center; margin-left:auto; margin-right:auto;}
+  .placar-legend{display:flex; justify-content:center; font-family:var(--font-mono); font-size:0.64rem; color:var(--ink-dim); margin-top:10px; letter-spacing:0.5px; text-transform:uppercase;}
 
-  section{padding:52px 0; border-bottom:1px solid var(--line);}
+  section{padding:48px 0; border-bottom:1px solid var(--line);}
   section:last-child{border-bottom:none;}
-  h2{
-    font-family:var(--font-display);
-    font-weight:600;
-    font-size:1.3rem;
-    margin-bottom:8px;
-  }
-  h2 + .section-sub{color:var(--ink-dim); font-size:0.9rem; margin-bottom:26px; max-width:60ch;}
+  h2{font-family:var(--font-display); font-weight:600; font-size:1.25rem; margin-bottom:6px;}
+  h2 + .section-sub{color:var(--ink-dim); font-size:0.88rem; margin-bottom:24px; max-width:60ch;}
 
-  .charts-grid{display:grid; grid-template-columns: 1.3fr 1fr; gap:24px;}
+  .charts-grid{display:grid; grid-template-columns:1.3fr 1fr; gap:22px;}
   @media (max-width:820px){ .charts-grid{grid-template-columns:1fr;} }
-
-  .chart-wrap{background:var(--bg-panel); border:1px solid var(--line); padding:22px;}
-  .chart-title{font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim); text-transform:uppercase; letter-spacing:1px; margin-bottom:18px;}
-  .bar-row{display:grid; grid-template-columns: 130px 1fr 46px; align-items:center; gap:10px; margin-bottom:13px; font-family:var(--font-mono); font-size:0.8rem;}
-  .bar-row.compact{grid-template-columns: 150px 1fr 34px;}
-  .bar-track{height:16px; background:#0d0c09; position:relative; overflow:hidden;}
+  .chart-wrap{background:var(--bg-panel); border:1px solid var(--line); padding:20px;}
+  .chart-title{font-family:var(--font-mono); font-size:0.7rem; color:var(--ink-dim); text-transform:uppercase; letter-spacing:1px; margin-bottom:16px;}
+  .bar-row{display:grid; grid-template-columns:130px 1fr 44px; align-items:center; gap:10px; margin-bottom:12px; font-family:var(--font-mono); font-size:0.78rem;}
+  .bar-row.compact{grid-template-columns:150px 1fr 32px;}
+  .bar-track{height:15px; background:#0d0c09; position:relative; overflow:hidden;}
   .bar-fill{height:100%; background:var(--pos);}
   .bar-fill.low{background:var(--warn);}
   .bar-fill.neutral{background:var(--accent);}
 
-  /* donut chart */
-  .donut-wrap{display:flex; align-items:center; gap:22px; flex-wrap:wrap;}
-  .donut{ width:150px; height:150px; border-radius:50%; flex-shrink:0; }
-  .donut-legend{display:flex; flex-direction:column; gap:9px; font-family:var(--font-mono); font-size:0.76rem;}
+  .donut-wrap{display:flex; align-items:center; gap:20px; flex-wrap:wrap;}
+  .donut{width:140px; height:140px; border-radius:50%; flex-shrink:0;}
+  .donut-legend{display:flex; flex-direction:column; gap:8px; font-family:var(--font-mono); font-size:0.74rem;}
   .donut-legend .item{display:flex; align-items:center; gap:8px; color:var(--ink-dim);}
   .donut-legend .dot{width:10px; height:10px; border-radius:2px; flex-shrink:0;}
 
-  .stat-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-top:0;}
-  .stat-card{background:var(--bg-panel); border:1px solid var(--line); padding:20px;}
-  .stat-num{font-family:var(--font-display); font-weight:600; font-size:1.7rem; color:var(--accent);}
-  .stat-lbl{font-family:var(--font-mono); font-size:0.7rem; color:var(--ink-dim); margin-top:8px; text-transform:uppercase; letter-spacing:0.4px;}
+  .stat-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px;}
+  .stat-card{background:var(--bg-panel); border:1px solid var(--line); padding:18px;}
+  .stat-num{font-family:var(--font-display); font-weight:600; font-size:1.6rem; color:var(--accent);}
+  .stat-lbl{font-family:var(--font-mono); font-size:0.68rem; color:var(--ink-dim); margin-top:6px; text-transform:uppercase; letter-spacing:0.4px;}
 
-  .terms-list{display:flex; flex-direction:column; gap:10px;}
-  .terms-list .t-row{display:flex; justify-content:space-between; align-items:center; font-family:var(--font-mono); font-size:0.82rem; border-bottom:1px solid var(--line); padding-bottom:8px;}
+  .terms-list{display:flex; flex-direction:column; gap:9px;}
+  .terms-list .t-row{display:flex; justify-content:space-between; align-items:center; font-family:var(--font-mono); font-size:0.8rem; border-bottom:1px solid var(--line); padding-bottom:8px;}
   .terms-list .t-row span.count{color:var(--accent);}
-  .terms-note{font-size:0.78rem; color:var(--ink-dim); margin-top:14px;}
+  .terms-note{font-size:0.76rem; color:var(--ink-dim); margin-top:12px;}
 
-  /* SOBRE */
+  /* ---- SOBRE ---- */
   .prose{max-width:70ch;}
-  .prose p{margin-bottom:16px; color:var(--ink-dim);}
+  .prose p{margin-bottom:15px; color:var(--ink-dim);}
   .prose strong{color:var(--ink);}
-  .prose h3{font-family:var(--font-display); font-weight:600; font-size:1.15rem; color:var(--ink); margin:34px 0 14px;}
-  .footnote{font-size:0.78rem; color:var(--ink-dim); border-top:1px solid var(--line); margin-top:28px; padding-top:14px;}
+  .prose h3{font-family:var(--font-display); font-weight:600; font-size:1.12rem; color:var(--ink); margin:32px 0 13px;}
+  .footnote{font-size:0.76rem; color:var(--ink-dim); border-top:1px solid var(--line); margin-top:26px; padding-top:14px;}
+  .footnote a{color:var(--accent);}
+
+  .faq-item{border-bottom:1px solid var(--line); padding:15px 0;}
+  .faq-item summary{cursor:pointer; font-weight:600; color:var(--ink); font-size:0.95rem;}
+  .faq-item summary::marker{color:var(--accent);}
+  .faq-item p{margin-top:9px; color:var(--ink-dim); font-size:0.89rem;}
+
+  .disclaimer{margin-top:34px; border-left:3px solid var(--accent); background:var(--bg-panel); padding:20px 22px; font-size:0.87rem; color:var(--ink-dim);}
+  .disclaimer strong{color:var(--ink); font-family:var(--font-mono); font-size:0.74rem; letter-spacing:0.5px; text-transform:uppercase; display:block; margin-bottom:8px;}
+  .disclaimer p{margin-bottom:11px;}
+  .disclaimer p:last-child{margin-bottom:0;}
 
   .subnav{
-    position:sticky; top:57px; z-index:90;
+    position:sticky; top:53px; z-index:90;
     background:rgba(16,19,26,0.96); backdrop-filter:blur(6px);
-    display:flex; gap:8px; overflow-x:auto; scrollbar-width:none;
-    padding:12px 0 16px; margin-bottom:24px; border-bottom:1px solid var(--line);
+    display:flex; gap:7px; overflow-x:auto; scrollbar-width:none;
+    padding:11px 0 15px; margin-bottom:22px; border-bottom:1px solid var(--line);
   }
   .subnav::-webkit-scrollbar{display:none;}
   .subnav a{
-    font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim);
-    text-decoration:none; padding:7px 13px; border:1px solid var(--line);
+    font-family:var(--font-mono); font-size:0.7rem; color:var(--ink-dim);
+    text-decoration:none; padding:6px 12px; border:1px solid var(--line);
     white-space:nowrap; flex-shrink:0; transition:.15s;
   }
   .subnav a:hover{color:var(--ink); border-color:var(--accent);}
-  .footnote a{color:var(--accent);}
 
-  .faq-item{border-bottom:1px solid var(--line); padding:16px 0;}
-  .faq-item summary{cursor:pointer; font-weight:600; color:var(--ink); font-size:0.96rem;}
-  .faq-item summary::marker{color:var(--accent);}
-  .faq-item p{margin-top:10px; color:var(--ink-dim); font-size:0.9rem;}
-
-  .disclaimer{
-    margin-top:36px;
-    border-left:3px solid var(--accent);
-    background:var(--bg-panel);
-    padding:22px 24px;
-    font-size:0.88rem;
-    color:var(--ink-dim);
-  }
-  .disclaimer strong{color:var(--ink); font-family:var(--font-mono); font-size:0.76rem; letter-spacing:0.5px; text-transform:uppercase; display:block; margin-bottom:8px;}
-  .disclaimer p{margin-bottom:12px;}
-  .disclaimer p:last-child{margin-bottom:0;}
-
-  /* MENÇÕES */
+  /* ---- CANDIDATOS ---- */
   .filters{
     display:flex; gap:10px; flex-wrap:wrap;
-    position:sticky; top:57px; z-index:90;
+    position:sticky; top:53px; z-index:90;
     background:rgba(16,19,26,0.96); backdrop-filter:blur(6px);
     padding:12px 0; margin-bottom:8px; border-bottom:1px solid var(--line);
   }
   .filters select, .filters input{
-    font-family:var(--font-mono);
-    background:var(--bg-panel);
-    border:1px solid var(--line);
-    color:var(--ink);
-    padding:9px 12px;
-    font-size:0.8rem;
+    font-family:var(--font-mono); background:var(--bg-panel); border:1px solid var(--line);
+    color:var(--ink); padding:9px 12px; font-size:0.78rem;
   }
-  .quick-nav{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:28px;}
+  .quick-nav{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:26px;}
   .quick-nav button{
-    font-family:var(--font-mono); font-size:0.7rem;
+    font-family:var(--font-mono); font-size:0.68rem;
     background:var(--bg-panel); border:1px solid var(--line); color:var(--ink-dim);
     padding:5px 10px; cursor:pointer;
   }
   .quick-nav button:hover{color:var(--ink); border-color:var(--accent);}
-  .region-block{margin-bottom:36px; scroll-margin-top:80px;}
+  .region-block{margin-bottom:34px; scroll-margin-top:110px;}
   .region-title{
-    font-family:var(--font-mono);
-    font-size:0.76rem;
-    letter-spacing:1.5px;
-    text-transform:uppercase;
-    color:var(--ink-dim);
-    border-bottom:1px solid var(--line);
-    padding-bottom:8px;
-    margin-bottom:16px;
+    font-family:var(--font-mono); font-size:0.74rem; letter-spacing:1.5px; text-transform:uppercase;
+    color:var(--ink-dim); border-bottom:1px solid var(--line); padding-bottom:8px; margin-bottom:15px;
   }
-  .state-title{
-    font-family:var(--font-mono);
-    font-size:0.85rem;
-    color:var(--ink);
-    margin: 18px 0 10px;
-    scroll-margin-top:80px;
-  }
+  .state-title{font-family:var(--font-mono); font-size:0.83rem; color:var(--ink); margin:17px 0 9px; scroll-margin-top:110px;}
   .cand-list{display:grid; gap:10px;}
   .cand-card{
-    background:var(--bg-panel);
-    border:1px solid var(--line);
-    padding:14px 16px;
-    display:grid;
-    grid-template-columns: 1fr auto;
-    align-items:start;
-    gap:14px;
+    background:var(--bg-panel); border:1px solid var(--line); padding:14px 16px;
+    display:grid; grid-template-columns:48px 1fr auto; align-items:start; gap:13px;
   }
-  .cand-name{font-weight:600;}
-  .cand-party{font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim);}
-  .cand-nome-civil{font-size:0.76rem; color:var(--ink-dim); margin-top:2px;}
-  .cand-card.tem-foto{grid-template-columns: 52px 1fr auto;}
-  .cand-foto{
-    width:52px; height:52px; border-radius:6px; object-fit:cover;
-    border:1px solid var(--line); background:var(--bg-panel-2);
+  @media (max-width:500px){ .cand-card{grid-template-columns:40px 1fr auto; gap:10px;} }
+  .cand-foto, .cand-foto-vazia{
+    width:48px; height:48px; border-radius:6px; object-fit:cover;
+    border:1px solid var(--line); background:var(--bg-panel-2); flex-shrink:0;
   }
-  .cand-quote{
-    margin-top:8px; font-size:0.86rem; color:var(--ink-dim);
-    border-left:2px solid var(--line); padding-left:10px; font-style:italic;
-  }
-  .cand-meta{font-family:var(--font-mono); font-size:0.68rem; color:var(--accent); margin-top:6px; display:flex; gap:14px; flex-wrap:wrap;}
+  .cand-foto-vazia{display:flex; align-items:center; justify-content:center; color:var(--ink-faint);}
+  .cand-name{font-weight:600; line-height:1.35;}
+  .cand-party{font-family:var(--font-mono); font-size:0.7rem; color:var(--ink-dim); font-weight:400;}
+  .cand-nome-civil{font-size:0.74rem; color:var(--ink-dim); margin-top:2px;}
+  .cand-quote{margin-top:8px; font-size:0.85rem; color:var(--ink-dim); border-left:2px solid var(--line); padding-left:10px; font-style:italic;}
+  .cand-meta{font-family:var(--font-mono); font-size:0.66rem; color:var(--accent); margin-top:6px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;}
   .cand-meta a{color:var(--accent);}
-  .cand-obs{font-size:0.78rem; color:var(--warn); margin-top:8px; padding-top:8px; border-top:1px dashed var(--line);}
-  .badge{
-    font-family:var(--font-mono); font-size:0.66rem;
-    padding:4px 8px; height:fit-content;
-    letter-spacing:0.4px; white-space:nowrap;
-  }
+  .cand-arquivo{font-family:var(--font-mono); font-size:0.64rem; color:var(--ink-faint); margin-top:4px; word-break:break-all;}
+  .cand-obs{font-size:0.76rem; color:var(--warn); margin-top:8px; padding-top:8px; border-top:1px dashed var(--line);}
+  .badge{font-family:var(--font-mono); font-size:0.64rem; padding:4px 8px; height:fit-content; letter-spacing:0.4px; white-space:nowrap;}
   .badge.menciona{background:rgba(63,127,92,0.18); color:#7fc79c; border:1px solid rgba(63,127,92,0.4);}
   .badge.nao_menciona{background:rgba(106,90,74,0.18); color:var(--ink-dim); border:1px solid var(--line);}
   .badge.nao_divulgado{background:rgba(193,125,60,0.18); color:#e2a06a; border:1px solid rgba(193,125,60,0.4);}
   .badge.previa{background:rgba(74,127,158,0.18); color:#7fb4d6; border:1px solid rgba(74,127,158,0.4);}
 
   .sample-flag{
-    display:inline-block;
-    font-family:var(--font-mono);
-    font-size:0.68rem;
-    color:var(--warn);
-    border:1px dashed var(--warn);
-    padding:6px 10px;
-    margin-bottom:24px;
-    letter-spacing:0.3px;
+    display:inline-block; font-family:var(--font-mono); font-size:0.66rem; color:var(--warn);
+    border:1px dashed var(--warn); padding:6px 10px; margin-bottom:22px; letter-spacing:0.3px;
   }
 
-  /* DADOS (informativo) */
+  /* ---- LINHA DO TEMPO ---- */
+  .timeline{position:relative; padding-left:30px; margin-top:8px; max-width:70ch;}
+  .timeline::before{content:''; position:absolute; left:6px; top:6px; bottom:6px; width:2px; background:var(--line);}
+  .timeline-item{position:relative; margin-bottom:30px;}
+  .timeline-item::before{content:''; position:absolute; left:-30px; top:3px; width:13px; height:13px; border-radius:50%; background:var(--accent); border:3px solid var(--bg);}
+  .timeline-item.futuro::before{background:var(--bg-panel-2); border:2px solid var(--accent);}
+  .timeline-date{font-family:var(--font-mono); font-size:0.7rem; color:var(--accent); text-transform:uppercase; letter-spacing:1px; margin-bottom:5px;}
+  .timeline-title{font-family:var(--font-display); font-weight:600; font-size:1.05rem; margin-bottom:6px;}
+  .timeline-desc{color:var(--ink-dim); font-size:0.89rem;}
+
+  /* ---- DADOS ---- */
   .panel{background:var(--bg-panel); border:1px solid var(--line); padding:22px;}
-  .panel h3{font-family:var(--font-mono); font-size:0.8rem; letter-spacing:0.5px; text-transform:uppercase; color:var(--ink-dim); margin-bottom:16px;}
-  .step-list{counter-reset:step; list-style:none; margin-top:16px;}
-  .step-list li{counter-increment:step; padding-left:38px; position:relative; margin-bottom:16px; color:var(--ink-dim); font-size:0.9rem;}
+  .panel h3{font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.5px; text-transform:uppercase; color:var(--ink-dim); margin-bottom:15px;}
+  .step-list{counter-reset:step; list-style:none; margin-top:15px;}
+  .step-list li{counter-increment:step; padding-left:36px; position:relative; margin-bottom:15px; color:var(--ink-dim); font-size:0.89rem;}
   .step-list li::before{
-    content:counter(step); position:absolute; left:0; top:0;
-    width:26px; height:26px; border-radius:50%; background:var(--bg-panel-2); border:1px solid var(--accent);
-    color:var(--accent); font-family:var(--font-mono); font-size:0.78rem; display:flex; align-items:center; justify-content:center;
+    content:counter(step); position:absolute; left:0; top:0; width:25px; height:25px; border-radius:50%;
+    background:var(--bg-panel-2); border:1px solid var(--accent); color:var(--accent);
+    font-family:var(--font-mono); font-size:0.76rem; display:flex; align-items:center; justify-content:center;
   }
 
-  footer{
-    border-top:1px solid var(--line);
-    padding:28px 24px;
-    text-align:center;
-    font-family:var(--font-mono);
-    font-size:0.72rem;
-    color:var(--ink-dim);
-  }
+  footer{border-top:1px solid var(--line); padding:30px 24px; text-align:center; font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim);}
+  .footer-redes{display:flex; justify-content:center; gap:16px; margin-bottom:14px; flex-wrap:wrap;}
+  .footer-redes a{color:var(--ink-dim); text-decoration:none; border-bottom:1px solid var(--line); padding-bottom:1px;}
+  .footer-redes a:hover{color:var(--accent); border-color:var(--accent);}
+  footer .linha{margin-top:6px;}
 </style>
 </head>
 <body>
@@ -355,7 +255,8 @@
   <nav>
     <button class="active" data-view="home">Home</button>
     <button data-view="sobre">Sobre</button>
-    <button data-view="mencoes">Menções</button>
+    <button data-view="candidatos">Candidatos</button>
+    <button data-view="linha-do-tempo">Linha do Tempo</button>
     <button data-view="dados">Dados</button>
   </nav>
 </header>
@@ -370,15 +271,14 @@
         <h1>O que os candidatos propõem para games e e-sports?</h1>
         <p class="lede">Reunimos as Propostas de Governo oficialmente registradas na Justiça Eleitoral e mapeamos, candidato a candidato, as menções a jogos eletrônicos, e-sports e à indústria brasileira de games.</p>
         <div class="cta-row">
-          <button class="btn primary" onclick="setView('mencoes')">Ver candidatos por estado</button>
+          <button class="btn primary" onclick="setView('candidatos')">Ver candidatos por estado</button>
           <button class="btn" onclick="setView('sobre')">Sobre o projeto e a metodologia</button>
         </div>
       </div>
-
       <div class="placar">
-        <div class="placar-label">Placar Joystick · Panorama Nacional</div>
+        <div class="placar-label">Panorama Nacional</div>
         <div class="gauge-wrap">
-          <svg class="gauge-svg" viewBox="0 0 120 120" width="140" height="140" role="img" aria-label="Percentual de candidatos que mencionam o tema">
+          <svg class="gauge-svg" viewBox="0 0 120 120" width="132" height="132" role="img" aria-label="Percentual de candidatos que mencionam o tema">
             <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
             <circle class="gauge-fill" id="gauge-fill" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"></circle>
           </svg>
@@ -398,10 +298,7 @@
     <section>
       <h2>Menções por região</h2>
       <div class="section-sub">Proporção de candidatos, em cada região, cujo programa de governo menciona o tema.</div>
-      <div class="chart-wrap">
-        <div class="chart-title">% de candidatos com menção, por região</div>
-        <div id="chart-regiao"></div>
-      </div>
+      <div class="chart-wrap"><div class="chart-title">% de candidatos com menção, por região</div><div id="chart-regiao"></div></div>
     </section>
 
     <section>
@@ -410,33 +307,24 @@
       <div class="charts-grid">
         <div class="chart-wrap">
           <div class="chart-title">Distribuição por status</div>
-          <div class="donut-wrap">
-            <div class="donut" id="donut-status"></div>
-            <div class="donut-legend" id="donut-legend"></div>
-          </div>
+          <div class="donut-wrap"><div class="donut" id="donut-status"></div><div class="donut-legend" id="donut-legend"></div></div>
         </div>
-        <div class="chart-wrap">
-          <div class="chart-title">% de menção por cargo disputado</div>
-          <div id="chart-cargo"></div>
-        </div>
+        <div class="chart-wrap"><div class="chart-title">% de menção por cargo disputado</div><div id="chart-cargo"></div></div>
       </div>
     </section>
 
     <section>
       <h2>Estados com mais menções</h2>
       <div class="section-sub">Ranking dos estados com mais trechos identificados ao todo — um mesmo candidato pode contar mais de um trecho.</div>
-      <div class="chart-wrap">
-        <div class="chart-title">Total de trechos encontrados, por estado (top 8)</div>
-        <div id="chart-estados"></div>
-      </div>
+      <div class="chart-wrap"><div class="chart-title">Total de trechos encontrados, por estado (top 8)</div><div id="chart-estados"></div></div>
     </section>
 
     <section>
       <h2>Termos mais encontrados</h2>
-      <div class="section-sub">Contagem de quantas vezes cada termo do glossário aparece nos trechos citados — não é só "aparece ou não", é a contagem real de ocorrências.</div>
+      <div class="section-sub">Contagem de quantas vezes cada termo do glossário aparece nos trechos citados — a contagem real de ocorrências, não só presença/ausência.</div>
       <div class="chart-wrap">
         <div class="terms-list" id="terms-list"></div>
-        <div class="terms-note">Um mesmo trecho pode conter mais de um termo, e um termo pode se repetir dentro do mesmo trecho — por isso a soma pode passar do número de candidatos que mencionam o tema.</div>
+        <div class="terms-note">Um mesmo trecho pode conter mais de um termo, e um termo pode se repetir dentro do mesmo trecho.</div>
       </div>
     </section>
   </div>
@@ -458,112 +346,80 @@
 
       <h3 id="sec-cenario">O cenário gamer no Brasil, em números</h3>
       <p>Games deixaram de ser nicho há tempos. Segundo estimativas da Newzoo e da Statista, cruzadas com o censo da Abragames (associação brasileira das desenvolvedoras de jogos digitais), o setor movimentou cerca de <strong>R$ 12,7 bilhões no Brasil em 2025</strong> — alta de 8% sobre 2024 —, consolidando o país como o maior mercado consumidor de games da América Latina desde 2021 e um dos cinco maiores do mundo em número de jogadores.<sup>2</sup></p>
-      <div class="stat-grid" style="margin:20px 0 10px;">
+      <div class="stat-grid" style="margin:18px 0 10px;">
         <div class="stat-card"><div class="stat-num">R$ 12,7 bi</div><div class="stat-lbl">movimentados pelo setor em 2025</div></div>
         <div class="stat-card"><div class="stat-num">100+ mi</div><div class="stat-lbl">jogadores no Brasil</div></div>
         <div class="stat-card"><div class="stat-num">1.000+</div><div class="stat-lbl">estúdios de jogos ativos no país</div></div>
         <div class="stat-card"><div class="stat-num">70%+</div><div class="stat-lbl">de carga tributária sobre importados</div></div>
       </div>
       <p>Do lado da produção, o crescimento também é real: o Brasil tinha pouco mais de 130 estúdios de desenvolvimento de jogos registrados em 2014 e ultrapassou a marca de 1.000 estúdios ativos dez anos depois, empregando cerca de 13 mil profissionais — a maior parte organizada como microempresa ou MEI, com acesso ainda limitado a crédito e investimento de risco.<sup>2</sup></p>
-      <p>Do outro lado da balança está o preço. Consoles, jogos físicos e periféricos importados carregam uma das cargas tributárias mais altas do mundo para o setor: somando Imposto de Importação, IPI, ICMS e demais tributos, o acréscimo sobre o valor de um produto importado pode ultrapassar 70% do preço original — um dos motivos por trás de propostas legislativas recorrentes, em anos diferentes e de autores diferentes, para reduzir essa carga especificamente para games.<sup>3</sup></p>
-      <p>E o público se manifesta também como audiência: a Copa CBLOL 2026, principal campeonato brasileiro de League of Legends, reuniu mais de 447 mil espectadores simultâneos em sua final — o segundo maior pico de audiência da história do torneio —, número que rivaliza com transmissões de grandes eventos esportivos tradicionais.<sup>4</sup></p>
+      <p>Do outro lado da balança está o preço. Consoles, jogos físicos e periféricos importados carregam uma das cargas tributárias mais altas do mundo para o setor: somando Imposto de Importação, IPI, ICMS e demais tributos, o acréscimo sobre o valor de um produto importado pode ultrapassar 70% do preço original.<sup>3</sup></p>
+      <p>E o público se manifesta também como audiência: a Copa CBLOL 2026, principal campeonato brasileiro de League of Legends, reuniu mais de 447 mil espectadores simultâneos em sua final — o segundo maior pico de audiência da história do torneio.<sup>4</sup></p>
 
       <h3 id="sec-motivacao">Por que esse projeto existe</h3>
       <p>A ideia nasceu de uma pergunta simples, feita por quem acompanha games e e-sports no dia a dia: quase tudo relacionado a jogar no Brasil ficou mais caro nos últimos anos — consoles, jogos, periféricos, peças de PC — e, ao mesmo tempo, o incentivo ao desenvolvimento nacional de jogos segue tímido perto do tamanho do público que consome esse entretenimento. Olhando os programas de governo de uma eleição, surgiu a curiosidade: será que os candidatos falam sobre isso? Quem já se posicionou, e quem nunca tocou no assunto?</p>
       <p>Dessa curiosidade, virou projeto: reunir, de forma organizada e verificável, o que cada candidatura registrou oficialmente sobre o tema — sem precisar vasculhar dezenas de PDFs individualmente, e sem depender de declarações soltas em redes sociais ou entrevistas, que podem mudar de tom conforme a plateia.</p>
-
       <p>Esse tipo de posicionamento não é inédito: já em pleitos anteriores, nomes conhecidos da comunidade gamer se manifestaram publicamente a favor de candidaturas, aproximando, ainda que informalmente, o universo dos games do debate político — mesmo sem que os próprios candidatos tratassem o tema como pauta.</p>
-
-      <p>A <strong>Bancada do Joystick</strong> nasce dessa lacuna. O projeto não recomenda voto, não avalia o mérito das propostas e não compara candidatos entre si em termos de "melhor" ou "pior" — ele apenas organiza, de forma acessível, o que já é público: os programas de governo oficialmente registrados na Justiça Eleitoral, filtrados por um recorte temático específico.</p>
+      <p>A <strong>Bancada do Joystick</strong> nasce dessa lacuna. O projeto não recomenda voto, não avalia o mérito das propostas e não compara candidatos entre si em termos de "melhor" ou "pior" — ele apenas organiza, de forma acessível, o que já é público.</p>
 
       <h3 id="sec-nome">De onde vem o nome</h3>
       <p>O nome é uma homenagem à <strong>Bancada do Feijão</strong>, de Salvador (BA). Entre o fim do século passado e as décadas seguintes, o Restaurante Alaíde do Feijão — fundado por Maria das Neves e conduzido, depois, por sua filha Alaíde da Conceição, referência do movimento negro na Bahia até seu falecimento em 2022 — se tornou muito mais do que um point de comida afro-baiana no Pelourinho. Em torno das mesas do restaurante, a partir do fim da tarde, reuniam-se informalmente ativistas, artistas, lideranças de blocos afro e políticos, num espaço sem atas ou formalidades, mas que ao longo dos anos ajudou a articular candidaturas e movimentos importantes para a cidade — a "Bancada", apelido dado pelos próprios frequentadores em referência bem-humorada às bancadas parlamentares.</p>
       <p>O que torna essa história inspiradora não é só o resultado político — é o formato: uma mesa de comida simples virando espaço de articulação séria, sem hierarquia forçada, movida por identidade e afeto compartilhados. A Bancada do Joystick tenta replicar essa lógica em outro contexto: assim como o feijão reunia pessoas em torno de uma mesa, o joystick é o símbolo que une uma comunidade — a gamer — que raramente se vê representada como um público político com pauta própria, mas que, olhando os números, é grande demais pra ser ignorada.</p>
-      <p>A ideia por trás da Bancada do Joystick segue essa mesma lógica, adaptada a outro contexto: reunir uma comunidade — nesse caso, a gamer — em torno de um espaço de organização e informação, dando visibilidade a uma pauta que raramente entra no radar do debate eleitoral tradicional, mas que diz respeito a uma parcela expressiva da população brasileira.</p>
 
       <h3 id="sec-politica">Games já são pauta política no Brasil</h3>
       <p>O exemplo mais claro disso é o <strong>Marco Legal dos Games</strong> (Lei 14.852/2024), que regulamenta a fabricação, importação, comercialização e desenvolvimento de jogos eletrônicos no país. O projeto foi aprovado na Câmara dos Deputados e no Senado Federal com apoio que atravessou campos ideológicos distintos, e recebeu sanção — com alguns vetos — da Presidência da República.<sup>5</sup> É um caso raro de pauta ligada a games que percorreu o espectro político de ponta a ponta antes de virar lei.</p>
-
       <p>Mais recentemente, dois episódios reforçaram que o tema segue vivo no Congresso. Em julho de 2026, após um dos principais fabricantes de consoles anunciar o fim da produção de jogos em mídia física a partir de 2028, uma representação foi protocolada na Secretaria Nacional do Consumidor (Senacon) por uma parlamentar federal, pedindo investigação sobre os impactos da medida para o consumidor brasileiro — episódio que também reacendeu o debate público sobre a carga tributária incidente sobre games no país.<sup>6</sup></p>
-
       <p>Na sequência, ganhou força na Câmara um projeto de lei inspirado no movimento internacional Stop Killing Games — que busca impedir que jogos digitais percam suporte e se tornem inacessíveis quando uma empresa encerra seus servidores. A proposta passou a reunir apoio de parlamentares de campos políticos opostos, ainda que com ressalvas pontuais de parte deles sobre trechos específicos do texto durante a tramitação.<sup>7</sup></p>
-
-      <p>Esses episódios mostram por que faz sentido perguntar o que cada candidato pensa sobre o tema: games já mobilizam o Congresso de forma transversal, às vezes aproximando posições opostas — e é exatamente esse tipo de posicionamento, quando existe, que a Bancada do Joystick tenta localizar nos programas de governo.</p>
+      <p>Esses episódios mostram por que faz sentido perguntar o que cada candidato pensa sobre o tema: games já mobilizam o Congresso de forma transversal — e é exatamente esse tipo de posicionamento, quando existe, que a Bancada do Joystick tenta localizar nos programas de governo.</p>
 
       <h3 id="sec-metodologia">Metodologia</h3>
-      <p><strong>Fonte dos dados.</strong> Todas as informações têm como origem o documento oficial de "Proposta de Governo", anexado ao registro de candidatura no sistema DivulgaCandContas, do Tribunal Superior Eleitoral (TSE). Não utilizamos declarações em redes sociais, entrevistas ou material de campanha — apenas o documento formalmente registrado.</p>
-      <p><strong>Termos de busca.</strong> Cada documento é rastreado por um glossário de termos e variações, entre eles: <em>games, jogos eletrônicos, videogames, e-sports, esportes eletrônicos, indústria de jogos, desenvolvedores de jogos, estúdios de jogos</em>. Menções ambíguas ou genéricas (como referências amplas a "cultura digital", sem menção direta ao tema) não são contabilizadas como menção.</p>
-      <p><strong>Classificação por status.</strong> Cada candidato é classificado em um dos quatro status abaixo:</p>
-      <p>· <strong>Menciona</strong> — o programa de governo registrado contém ao menos uma menção direta ao tema, com trecho e página indicados. Pode haver mais de um trecho por candidato.<br>
-      · <strong>Não menciona</strong> — o programa de governo já foi registrado, mas não foi localizada nenhuma menção ao tema.<br>
-      · <strong>Prévia divulgada</strong> — o candidato divulgou uma prévia ou versão preliminar do plano de governo, mas o documento oficial completo ainda não foi registrado ou não está disponível para leitura integral.<br>
+      <p><strong>Fonte dos dados.</strong> A base é o Portal de Dados Abertos do TSE: a lista oficial de candidaturas (consulta_cand), filtrada automaticamente para presidente e governador, e os documentos de "Proposta de Governo" anexados a cada candidatura no momento do registro.</p>
+      <p><strong>Termos de busca.</strong> Cada documento é rastreado por um glossário de termos e variações, entre eles: <em>games, jogos eletrônicos, videogames, e-sports, esportes eletrônicos, indústria de jogos, desenvolvedores de jogos, estúdios de jogos</em>. Menções ambíguas ou genéricas não são contabilizadas como menção.</p>
+      <p><strong>Classificação por status.</strong> · <strong>Menciona</strong> — o programa contém ao menos uma menção direta ao tema, com trecho e página indicados (pode haver mais de um trecho, inclusive vindos de documentos diferentes, quando o candidato anexou mais de uma proposta). <br>
+      · <strong>Não menciona</strong> — o programa já foi registrado, mas não foi localizada nenhuma menção ao tema.<br>
+      · <strong>Prévia divulgada</strong> — o candidato divulgou uma prévia, mas o documento oficial completo ainda não foi registrado.<br>
       · <strong>Ainda não divulgado</strong> — não há, até o momento, programa de governo disponível para consulta.</p>
-      <p><strong>Citação e verificação.</strong> Cada menção identificada é reproduzida em um trecho curto, seguida da indicação da página do documento em que ela aparece e de um link direto para o PDF oficial na fonte do TSE, para que qualquer pessoa possa conferir o contexto completo.</p>
-      <p><strong>Triagem semiautomática.</strong> A primeira leitura de cada documento é feita por uma ferramenta própria, que baixa o PDF oficial e localiza automaticamente os termos do glossário. Todo resultado passa por conferência humana antes de ser publicado — a ferramenta acelera a triagem, mas não substitui a leitura.</p>
+      <p><strong>Citação e verificação.</strong> Cada menção é reproduzida em um trecho curto, com a página e o nome do arquivo de origem indicados, e um link para o pacote oficial do TSE de onde ele foi extraído — para que qualquer pessoa possa conferir o contexto completo.</p>
+      <p><strong>Triagem semiautomática.</strong> A primeira leitura de cada documento é feita por uma ferramenta própria, que baixa o PDF oficial e localiza automaticamente os termos do glossário. Todo resultado passa por conferência humana antes de ser publicado.</p>
 
       <h3 id="sec-atualizacao">Como os dados são atualizados</h3>
-      <p>Os dados do site são um arquivo estático, guardado junto com o código-fonte do projeto. Atualizações acontecem em lotes — não em tempo real — sempre que novos documentos são registrados, retificados ou reclassificados pela Justiça Eleitoral. A data e hora da última atualização ficam visíveis no rodapé de todas as páginas e na aba "Dados". Não existe formulário público de edição neste site: isso é intencional, para reduzir o risco de alguém inserir uma informação incorreta ou fora de contexto em nome do projeto.</p>
+      <p>Os dados do site são um arquivo estático, guardado junto com o código-fonte do projeto. Atualizações acontecem em lotes — não em tempo real — sempre que novos documentos são registrados, retificados ou reclassificados pela Justiça Eleitoral. A data e hora da última atualização ficam visíveis no rodapé de todas as páginas e na aba "Dados". Não existe formulário público de edição neste site: isso é intencional, para reduzir o risco de alguém inserir uma informação incorreta em nome do projeto.</p>
 
       <h3 id="sec-faq">Perguntas frequentes</h3>
-      <details class="faq-item">
-        <summary>Por que nem todo estado aparece com o mesmo nível de detalhe?</summary>
-        <p>O mapeamento depende da disponibilidade dos documentos oficiais. Estados onde o registro de candidaturas está mais adiantado tendem a ter informação mais completa; à medida que mais documentos são registrados, o mapa fica mais completo.</p>
-      </details>
-      <details class="faq-item">
-        <summary>O site indica em quem devo votar?</summary>
-        <p>Não. O site não recomenda voto, não pontua propostas como boas ou ruins, e não compara candidatos entre si além da presença ou ausência do tema no documento oficial.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Encontrei um erro. Como aviso?</summary>
-        <p>Use o canal de correções indicado no rodapé do site. Toda correção é conferida contra o documento oficial antes de qualquer alteração ser publicada.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Por que "prévia divulgada" é diferente de "menciona"?</summary>
-        <p>Uma prévia é uma versão preliminar, sem o mesmo valor formal do documento definitivo registrado na Justiça Eleitoral. Separar os dois status evita comparar informações com níveis diferentes de oficialidade.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Posso reutilizar os dados deste site?</summary>
-        <p>Os dados em si vêm de documentos públicos oficiais. Ao citar este mapeamento, indique a Bancada do Joystick como fonte da compilação e, sempre que possível, o link direto para o documento original.</p>
-      </details>
-      <details class="faq-item">
-        <summary>A Bancada do Joystick vai ter perfis em redes sociais?</summary>
-        <p>Até o momento, não. Se isso mudar, os links oficiais serão sempre publicados aqui neste site, no rodapé ou nesta seção — desconfie de qualquer perfil que se apresente como "Bancada do Joystick" em alguma rede social sem estar linkado a partir daqui.</p>
-      </details>
-      <details class="faq-item">
-        <summary>O que acontece com o site depois da eleição?</summary>
-        <p>A intenção é manter o site no ar como registro consultável mesmo depois do fim do pleito, funcionando como um retrato do que foi registrado nessa eleição. As atualizações de dados, porém, são pensadas para o período eleitoral — não há compromisso de acompanhamento de mandatos após a posse. Se o projeto continuar ativo em ciclos eleitorais futuros, isso também será comunicado aqui.</p>
-      </details>
-      <details class="faq-item">
-        <summary>A Bancada do Joystick é ligada ao TSE ou a algum órgão oficial?</summary>
-        <p>Não. O projeto usa como fonte os documentos públicos disponibilizados pelo TSE, mas é uma iniciativa independente, sem qualquer vínculo institucional com a Justiça Eleitoral, partidos ou candidaturas.</p>
-      </details>
+      <details class="faq-item"><summary>Por que nem todo estado aparece com o mesmo nível de detalhe?</summary><p>O mapeamento depende da disponibilidade dos documentos oficiais. À medida que mais documentos são registrados ou processados, o mapa fica mais completo.</p></details>
+      <details class="faq-item"><summary>O site indica em quem devo votar?</summary><p>Não. O site não recomenda voto, não pontua propostas como boas ou ruins, e não compara candidatos entre si além da presença ou ausência do tema no documento oficial.</p></details>
+      <details class="faq-item"><summary>Encontrei um erro. Como aviso?</summary><p>Use o canal de correções indicado no rodapé do site. Toda correção é conferida contra o documento oficial antes de qualquer alteração ser publicada.</p></details>
+      <details class="faq-item"><summary>Por que "prévia divulgada" é diferente de "menciona"?</summary><p>Uma prévia é uma versão preliminar, sem o mesmo valor formal do documento definitivo registrado na Justiça Eleitoral. Separar os dois status evita comparar informações com níveis diferentes de oficialidade.</p></details>
+      <details class="faq-item"><summary>Por que a foto ou o nome civil de alguns candidatos não aparecem?</summary><p>Foto e nome civil vêm dos arquivos públicos do TSE e são casados automaticamente pelo número sequencial de candidatura. Quando o TSE ainda não disponibilizou a foto de alguém, ou quando o nome civil é idêntico ao nome de urna, o site simplesmente não mostra esse campo — não é um erro de exibição, é ausência de dado na fonte.</p></details>
+      <details class="faq-item"><summary>A Bancada do Joystick vai ter perfis em redes sociais?</summary><p>Se e quando existirem, os links oficiais aparecem no rodapé deste site. Desconfie de qualquer perfil que se apresente como "Bancada do Joystick" sem estar linkado a partir daqui.</p></details>
+      <details class="faq-item"><summary>O que acontece com o site depois da eleição?</summary><p>A intenção é manter o site no ar como registro consultável mesmo depois do fim do pleito. As atualizações de dados, porém, são pensadas para o período eleitoral — não há compromisso de acompanhamento de mandatos após a posse.</p></details>
+      <details class="faq-item"><summary>A Bancada do Joystick é ligada ao TSE ou a algum órgão oficial?</summary><p>Não. O projeto usa como fonte os documentos públicos disponibilizados pelo TSE, mas é uma iniciativa independente, sem qualquer vínculo institucional com a Justiça Eleitoral, partidos ou candidaturas.</p></details>
+      <details class="faq-item"><summary>Posso reutilizar os dados deste site?</summary><p>Os dados em si vêm de documentos públicos oficiais. Ao citar este mapeamento, indique a Bancada do Joystick como fonte da compilação e, sempre que possível, o link direto para o documento original.</p></details>
 
       <div class="footnote">
-        1. Dados de intenção e comportamento de consumo de games no Brasil: Pesquisa Game Brasil (PGB) 2026. Disponível em: <a href="https://www.adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb/" target="_blank" rel="noopener">adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb</a>. Consultado em 08/08/2026.<br>
-        2. Faturamento do setor, número de estúdios e de profissionais: estimativas Newzoo/Statista e censo Abragames, citadas em <a href="https://caputoduarte.com.br/a-industria-de-games-em-2026-perspectivas-e-governanca-juridica/" target="_blank" rel="noopener">caputoduarte.com.br</a> e <a href="https://istoedinheiro.com.br/games-brasil" target="_blank" rel="noopener">istoedinheiro.com.br</a>.<br>
-        3. Carga tributária sobre consoles, jogos e periféricos importados: <a href="https://www.tradexa.com.br/blog/setor-games-eletronicos-importacao" target="_blank" rel="noopener">tradexa.com.br</a> e <a href="https://bmsadvassociados.com.br/noticia/como-funciona-a-tributa-o-de-jogos-eletr-nicos-e-consoles-no-brasil" target="_blank" rel="noopener">bmsadvassociados.com.br</a>.<br>
+        1. Pesquisa Game Brasil (PGB) 2026. <a href="https://www.adrenaline.com.br/games/pesquisa-game-brasil-2026-pgb/" target="_blank" rel="noopener">adrenaline.com.br</a>. Consultado em 08/08/2026.<br>
+        2. Faturamento do setor, estúdios e profissionais: Newzoo/Statista e censo Abragames, citados em <a href="https://caputoduarte.com.br/a-industria-de-games-em-2026-perspectivas-e-governanca-juridica/" target="_blank" rel="noopener">caputoduarte.com.br</a> e <a href="https://istoedinheiro.com.br/games-brasil" target="_blank" rel="noopener">istoedinheiro.com.br</a>.<br>
+        3. Carga tributária sobre importados: <a href="https://www.tradexa.com.br/blog/setor-games-eletronicos-importacao" target="_blank" rel="noopener">tradexa.com.br</a> e <a href="https://bmsadvassociados.com.br/noticia/como-funciona-a-tributa-o-de-jogos-eletr-nicos-e-consoles-no-brasil" target="_blank" rel="noopener">bmsadvassociados.com.br</a>.<br>
         4. Audiência da final da Copa CBLOL 2026: <a href="https://maisesports.com.br/cblol-2026-torneio-supera-todas-as-edicoes-da-lta-sul-em-audiencia" target="_blank" rel="noopener">maisesports.com.br</a>.<br>
-        5. Sanção do Marco Legal dos Games (Lei 14.852/2024): Portal da Câmara dos Deputados, <a href="https://www.camara.leg.br/noticias/1058707-entra-em-vigor-marco-legal-da-industria-de-jogos-eletronicos/" target="_blank" rel="noopener">camara.leg.br</a>.<br>
-        6. Representação sobre o fim da mídia física e debate tributário: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504870-erika-hilton-diz-que-gamer-tambem-e-gente-e-critica-os-impostos-nos-jogos-no-brasil.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.<br>
-        7. Projeto de lei inspirado no Stop Killing Games: TecMundo/Voxel, <a href="https://www.tecmundo.com.br/voxel/504819-projeto-de-lei-inspirado-no-stop-killing-games-e-apresentado-no-brasil-para-evitar-que-jogos-morram.htm" target="_blank" rel="noopener">tecmundo.com.br</a> e <a href="https://www.tecmundo.com.br/voxel/504923-kim-kataguiri-e-erika-hilton-unidos-em-apoio-ao-pl-inspirado-no-stop-killing-games-mas-com-ressalvas.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.
+        5. Sanção do Marco Legal dos Games (Lei 14.852/2024): <a href="https://www.camara.leg.br/noticias/1058707-entra-em-vigor-marco-legal-da-industria-de-jogos-eletronicos/" target="_blank" rel="noopener">camara.leg.br</a>.<br>
+        6. Representação sobre mídia física e debate tributário: <a href="https://www.tecmundo.com.br/voxel/504870-erika-hilton-diz-que-gamer-tambem-e-gente-e-critica-os-impostos-nos-jogos-no-brasil.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.<br>
+        7. PL inspirado no Stop Killing Games: <a href="https://www.tecmundo.com.br/voxel/504819-projeto-de-lei-inspirado-no-stop-killing-games-e-apresentado-no-brasil-para-evitar-que-jogos-morram.htm" target="_blank" rel="noopener">tecmundo.com.br</a> e <a href="https://www.tecmundo.com.br/voxel/504923-kim-kataguiri-e-erika-hilton-unidos-em-apoio-ao-pl-inspirado-no-stop-killing-games-mas-com-ressalvas.htm" target="_blank" rel="noopener">tecmundo.com.br</a>.
       </div>
     </div>
 
     <div class="disclaimer">
       <strong>Disclaimer</strong>
-      <p>A Bancada do Joystick é um projeto independente, apartidário e sem fins lucrativos. Não recebemos recursos de campanha, de partidos ou de candidatos, e nenhuma das pessoas ou organizações envolvidas na sua manutenção atua profissionalmente para qualquer candidatura nesta eleição.</p>
-      <p>Os dados apresentados são extraídos de documentos públicos oficiais e reproduzidos sem interpretação de mérito: não classificamos propostas como boas ou ruins, nem indicamos preferência por qualquer candidato. Cabe a cada eleitor e eleitora avaliar o conteúdo das propostas.</p>
-      <p>Por lidar com leitura de documentos longos (com apoio de uma ferramenta automática, sempre revisada por uma pessoa), o projeto está sujeito a erros de leitura, atrasos entre a divulgação de um documento e seu mapeamento aqui, ou desatualizações pontuais. Encontrou uma informação incorreta, um link quebrado ou uma citação fora de contexto? Use o canal de correções indicado no rodapé do site para nos avisar: toda correção reportada é conferida contra o documento oficial antes de ser publicada, e correções não implicam concordância ou discordância com o conteúdo do programa de governo em questão — apenas precisão na leitura que fizemos dele.</p>
+      <p>A Bancada do Joystick é um projeto independente, apartidário e sem fins lucrativos. Não recebemos recursos de campanha, de partidos ou de candidatos.</p>
+      <p>Os dados apresentados são extraídos de documentos públicos oficiais e reproduzidos sem interpretação de mérito: não classificamos propostas como boas ou ruins, nem indicamos preferência por qualquer candidato.</p>
+      <p>Por lidar com leitura de documentos longos (com apoio de uma ferramenta automática, sempre revisada por uma pessoa), o projeto está sujeito a erros de leitura ou atrasos entre a divulgação de um documento e seu mapeamento aqui. Encontrou algo incorreto? Use o canal de correções no rodapé — toda correção é conferida contra o documento oficial antes de ser publicada.</p>
     </div>
   </div>
 
-  <!-- ===================== MENÇÕES ===================== -->
-  <div class="view" id="mencoes">
-    <h1 style="margin-bottom:8px;">Menções por região e estado</h1>
-    <p style="color:var(--ink-dim); margin-bottom:24px;">Regiões, estados e candidatos listados em ordem alfabética. Use os filtros ou os atalhos abaixo pra ir direto a uma região ou estado.</p>
-
+  <!-- ===================== CANDIDATOS ===================== -->
+  <div class="view" id="candidatos">
+    <h1 style="margin-bottom:8px;">Candidatos por região e estado</h1>
+    <p style="color:var(--ink-dim); margin-bottom:20px;">Regiões, estados e candidatos listados em ordem alfabética. Use os filtros ou os atalhos abaixo pra ir direto a uma região ou estado.</p>
     <div class="sample-flag" id="sample-flag" style="display:none;">carregando dados...</div>
-
     <div class="filters">
       <select id="filter-regiao"><option value="">Todas as regiões</option></select>
       <select id="filter-estado"><option value="">Todos os estados</option></select>
@@ -581,42 +437,83 @@
       </select>
       <input type="text" id="filter-busca" placeholder="Buscar candidato...">
     </div>
-
     <div class="quick-nav" id="quick-nav" aria-label="Atalhos por estado"></div>
-
     <div id="mencoes-list"></div>
   </div>
 
-  <!-- ===================== DADOS (informativo) ===================== -->
+  <!-- ===================== LINHA DO TEMPO ===================== -->
+  <div class="view" id="linha-do-tempo">
+    <h1 style="margin-bottom:8px;">Como este site foi feito</h1>
+    <p style="color:var(--ink-dim); margin-bottom:8px; max-width:70ch;">A Bancada do Joystick foi construída em etapas, ao longo de agosto de 2026, sempre com revisão humana antes de cada publicação. Este é o histórico do projeto até aqui.</p>
+    <div class="timeline" id="timeline-list">
+      <div class="timeline-item">
+        <div class="timeline-date">Início de agosto de 2026</div>
+        <div class="timeline-title">A ideia</div>
+        <div class="timeline-desc">A partir da observação de que games raramente entram no radar do debate eleitoral, apesar do tamanho do público gamer no Brasil, nasce a ideia de mapear o que os programas de governo dizem — ou deixam de dizer — sobre o tema.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Meados de agosto de 2026</div>
+        <div class="timeline-title">Primeiro protótipo e leitura semiautomática</div>
+        <div class="timeline-desc">Construção da primeira versão do site e de uma ferramenta própria para triagem de PDFs, localizando automaticamente termos relacionados a games e e-sports nos documentos — sempre com conferência manual antes da publicação de qualquer trecho.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Segunda quinzena de agosto de 2026</div>
+        <div class="timeline-title">Migração para os dados oficiais do TSE</div>
+        <div class="timeline-desc">O mapeamento passa a ser feito diretamente a partir do Portal de Dados Abertos do TSE — a lista oficial de candidaturas e os documentos de Proposta de Governo —, cobrindo automaticamente as candidaturas a presidente e governador em todo o país.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">29 de agosto de 2026 · Dia do Gamer</div>
+        <div class="timeline-title">Lançamento público</div>
+        <div class="timeline-desc">O site é aberto ao público na terceira semana da campanha eleitoral, coincidindo com o Dia do Gamer — data celebrada globalmente desde 2008, incluindo no Brasil.</div>
+      </div>
+      <div class="timeline-item futuro">
+        <div class="timeline-date">A partir daqui</div>
+        <div class="timeline-title">Atualizações contínuas até a eleição</div>
+        <div class="timeline-desc">Novos documentos registrados ou retificados pela Justiça Eleitoral continuam sendo incorporados em lotes até o fim do período eleitoral. A data da última atualização sempre aparece no rodapé do site.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== DADOS ===================== -->
   <div class="view" id="dados">
     <h1 style="margin-bottom:8px;">Dados</h1>
-    <p style="color:var(--ink-dim); margin-bottom:28px; max-width:70ch;">Este site não tem formulário público de edição — os dados vêm de um arquivo estático (<code>dados.json</code>), atualizado pela equipe do projeto e publicado junto com o código-fonte. Isso existe para reduzir o risco de qualquer pessoa alterar informações sobre candidatos reais sem revisão.</p>
-
-    <div class="panel" style="margin-bottom:24px;">
+    <p style="color:var(--ink-dim); margin-bottom:26px; max-width:70ch;">Este site não tem formulário público de edição — os dados vêm de um arquivo estático (<code>dados.json</code>), atualizado pela equipe do projeto a partir do Portal de Dados Abertos do TSE e publicado junto com o código-fonte.</p>
+    <div class="panel" style="margin-bottom:22px;">
       <h3>Estado atual dos dados</h3>
       <div class="stat-grid" id="dados-stat-grid"></div>
-      <p style="margin-top:16px; font-size:0.85rem; color:var(--ink-dim);" id="dados-atualizacao">carregando informação de atualização...</p>
+      <p style="margin-top:15px; font-size:0.84rem; color:var(--ink-dim);" id="dados-atualizacao">carregando informação de atualização...</p>
     </div>
-
-    <div class="panel">
+    <div class="panel" style="margin-bottom:22px;">
       <h3>Como uma atualização é feita</h3>
       <ol class="step-list">
         <li>Um novo documento de Proposta de Governo é registrado ou retificado no TSE.</li>
-        <li>A ferramenta de triagem baixa o PDF e localiza automaticamente os termos do glossário.</li>
+        <li>Uma ferramenta de triagem baixa o PDF oficial e localiza automaticamente os termos do glossário.</li>
         <li>Uma pessoa revisa manualmente cada resultado, comparando com o documento original.</li>
         <li>Os dados revisados são publicados junto com o código-fonte do site, com data e hora registradas.</li>
       </ol>
+    </div>
+    <div class="panel">
+      <h3>Sobre fotos e imagens dos candidatos</h3>
+      <p style="color:var(--ink-dim); font-size:0.87rem;">As fotos oficiais de urna, quando disponíveis, vêm do próprio Portal de Dados Abertos do TSE e são exibidas automaticamente quando presentes no arquivo de dados — não é preciso nenhuma mudança no site para adicionar novas fotos, apenas publicar os arquivos de imagem junto com o <code>dados.json</code>. Candidatos sem foto disponível mostram um espaço reservado neutro, sem quebrar o layout.</p>
     </div>
   </div>
 
 </main>
 
 <footer>
-  Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: bancadadojoystick@proton.me<br>
-  <span id="rodape-atualizacao">carregando dados...</span> · registros de candidatura podem mudar (inclusive por decisão judicial) entre uma atualização e outra — confira sempre a data acima
+  <div class="footer-redes" id="footer-redes"></div>
+  <div class="linha">Bancada do Joystick — projeto independente e apartidário · dados extraídos de documentos públicos do TSE · contato para correções: bancadadojoystick@proton.me</div>
+  <div class="linha" id="rodape-atualizacao">carregando dados...</div>
+  <div class="linha">registros de candidatura podem mudar (inclusive por decisão judicial) entre uma atualização e outra — confira sempre a data acima</div>
 </footer>
 
 <script>
+/* ---------- configuração: redes sociais (preencha quando existirem) ---------- */
+const REDES_SOCIAIS = {
+  // "Instagram": "https://instagram.com/bancadadojoystick",
+  // "Twitter/X": "https://x.com/bancadadojoystick",
+};
+
 /* ---------- navegação ---------- */
 function setView(name){
   document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
@@ -628,6 +525,15 @@ document.querySelectorAll('nav button').forEach(b=>{
   b.addEventListener('click', ()=> setView(b.dataset.view));
 });
 
+function renderFooterRedes(){
+  const entradas = Object.entries(REDES_SOCIAIS).filter(([,url])=>url);
+  const container = document.getElementById('footer-redes');
+  if(entradas.length === 0){ container.style.display = 'none'; return; }
+  container.innerHTML = entradas.map(([nome,url])=>`<a href="${url}" target="_blank" rel="noopener">${nome}</a>`).join('');
+}
+renderFooterRedes();
+
+/* ---------- dados ---------- */
 let DATA = null;
 let usandoDadosReais = false;
 
@@ -638,11 +544,6 @@ const GLOSSARIO = [
   "estúdio de jogos", "estúdios de jogos", "games",
 ];
 
-/* garante que todo candidato tenha um array "mencoes", mesmo vindo
-   de um formato antigo com trecho/pagina no singular. Cada candidato é
-   tratado individualmente e protegido por try/catch — um registro com
-   formato inesperado é ignorado (com aviso no console), em vez de
-   quebrar o carregamento do site inteiro. */
 function normalizarDados(dados){
   const regioesValidas = [];
   (dados.regioes || []).forEach(r=>{
@@ -653,7 +554,7 @@ function normalizarDados(dados){
           const candidatosValidos = [];
           (e.candidatos || []).forEach(c=>{
             try{
-              if(!c || !c.nome) return; // registro sem nome não é utilizável
+              if(!c || !c.nome) return;
               if(!Array.isArray(c.mencoes)){
                 c.mencoes = c.trecho ? [{pagina:c.pagina, trecho:c.trecho}] : [];
               }
@@ -716,11 +617,10 @@ async function loadData(){
 
 function renderAll(){
   try{ renderHome(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar a Home:', e); }
-  try{ renderMencoes(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar Menções:', e); }
+  try{ renderMencoes(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar Candidatos:', e); }
   try{ renderDadosStats(); }catch(e){ console.error('Bancada do Joystick: erro ao renderizar a aba Dados:', e); }
 }
 
-/* ---------- HOME: estatísticas e gráficos ---------- */
 function allCandidatos(){
   return DATA.regioes.flatMap(r=>r.estados.flatMap(e=>e.candidatos.map(c=>({...c, regiao:r.nome, estado:e.nome}))));
 }
@@ -730,6 +630,7 @@ function getComputedColor(varExpr){
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
+/* ---------- HOME ---------- */
 function renderHome(){
   const all = allCandidatos();
   const total = all.length;
@@ -740,9 +641,8 @@ function renderHome(){
   const pctNacional = total ? Math.round((menciona/total)*100) : 0;
 
   document.getElementById('placar-nacional').textContent = total ? (pctNacional + '%') : '—';
-  const CIRCUNFERENCIA = 2 * Math.PI * 52; // r=52, igual ao raio do círculo no SVG
-  const gaugeFill = document.getElementById('gauge-fill');
-  gaugeFill.style.strokeDashoffset = total ? String(CIRCUNFERENCIA * (1 - pctNacional/100)) : String(CIRCUNFERENCIA);
+  const CIRCUNFERENCIA = 2 * Math.PI * 52;
+  document.getElementById('gauge-fill').style.strokeDashoffset = total ? String(CIRCUNFERENCIA * (1 - pctNacional/100)) : String(CIRCUNFERENCIA);
 
   document.getElementById('stat-grid').innerHTML = `
     <div class="stat-card"><div class="stat-num">${total}</div><div class="stat-lbl">candidatos mapeados</div></div>
@@ -751,7 +651,6 @@ function renderHome(){
     <div class="stat-card"><div class="stat-num">${previa + naoDivulgado}</div><div class="stat-lbl">sem programa completo disponível</div></div>
   `;
 
-  // gráfico por região
   const chartRegiao = document.getElementById('chart-regiao');
   chartRegiao.innerHTML = '';
   DATA.regioes.forEach(r=>{
@@ -760,35 +659,24 @@ function renderHome(){
     const pct = cands.length ? Math.round((yes/cands.length)*100) : 0;
     const row = document.createElement('div');
     row.className = 'bar-row';
-    row.innerHTML = `
-      <div>${r.nome}</div>
-      <div class="bar-track"><div class="bar-fill ${pct<30?'low':''}" style="width:${pct}%"></div></div>
-      <div>${pct}%</div>
-    `;
+    row.innerHTML = `<div>${r.nome}</div><div class="bar-track"><div class="bar-fill ${pct<30?'low':''}" style="width:${pct}%"></div></div><div>${pct}%</div>`;
     chartRegiao.appendChild(row);
   });
 
-  // donut de status
   const statusColors = {menciona:'var(--pos)', nao_menciona:'var(--neg)', previa:'var(--info)', nao_divulgado:'var(--warn)'};
   const statusLabels = {menciona:'Menciona', nao_menciona:'Não menciona', previa:'Prévia divulgada', nao_divulgado:'Ainda não divulgado'};
-  const segments = [
-    {k:'menciona', v:menciona}, {k:'nao_menciona', v:naoMenciona},
-    {k:'previa', v:previa}, {k:'nao_divulgado', v:naoDivulgado}
-  ];
+  const segments = [{k:'menciona', v:menciona}, {k:'nao_menciona', v:naoMenciona}, {k:'previa', v:previa}, {k:'nao_divulgado', v:naoDivulgado}];
   let acc = 0;
   const stops = segments.map(s=>{
     const pct = total ? (s.v/total)*100 : 0;
     const start = acc; acc += pct;
     return `${getComputedColor(statusColors[s.k])} ${start}% ${acc}%`;
   }).join(', ');
-  document.getElementById('donut-status').style.background = total
-    ? `conic-gradient(${stops})`
-    : 'var(--neg)';
+  document.getElementById('donut-status').style.background = total ? `conic-gradient(${stops})` : 'var(--neg)';
   document.getElementById('donut-legend').innerHTML = segments.map(s=>`
     <div class="item"><span class="dot" style="background:${getComputedColor(statusColors[s.k])}"></span>${statusLabels[s.k]} — ${s.v}</div>
   `).join('');
 
-  // gráfico por cargo
   const chartCargo = document.getElementById('chart-cargo');
   chartCargo.innerHTML = '';
   ['presidente','governador'].forEach(cargo=>{
@@ -798,15 +686,10 @@ function renderHome(){
     const label = cargo==='presidente' ? 'Presidência' : 'Governo Estadual';
     const row = document.createElement('div');
     row.className = 'bar-row';
-    row.innerHTML = `
-      <div>${label}</div>
-      <div class="bar-track"><div class="bar-fill ${pct<30?'low':''}" style="width:${pct}%"></div></div>
-      <div>${pct}%</div>
-    `;
+    row.innerHTML = `<div>${label}</div><div class="bar-track"><div class="bar-fill ${pct<30?'low':''}" style="width:${pct}%"></div></div><div>${pct}%</div>`;
     chartCargo.appendChild(row);
   });
 
-  // estados com mais menções (contagem de trechos, não só candidatos)
   const chartEstados = document.getElementById('chart-estados');
   chartEstados.innerHTML = '';
   const contagemEstados = [];
@@ -826,16 +709,11 @@ function renderHome(){
       const pct = Math.round((e.total/maiorValor)*100);
       const row = document.createElement('div');
       row.className = 'bar-row compact';
-      row.innerHTML = `
-        <div>${e.nome}</div>
-        <div class="bar-track"><div class="bar-fill neutral" style="width:${pct}%"></div></div>
-        <div>${e.total}</div>
-      `;
+      row.innerHTML = `<div>${e.nome}</div><div class="bar-track"><div class="bar-fill neutral" style="width:${pct}%"></div></div><div>${e.total}</div>`;
       chartEstados.appendChild(row);
     });
   }
 
-  // termos mais encontrados — contagem real de ocorrências, não só presença
   const counts = {};
   all.forEach(c=>{
     (c.mencoes||[]).forEach(m=>{
@@ -849,12 +727,10 @@ function renderHome(){
   });
   const termsList = document.getElementById('terms-list');
   const entries = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
-  termsList.innerHTML = entries.length ? entries.map(([term,n])=>`
-    <div class="t-row"><span>${term}</span><span class="count">${n}</span></div>
-  `).join('') : `<div class="t-row"><span>Nenhum trecho citado ainda</span><span class="count">—</span></div>`;
+  termsList.innerHTML = entries.length ? entries.map(([term,n])=>`<div class="t-row"><span>${term}</span><span class="count">${n}</span></div>`).join('') : `<div class="t-row"><span>Nenhum trecho citado ainda</span><span class="count">—</span></div>`;
 }
 
-/* ---------- filtros de localidade (Menções) ---------- */
+/* ---------- filtros de localidade ---------- */
 function slugify(txt){
   return txt.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
 }
@@ -865,16 +741,12 @@ function popularFiltrosDeLocalidade(){
   const quickNav = document.getElementById('quick-nav');
 
   const regioes = [...DATA.regioes].sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
-  regiaoSel.innerHTML = '<option value="">Todas as regiões</option>' +
-    regioes.map(r=>`<option value="${r.nome}">${r.nome}</option>`).join('');
+  regiaoSel.innerHTML = '<option value="">Todas as regiões</option>' + regioes.map(r=>`<option value="${r.nome}">${r.nome}</option>`).join('');
 
   const estados = [...new Set(regioes.flatMap(r=>r.estados.map(e=>e.nome)))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
-  estadoSel.innerHTML = '<option value="">Todos os estados</option>' +
-    estados.map(nome=>`<option value="${nome}">${nome}</option>`).join('');
+  estadoSel.innerHTML = '<option value="">Todos os estados</option>' + estados.map(nome=>`<option value="${nome}">${nome}</option>`).join('');
 
-  quickNav.innerHTML = estados.map(nome=>
-    `<button type="button" onclick="irParaEstado('${nome.replace(/'/g,"\\'")}')">${nome}</button>`
-  ).join('');
+  quickNav.innerHTML = estados.map(nome=>`<button type="button" onclick="irParaEstado('${nome.replace(/'/g,"\\'")}')">${nome}</button>`).join('');
 }
 
 function irParaEstado(nomeEstado){
@@ -890,20 +762,28 @@ function irParaEstado(nomeEstado){
   });
 }
 
-/* ---------- render Menções ---------- */
+/* ---------- render Candidatos ---------- */
 const STATUS_LABEL = {menciona:'MENCIONA', nao_menciona:'NÃO MENCIONA', previa:'PRÉVIA DIVULGADA', nao_divulgado:'AINDA NÃO DIVULGADO'};
+
+const SILHUETA_SVG = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`;
+
+function fotoOuPlaceholder(c){
+  if(c.foto){
+    return `<img class="cand-foto" src="${c.foto}" alt="Foto oficial de ${c.nome}" loading="lazy" onerror="this.outerHTML='<div class=&quot;cand-foto-vazia&quot;>${SILHUETA_SVG.replace(/"/g,'&quot;')}</div>';">`;
+  }
+  return `<div class="cand-foto-vazia">${SILHUETA_SVG}</div>`;
+}
 
 function corpoDoCard(c){
   if(c.status==='menciona' || c.status==='previa'){
     if(c.mencoes && c.mencoes.length){
       return c.mencoes.map(m=>{
         const fonteDoTrecho = m.fonte || c.fonte;
-        const tituloArquivo = c.arquivo_fonte ? `title="Extraído de: ${c.arquivo_fonte}"` : '';
         return `
         <div class="cand-quote">"${m.trecho}"</div>
-        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${fonteDoTrecho?`· <a href="${fonteDoTrecho}" target="_blank" rel="noopener" ${tituloArquivo}>ver fonte oficial →</a>`:''}</div>
+        <div class="cand-meta">${m.pagina?('página '+m.pagina):''} ${fonteDoTrecho?`· <a href="${fonteDoTrecho}" target="_blank" rel="noopener">baixar pacote oficial do TSE (ZIP) →</a>`:''}</div>
       `;
-      }).join('<div style="height:8px"></div>');
+      }).join('<div style="height:8px"></div>') + (c.arquivo_fonte ? `<div class="cand-arquivo">arquivo de origem: ${c.arquivo_fonte}</div>` : '');
     }
     return `<div class="cand-quote" style="font-style:normal;">${c.status==='previa' ? 'Prévia divulgada, sem documento oficial completo registrado até o momento.' : 'Menção registrada, mas sem trecho salvo.'}</div>`;
   }
@@ -951,10 +831,10 @@ function renderMencoes(){
       regiaoHTML += `<div class="state-title" id="estado-${slugify(estado.nome)}">${estado.nome}</div><div class="cand-list">`;
       cands.forEach(c=>{
         regiaoHTML += `
-          <div class="cand-card ${c.foto ? 'tem-foto' : ''}">
-            ${c.foto ? `<img class="cand-foto" src="${c.foto}" alt="Foto oficial de ${c.nome}" loading="lazy" onerror="this.remove(); this.closest('.cand-card').classList.remove('tem-foto');">` : ''}
+          <div class="cand-card">
+            ${fotoOuPlaceholder(c)}
             <div>
-              <div class="cand-name">${c.nome} <span class="cand-party">· ${c.partido} · ${c.cargo==='presidente'?'Presidência':'Governo'}</span></div>
+              <div class="cand-name">${c.nome}<br><span class="cand-party">${c.partido} · ${c.cargo==='presidente'?'Presidência':'Governo'}</span></div>
               ${c.nome_civil ? `<div class="cand-nome-civil">nome civil: ${c.nome_civil}</div>` : ''}
               ${corpoDoCard(c)}
               ${c.observacoes ? `<div class="cand-obs">⚠ ${c.observacoes}</div>` : ''}
@@ -981,15 +861,17 @@ function renderMencoes(){
 ['filter-regiao','filter-estado','filter-cargo','filter-status'].forEach(id=>document.getElementById(id).addEventListener('change', renderMencoes));
 document.getElementById('filter-busca').addEventListener('input', renderMencoes);
 
-/* ---------- aba Dados (informativo) ---------- */
+/* ---------- aba Dados ---------- */
 function renderDadosStats(){
   const all = allCandidatos();
   const totalTrechos = all.reduce((soma,c)=>soma + (c.mencoes ? c.mencoes.length : 0), 0);
   const estadosCobertos = new Set(all.map(c=>c.estado)).size;
+  const comFoto = all.filter(c=>c.foto).length;
   document.getElementById('dados-stat-grid').innerHTML = `
     <div class="stat-card"><div class="stat-num">${all.length}</div><div class="stat-lbl">candidatos no arquivo</div></div>
     <div class="stat-card"><div class="stat-num">${estadosCobertos}</div><div class="stat-lbl">estados/unidades cobertos</div></div>
     <div class="stat-card"><div class="stat-num">${totalTrechos}</div><div class="stat-lbl">trechos citados ao todo</div></div>
+    <div class="stat-card"><div class="stat-num">${comFoto}</div><div class="stat-lbl">candidatos com foto disponível</div></div>
   `;
 }
 
